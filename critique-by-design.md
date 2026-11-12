@@ -20,6 +20,14 @@ My redesign focuses on one question: how much higher is the overall greenhouse g
 
 **Stephen Few's evaluation form:** [Course critique form](https://forms.gle/cKLcf5prjyzXJX9x9) — complete separately as required by the assignment.
 
+### Reflecting on Stephen Few's method and the Good Charts matrix
+
+I found Stephen Few's Data Visualization Effectiveness Profile useful because it made me evaluate individual aspects of the NOAA chart, such as completeness, perceptibility, and intuitiveness, instead of simply deciding whether I liked the design. For example, I rated the chart highly for usefulness and completeness because it provides valuable scientific context, but lower for perceptibility and intuitiveness because the multiple lines and two vertical scales take longer to understand.
+
+The *Good Charts* matrix takes a broader approach by considering design execution and contextual awareness. I think it is useful for asking whether a chart fits its audience and purpose, while Few's profile helps me identify exactly which qualities need improvement. One limitation of scoring either method is that a number alone cannot explain the reasoning behind a design choice. I found it more useful to explain why I gave a score and how that observation influenced my redesign.
+
+For this project, both approaches pointed me toward the same decision: keep the original scientific source and historical context available, but build a simpler chart for readers who mainly want to understand the increase relative to 1990.
+
 ## Step 3: Paper sketch and initial design
 
 I began with a hand-drawn line chart showing the greenhouse gas index from 1979 onward. My three intended changes were:
