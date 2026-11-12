@@ -1,59 +1,60 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [Home](https://jbejaran-bit.github.io/Javier_Bejarano_Telling_Stories_with_Data/) | [Data viz examples](dataviz-examples) | [Critique by design](critique-by-design) | [Final project I](final-project-part-one) | [Final project II](final-project-part-two) | [Final project III](final-project-part-three) |
 
-# Title
-Text here...
+# Critique and Redesign: NOAA's Greenhouse Gas Index
 
-_For each step below, you should document your progress as you move forward.  In terms of tone, think of the writeup as though you're keeping journal of your step-by-step process.   You should include a any insights you gained from the critique method, and what it led you to think about when considering the redesign.  You should talk about how you moved next to the sketches, and any insights you gleaned from your user feedback.  Document what you changed based on the user feedback in your redesign.  Finally, talk about what your redesigned data visualization shows, why you selected the data visualization you did, and what you attempted to show or do differently._
+## Step 1: Original visualization
 
-_You can include screenshots, sketches or other artifacts with your narrative to help tell the story of how you moved through the process.  Again, make sure to avoid including any personally identifying information about your interviewees (don't list full names, etc.).  While this template serves as a guide, make sure to reference the assignment writeup on Canvas for the official guidance.  This template does not include all guidance mentioned on the assignment page._
+**Original source:** [NOAA Annual Greenhouse Gas Index (AGGI)](https://gml.noaa.gov/aggi/aggi.html) (see the AGGI visualizations on the NOAA page).
 
-## Step one: the visualization
+I selected NOAA's greenhouse gas index because I wanted to better understand how the warming influence of long-lived greenhouse gases has changed. I was interested in comparing recent years with 1990 rather than trying to explain all greenhouse gas measurements at once. The NOAA visualization contains useful scientific information, but I wanted to make its main message understandable to someone without a scientific background.
 
-_Include link to the original data visualization (or screenshot - make sure to correctly cite your sources, etc.).  Include paragraph or two on why you selected this particular data visualization.  For obvious reasons, the data visualization you select should come from a publicly accessible source._
+NOAA uses 1990 as the reference year, with an index of 1.00. A value of around 1.56 in 2025 means the warming influence measured by this index is around 56% higher than in 1990. It **does not** mean Earth's temperature has increased by 56%.
 
-## Step two: the critique
-_Don't forget to complete the Google Form found on the assignment page.  You can summarize your thoughts here._
+## Step 2: Critique of the original chart
 
-## Step three: Sketch a solution
+One strength of the original NOAA visualization is the amount of historical context it provides. It helps readers see how different greenhouse gases contribute to the overall warming influence, and the scientific source is clearly identified.
 
-## Step four: Test the solution
+I think it is harder for a general audience to understand the main comparison immediately because it includes several measurements and more than one vertical scale. A reader has to decide which line and which axis matter for the question they are trying to answer. The intended audience could include scientists, policymakers, students, and readers interested in climate change, but those groups may need different levels of detail.
 
-_Before you conduct your interviews, prepare a simple script.  Use this as a guide and as a way to take notes as you go forward. Come up with your own list of questions you want to ask for the selected visualization. Keep the questions broad so you can get the most value out of your feedback. Then, document answers to your questions here._
+My redesign focuses on one question: how much higher is the overall greenhouse gas index than it was in 1990? The original is more useful for examining several related measurements, while my simpler chart is more useful for communicating this particular comparison.
 
-Questions to ask (modify these for your own interviews): 
+**Stephen Few's evaluation form:** [Course critique form](https://forms.gle/cKLcf5prjyzXJX9x9) — complete separately as required by the assignment.
 
-- Can you tell me what you think this is?
+## Step 3: Paper sketch and initial design
 
-- Can you describe to me what this is telling you?
+I began with a hand-drawn line chart showing the greenhouse gas index from 1979 onward. My three intended changes were:
 
-- Is there anything you find surprising or confusing?
+1. Focus on one overall index line rather than the multiple measurements in the source visualization.
+2. Emphasize 1990 = 1.00 as the reference, so readers understand what the index values mean.
+3. Label the latest value so the size of the increase is clear without requiring readers to estimate it from the axis.
 
-- Who do you think is the intended audience for this?
+**Paper-sketch photo:** [Add photo of my original hand-drawn sketch here before final submission.]
 
-- Is there anything you would change or do differently?
+## Step 4: Feedback and revisions
 
-Results: 
+I showed my proposed design in our in-class critique. One suggestion raised during the discussion was to consider adding more lines, as in the original NOAA visualization. I considered this but decided to keep just the index line because adding other measurements would make the specific comparison with 1990 harder to see.
 
-_Don't identify or share personally identifiable information (PII) about the people you spoke to._
+**Individual feedback still to document:** [Add two short, anonymized accounts from two people who actually reviewed the sketch, including what each person said. Do not include names.]
 
+I used the discussion to rethink how to show the comparison clearly. Rather than adding more lines, I kept the overall trend and added an orange horizontal line at 1.00, a marked reference point at 1990, and a label showing the final value. These changes explain the significance of the line rather than adding information unrelated to the main question.
 
-| Question | Interview 1 | Interview 2 |
-|----------|-------------|-------------|
-|          |             |             |
-|          |             |             |
-|          |             |             |
+## Step 5: Final visualization
 
-Synthesis: 
+### How Much Has the Greenhouse Gas Index Increased Compared with 1990?
 
-_What patterns in the feedback emerge?  What did you learn from the feedback?  Based on this feedback, come up with what design changes you think might make the most sense in your final redesign._
+<iframe title="NOAA greenhouse gas index redesign" aria-label="Line chart showing the NOAA greenhouse gas index from 1979 to 2025" id="datawrapper-chart-LfzIX" src="https://datawrapper.dwcdn.net/LfzIX/1/" scrolling="no" frameborder="0" style="width: 100%; min-width: 100% !important; border: none;" height="430" data-external="1"></iframe>
 
-## Step five: build the solution
+[Open the published Datawrapper chart](https://datawrapper.dwcdn.net/LfzIX/1/)
 
-_Include and describe your final solution here. It's also a good idea to summarize your thoughts on the process overall. When you're done with the assignment, this page should all the items mentioned in the assignment page on Canvas(a link or screenshot of the original data visualization, documentation explaining your process, a summary of your wireframes and user feedback, your final, redesigned data visualization, etc.)._
+I made the final visualization in Datawrapper using annual NOAA AGGI data. The line shows the overall pattern across time. I added the horizontal reference line at 1.00 and marked 1990 to show where the comparison begins. The 2025 annotation identifies the index of approximately 1.56 and the 56% increase relative to 1990.
 
-## References
-_List any references you used here._
+I chose not to fill the area below the line because the main point is the **change relative to the reference year**, not the accumulated area. I kept the trend line blue and used orange for the baseline so the comparison stands out. The result is intentionally narrower than NOAA's original chart: it sacrifices some scientific detail in exchange for a quicker, clearer answer to one question.
 
-## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
+## Sources
 
+- [NOAA Global Monitoring Laboratory — Annual Greenhouse Gas Index](https://gml.noaa.gov/aggi/aggi.html)
+- [Final visualization created with Datawrapper](https://datawrapper.dwcdn.net/LfzIX/1/)
+
+## AI acknowledgement
+
+I used ChatGPT to understand the assignment, help prepare and format the NOAA data for Datawrapper, troubleshoot chart settings, and organize and revise my written explanation. I made the design decisions and built the visualization in Datawrapper. I reviewed the final chart and its labels.
