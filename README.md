@@ -1,6 +1,8 @@
 
 # Javier Bejarano | Telling Stories with Data
 
+[Home](https://jbejaran-bit.github.io/Javier_Bejarano_Telling_Stories_with_Data/) | [Critique by Design](critique-by-design) | [Data Viz Examples](dataviz-examples) | [Final Project I](final-project-part-one) | [Final Project II](final-project-part-two) | [Final Project III](final-project-part-three)
+
 Welcome to my portfolio for **Telling Stories with Data (94-870)** at Carnegie Mellon University.
 
 This website is where I will share my data visualizations, critiques, class exercises, and final project throughout the course.
@@ -28,7 +30,7 @@ This section will grow as I complete assignments and projects during the semeste
 ### Data Visualization Critiques
 
 - **Critique #1 — AI Critique:** An evaluation of a US map showing when states adopted laws giving women the right to own property.
-- [Critique by Design](critique-by-design) — Upcoming assignment.
+- [Critique by Design — NOAA Greenhouse Gas Index](critique-by-design) — Original chart, critique, sketch, feedback and final Datawrapper redesign.
 
 ### Workshops and Exercises
 
