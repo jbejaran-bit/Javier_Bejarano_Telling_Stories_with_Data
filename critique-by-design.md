@@ -72,4 +72,4 @@ I chose not to fill the area below the line because the main point is the **chan
 
 ## AI acknowledgement
 
-I used ChatGPT to understand the assignment, help prepare and format the NOAA data for Datawrapper, troubleshoot chart settings, and organize and revise my written explanation. I made the design decisions and built the visualization in Datawrapper. I reviewed the final chart and its labels.
+I used ChatGPT to understand the assignment, help prepare and format the NOAA data for Datawrapper.
