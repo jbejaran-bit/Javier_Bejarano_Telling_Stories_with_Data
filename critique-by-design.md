@@ -40,33 +40,34 @@ I began with a hand-drawn line chart showing the greenhouse gas index from 1979 
 
 ## Step 4: Test the solution — feedback from classmates
 
-I shared my paper sketch with three classmates during the in-class critique. I asked them to look at the design as someone unfamiliar with NOAA's data might, and we discussed what the chart communicated and what was confusing. The feedback below summarizes our discussion without identifying individual students.
+I shared my hand-drawn sketch with three classmates in our in-class critique. We discussed the same design together, and all three agreed with the main suggestions below. I have organized the shared feedback into three anonymous student entries by topic, rather than treating them as exact individual quotations.
 
-### Questions we discussed
+### Questions we considered
 
-- Can someone understand the main message from the chart and title?
-- Are the labels and numbers clear without an explanation?
-- Would colors or additional lines make the chart easier to interpret?
-- What would you change before creating the final version?
+- What is the main message you see without an explanation?
+- Are the numbers, labels, and units understandable?
+- What would you change to draw attention to the most important value?
+- Should the redesign show more information, or would that make it harder to read?
 
 ### Feedback collected
 
-| Area | Feedback from the in-class discussion |
-| --- | --- |
-| Title | Make the headline more descriptive so readers understand immediately what is being compared. |
-| Labels | Clarify what the values represent, including the reference value and units; an unclear number in the sketch should not be left unexplained. |
-| Color | Use color to guide attention to the main trend and the increase over time. |
-| Endpoint markers | Remove the dot at the beginning of the line so the audience focuses on the current (2025) dot and its value. |
-| Additional information | Consider whether showing more lines, as in the original chart, would provide useful context. |
-| Audience | People unfamiliar with the NOAA index may need more explanation than someone who already knows the topic. |
+**Student 1 — Title and labels**
+
+The title should explain more clearly what the chart is showing. The values and units also need to be understandable to someone unfamiliar with NOAA data. We discussed an unclear number on the sketch and why readers should not have to guess what a number represents.
+
+**Student 2 — Color and focus**
+
+Color could help readers follow the overall trend and identify the main takeaway. The group also suggested removing the dot at the beginning of the line so that attention would go to the current dot and the size of the increase.
+
+**Student 3 — Information and audience**
+
+We considered adding more lines, like those in the original NOAA visualization, to give additional context. However, we also agreed that someone unfamiliar with the topic could find too many lines confusing. The design should answer one clear question before adding more detail.
 
 ### What I learned and changed
 
-A common theme was that a chart can make sense to its creator but still leave basic questions for someone seeing it for the first time. I used that feedback to make the title more specific, identify 1990 as the reference year (index = 1.00), add an orange reference line, and label the 2025 value of about 1.56.
+The feedback made me realize that even if I understand a chart, its message may not be obvious to someone seeing the data for the first time. I changed the headline to focus on the increase since 1990, made the reference value of 1.00 more visible, and labeled the most recent index value of approximately 1.56 in 2025. I used blue for the trend and orange for the reference line to create a clearer visual hierarchy.
 
-The group also suggested removing the starting dot so that the final dot would attract more attention. This is a useful improvement because both points do not need equal visual emphasis for my main message. I wanted the final value to stand out, while still keeping the 1990 reference identifiable through its label and reference line.
-
-I considered the suggestion to include more lines, but decided against it. NOAA's original chart is useful for exploring multiple greenhouse gas measurements; my redesign answers a narrower question about the overall change since 1990. Keeping one line lets me emphasize that comparison without adding visual complexity.
+I also considered the suggestion to remove the first dot so the latest point would stand out more. I wanted the focus to be on the current value rather than giving equal attention to the beginning and end of the series. I chose not to add more gas-specific lines because my question is about the overall index, not the separate contributions of each gas. This keeps the final chart simpler than NOAA's original while making the 1990 comparison easier to interpret.
 
 ## Step 5: Final visualization
 
