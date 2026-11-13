@@ -56,12 +56,15 @@ I shared my paper sketch with three classmates during the in-class critique. I a
 | Title | Make the headline more descriptive so readers understand immediately what is being compared. |
 | Labels | Clarify what the values represent, including the reference value and units; an unclear number in the sketch should not be left unexplained. |
 | Color | Use color to guide attention to the main trend and the increase over time. |
+| Endpoint markers | Remove the dot at the beginning of the line so the audience focuses on the current (2025) dot and its value. |
 | Additional information | Consider whether showing more lines, as in the original chart, would provide useful context. |
 | Audience | People unfamiliar with the NOAA index may need more explanation than someone who already knows the topic. |
 
 ### What I learned and changed
 
 A common theme was that a chart can make sense to its creator but still leave basic questions for someone seeing it for the first time. I used that feedback to make the title more specific, identify 1990 as the reference year (index = 1.00), add an orange reference line, and label the 2025 value of about 1.56.
+
+The group also suggested removing the starting dot so that the final dot would attract more attention. This is a useful improvement because both points do not need equal visual emphasis for my main message. I wanted the final value to stand out, while still keeping the 1990 reference identifiable through its label and reference line.
 
 I considered the suggestion to include more lines, but decided against it. NOAA's original chart is useful for exploring multiple greenhouse gas measurements; my redesign answers a narrower question about the overall change since 1990. Keeping one line lets me emphasize that comparison without adding visual complexity.
 
@@ -84,4 +87,4 @@ I chose not to fill the area below the line because the main point is the **chan
 
 ## AI acknowledgement
 
-I used ChatGPT to understand the assignment, help prepare and format the NOAA data for Datawrapper.
+I used ChatGPT to help understand the assignment instructions, prepare and format NOAA data for Datawrapper, troubleshoot visualization settings, and organize and edit parts of this portfolio write-up. I created and published the final chart in Datawrapper and made the design decisions based on the original visualization and feedback received in class.
