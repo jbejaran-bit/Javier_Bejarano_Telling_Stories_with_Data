@@ -38,13 +38,20 @@ I began with a hand-drawn line chart showing the greenhouse gas index from 1979 
 
 **Paper-sketch photo:** ![My original hand-drawn redesign sketch](1000326963.jpg)
 
-## Step 4: Feedback and revisions
+## Step 4: Peer feedback and revisions
 
-I showed my proposed design in our in-class critique. One suggestion raised during the discussion was to consider adding more lines, as in the original NOAA visualization. I considered this but decided to keep just the index line because adding other measurements would make the specific comparison with 1990 harder to see.
+I shared my hand-drawn sketch with three classmates during our in-class critique. We discussed several ways to make the visualization easier to interpret, and several suggestions focused on the same problem: what information would be clear to a reader who had never seen NOAA's data?
 
-**Individual feedback still to document:** [Add two short, anonymized accounts from two people who actually reviewed the sketch, including what each person said. Do not include names.]
+**Themes from the group discussion:**
 
-I used the discussion to rethink how to show the comparison clearly. Rather than adding more lines, I kept the overall trend and added an orange horizontal line at 1.00, a marked reference point at 1990, and a label showing the final value. These changes explain the significance of the line rather than adding information unrelated to the main question.
+- **Title:** Make the headline more descriptive so readers immediately understand the comparison being shown.
+- **Labels and units:** Explain the meaning of the numbers and make the reference value clear. We also discussed an unclear handwritten value or note on the sketch; it needed to be identified rather than left for viewers to guess.
+- **Color and emphasis:** Use color to make the trend easier to follow and draw attention to the change over time.
+- **Amount of information:** One suggestion was to consider adding more lines from the original NOAA chart. I considered it, but I preferred to focus on the overall index because the purpose of my redesign is to show the change since 1990.
+
+These are themes from our discussion, rather than individual quotations attributed to particular classmates. The conversation made me realize that a chart can make sense to its creator while still leaving important questions unanswered for someone else.
+
+**What I changed:** In the final version I added a more informative title, labeled 1990 as the reference year (index = 1.00), added an orange reference line, and highlighted the latest value of approximately 1.56 in 2025. I kept one blue line because adding the separate gases would distract from the comparison I wanted readers to make.
 
 ## Step 5: Final visualization
 
