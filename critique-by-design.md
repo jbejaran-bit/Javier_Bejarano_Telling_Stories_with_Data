@@ -36,7 +36,7 @@ I began with a hand-drawn line chart showing the greenhouse gas index from 1979 
 2. Emphasize 1990 = 1.00 as the reference, so readers understand what the index values mean.
 3. Label the latest value so the size of the increase is clear without requiring readers to estimate it from the axis.
 
-**Paper-sketch photo:** [Add photo of my original hand-drawn sketch here before final submission.]
+**Paper-sketch photo:** ![My original hand-drawn redesign sketch](1000326963.jpg)
 
 ## Step 4: Feedback and revisions
 
