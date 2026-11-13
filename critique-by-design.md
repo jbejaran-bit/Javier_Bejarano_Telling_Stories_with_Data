@@ -38,20 +38,32 @@ I began with a hand-drawn line chart showing the greenhouse gas index from 1979 
 
 **Paper-sketch photo:** ![My original hand-drawn redesign sketch](1000326963.jpg)
 
-## Step 4: Peer feedback and revisions
+## Step 4: Test the solution — feedback from classmates
 
-I shared my hand-drawn sketch with three classmates during our in-class critique. We discussed several ways to make the visualization easier to interpret, and several suggestions focused on the same problem: what information would be clear to a reader who had never seen NOAA's data?
+I shared my paper sketch with three classmates during the in-class critique. I asked them to look at the design as someone unfamiliar with NOAA's data might, and we discussed what the chart communicated and what was confusing. The feedback below summarizes our discussion without identifying individual students.
 
-**Themes from the group discussion:**
+### Questions we discussed
 
-- **Title:** Make the headline more descriptive so readers immediately understand the comparison being shown.
-- **Labels and units:** Explain the meaning of the numbers and make the reference value clear. We also discussed an unclear handwritten value or note on the sketch; it needed to be identified rather than left for viewers to guess.
-- **Color and emphasis:** Use color to make the trend easier to follow and draw attention to the change over time.
-- **Amount of information:** One suggestion was to consider adding more lines from the original NOAA chart. I considered it, but I preferred to focus on the overall index because the purpose of my redesign is to show the change since 1990.
+- Can someone understand the main message from the chart and title?
+- Are the labels and numbers clear without an explanation?
+- Would colors or additional lines make the chart easier to interpret?
+- What would you change before creating the final version?
 
-These are themes from our discussion, rather than individual quotations attributed to particular classmates. The conversation made me realize that a chart can make sense to its creator while still leaving important questions unanswered for someone else.
+### Feedback collected
 
-**What I changed:** In the final version I added a more informative title, labeled 1990 as the reference year (index = 1.00), added an orange reference line, and highlighted the latest value of approximately 1.56 in 2025. I kept one blue line because adding the separate gases would distract from the comparison I wanted readers to make.
+| Area | Feedback from the in-class discussion |
+| --- | --- |
+| Title | Make the headline more descriptive so readers understand immediately what is being compared. |
+| Labels | Clarify what the values represent, including the reference value and units; an unclear number in the sketch should not be left unexplained. |
+| Color | Use color to guide attention to the main trend and the increase over time. |
+| Additional information | Consider whether showing more lines, as in the original chart, would provide useful context. |
+| Audience | People unfamiliar with the NOAA index may need more explanation than someone who already knows the topic. |
+
+### What I learned and changed
+
+A common theme was that a chart can make sense to its creator but still leave basic questions for someone seeing it for the first time. I used that feedback to make the title more specific, identify 1990 as the reference year (index = 1.00), add an orange reference line, and label the 2025 value of about 1.56.
+
+I considered the suggestion to include more lines, but decided against it. NOAA's original chart is useful for exploring multiple greenhouse gas measurements; my redesign answers a narrower question about the overall change since 1990. Keeping one line lets me emphasize that comparison without adding visual complexity.
 
 ## Step 5: Final visualization
 
