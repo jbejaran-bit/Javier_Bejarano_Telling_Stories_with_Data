@@ -1,42 +1,128 @@
-| [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [Home](https://jbejaran-bit.github.io/Javier_Bejarano_Telling_Stories_with_Data/) | [Data viz examples](dataviz-examples) | [Critique by design](critique-by-design) | [Final project I](final-project-part-one) | [Final project II](final-project-part-two) | [Final project III](final-project-part-three) |
 
+# Final Project — Part I: Outline, Data, and Sketches
 
-> Important note: this template includes major elements of Part I, but the instructions on Canvas are the authoritative source.  Make sure to read through the assignment page and review the rubric to confirm you have everything you need before submitting.  When done, delete these instructions before submitting.
+## AI: Making Us Smarter or More Dependent?
+### How should students spend their time to actually learn?
 
-# Outline
-> Include a high-level summary of your project.  This should be a couple paragraphs that describe what you're interested in showing with your final project. 
- 
-Text here...
+**One-sentence summary:** I want to use research about AI and learning to help students think about when to use AI, when to work independently, and how to spend their limited study time.
 
-> A project structure that outlines the major elements of your story.  Your Good Charts text talks about story structure in Chapter 8 - you should describe what you hope to achieve.  Make sure the outline is detailed enough that we can see how you anticipate your story unfolding.  You can incorporate your Story Arc from the in-class exercise along with your user stories and one sentence summary to make the topic even more clear. 
+## 1. Project outline
 
-Text here...
+### High-level summary
 
-## Initial sketches
-> Post images of your anticipated data visualizations (sketches are fine). They should mimic aspects of your outline, and include elements of your story.  
+I chose this topic because it is a question I face as a student. Sometimes I sit through a lecture and struggle to follow what is happening, but when I study with an AI tutor, I can ask for a simpler explanation, practice questions, and exercises similar to an exam. In the same amount of time, it can feel like I am learning much more. I also use AI when working on programming assignments, and I wonder whether it is better to try everything independently first or use AI to finish a task faster and then spend the remaining time practicing.
 
-Text here...
+I do not think the answer is simply that AI is good or bad. A student who completes an assignment quickly with AI might receive a good grade but learn very little. Another student could use AI for an explanation and then solve several problems alone. They are both counted as “AI users,” even though they are doing different things. I want to investigate what the research tells us about **performance** (doing a task well with help), **learning** (being able to solve a similar task later without help), and **efficiency** (how much we learn for the time we spend). My goal is to finish with a useful, evidence-based guide, not to tell everyone to always use AI or never use it.
 
-# The data
-> A couple of paragraphs that document your data source(s), and an explanation of how you plan on using your data. 
+### Audience and purpose
 
-Text here...
+My primary audience is college students who have assignments, lectures, and exams competing for their time. A secondary audience is professors who are thinking about how students learn with AI. Readers should leave knowing that finishing work quickly and actually learning are not necessarily the same outcome. The story will also show where the evidence is strong, where it is mixed, and where studies do not yet answer the practical question.
 
-> A link to the publicly-accessible datasets you plan on using, or a link to a copy of the data you've uploaded to your Github repository, Box account or other publicly-accessible location. Using a datasource that is already publicly accessible is highly encouraged.  If you anticipate using a data source other than something that would be publicly available please talk to me first. 
+**Questions I want the audience to consider:**
+- If I have one hour, should I solve an assignment independently, ask AI for hints, or use AI and spend the saved time studying?
+- If I learn more from an AI tutor than a difficult lecture, what does the available research actually tell me? (A single experiment cannot justify skipping all lectures.)
+- If my final exam is without AI, how should I prepare?
+- Does learning depend on how I interact with AI and how much time I spend actively thinking?
+- Does using AI even improve the quality of the assignment itself?
 
-| Name | URL | Description |
-|------|-----|-------------|
-|      |     |             |
-|      |     |             |
-|      |     |             |
+### Story arc and planned chapters
 
-# Method and medium
-> In a few sentences, you should document how you plan on completing your final project. 
+My story starts with a choice that many students recognize, introduces evidence that challenges an easy answer, then compares different ways of using AI. The ending returns to the opening question and gives a decision framework. I want the audience to keep asking, **“What happens when AI is taken away?”**
 
-Text here...
+| Chapter | Main story and question | Planned visualization / evidence |
+| --- | --- | --- |
+| **1. The promise of AI** | Start with four students who each have 60 minutes but spend them differently: independent work, AI followed by practice, attempt-then-hints, or AI without additional practice. Is the fastest assignment necessarily the best outcome? I will also mention research where permitted AI use did not clearly improve research-proposal grades. | Opening 60-minute allocation graphic; Smerdon (2024) as supporting context |
+| **2. Take AI away** | In one mathematics experiment, AI improved assisted practice performance, but unrestricted AI use was followed by worse performance on an independent exam. A programming study raises a similar concern about acquiring new skills. | Side-by-side practice versus independent-test charts from Bastani et al. (2025), with Anthropic (2026) as a separate example |
+| **3. The contradiction** | A different experiment found that a carefully designed AI physics tutor improved learning compared with in-class active learning. So AI does not automatically hurt learning either. | Compare learning outcomes within the Harvard physics experiment (Kestin et al., 2025), without treating different studies' tests as one comparable scale |
+| **4. Time and the way we use AI** | Perhaps the important question is not just *whether* students use AI, but *how*. Does getting answers immediately replace active thinking? Can an interactive tutor save time while preserving learning? I want to examine study time and the difference between asking for answers and asking for explanations. | Time-on-task graphic; exploratory look at study-hour variables in the math dataset; coding study's reported interaction patterns |
+| **5. What should students do?** | Return to the 60-minute question. A student preparing for an AI-free exam may need independent practice, while another may benefit from guided explanations. The right approach also depends on course rules and the task. | A final decision guide with evidence labels: supported, suggestive, and not directly tested |
+
+### Important distinction in the story
+
+The four students in the opening are **hypothetical examples**, not participants or measured results from the research. Existing studies generally do not randomly assign students to exactly those four 60-minute strategies. I will avoid presenting a “best number of minutes” unless data actually supports it. I will also distinguish experimental findings from observational associations and not imply that one study proves AI is better than attending every lecture.
+
+## 2. Initial sketches and storyboard
+
+These are my **original digital sketches for the proposal**, not final charts. They show the headings, layout, intended transitions, and data graphics I hope to build. Where bars have no values, their heights are illustrative placeholders; they are not research measurements.
+
+### Sketch 1 — Hook: one hour, four strategies
+
+![Sketch 1: four ways to spend one hour using different amounts of independent work and AI assistance](assets/ai-part1-sketch-opening.svg)
+
+This is how I want to begin. I will ask the reader who they think would do best on an exam without AI. The goal is to make the audience curious before showing any research.
+
+### Sketch 2 — The surprise: good performance does not guarantee learning
+
+![Sketch 2: side-by-side proposed bar charts comparing assisted practice and independent exams](assets/ai-part1-sketch-performance.svg)
+
+I plan to use the public mathematics dataset for the real version. Putting the two outcomes next to each other makes the contrast visible without asking readers to remember numbers across several slides. The sketch does **not** contain real bar heights yet.
+
+### Sketch 3 — Time matters, but time alone is not learning
+
+![Sketch 3: proposed time comparison and explanatory notes for the Harvard tutoring experiment](assets/ai-part1-sketch-time.svg)
+
+This is where I want to examine my own hypothesis about study time. The Harvard study reports a median of roughly 49 minutes using the AI tutor versus about 60 minutes available for the classroom activity. That does not mean the 60-minute figure is a median, and it does not prove that reducing time always improves results. I will pair time with learning outcomes from the same study.
+
+### Sketch 4 — Ending: a practical decision guide
+
+![Sketch 4: decision flow for students choosing how to use time and AI](assets/ai-part1-sketch-decision.svg)
+
+I want to finish with something that students can actually use. The guide will consider the main goal, whether AI is permitted, and whether the student will eventually need to perform alone. It will be presented as guidance based on available evidence, not as an experimentally proven rule for every situation.
+
+## 3. The data
+
+### Primary dataset 1: high-school mathematics experiment
+
+My main quantitative dataset comes from **Bastani et al. (2025), _Generative AI without guardrails can harm learning_**, a randomized study of nearly 1,000 high-school mathematics students. The students were assigned to conditions with no AI, regular GPT-4 assistance, or a more carefully designed GPT tutor. They completed practice problems and then an independent test. The researchers provide the data and code publicly. I checked the repository and located the actual CSV containing student/session observations.
+
+The data contains variables including `Part2Tot` (practice score), `Part3Tot` (independent exam score), `GPTBase`, `GPTTutor`, `Treatment arm`, prior GPA, and self-reported weekday/weekend study hours. I plan to compare the randomized groups on practice and independent-test results, clearly labeling those as different outcomes. The study-hour variables are especially relevant to my hypothesis, but those hours are **self-reported background measures**, not a randomized “time spent with AI” treatment. I will not claim that spending fewer hours caused lower exam scores.
+
+**Public working data:** [Download the main CSV](https://raw.githubusercontent.com/obastani/GenAICanHarmLearning/main/main_regressions/final_data.csv) · [Open the data file on GitHub](https://github.com/obastani/GenAICanHarmLearning/blob/main/main_regressions/final_data.csv) · [Data dictionary and analysis code](https://github.com/obastani/GenAICanHarmLearning).
+
+### Primary dataset 2: Harvard physics AI-tutor experiment
+
+My second primary dataset comes from **Kestin et al. (2025), _AI tutoring outperforms in-class active learning_**. This randomized study compared a purpose-built AI tutor with in-person active-learning instruction in a university physics course. It is useful because it measures learning, rather than merely whether students can finish a task faster. It provides evidence that a well-designed AI tutor can sometimes lead to better learning in less time in the setting studied. I located the public Stata dataset (`.dta`) in the research team's repository.
+
+I plan to compare the groups' learning outcomes within that experiment. I will also show the reported time comparison, while separating actual time on task from scheduled classroom time. If the public file does not contain every time measure I need, I will use the study's explicitly published aggregate numbers and label them as reported results. This experiment does not tell us that all lectures are ineffective, or that students should skip classes.
+
+**Public working data:** [Download the Stata data file](https://raw.githubusercontent.com/HarvardAItutor/Study-Data-v4/main/Harvard_AI_Tutor_Study_Data.dta) · [Open the dataset repository](https://github.com/HarvardAItutor/Study-Data-v4) · [Read the paper](https://doi.org/10.1038/s41598-025-97652-6).
+
+### Supporting studies and assembled data
+
+I also plan to use two additional studies as context. **Anthropic's 2026 coding-skills experiment** compared AI-assisted programmers with programmers working without AI. The published report states that average scores on an independent skills quiz were 50% with AI versus 67% without AI, while the average task-time advantage of AI was not statistically significant. Its exploratory interaction categories are especially relevant to my question about *how* students use AI, but those categories were not randomly assigned. **Smerdon (2024)** studied permitted AI usage on an undergraduate research-proposal assignment and found no clear average grade advantage for AI users. This is observational evidence, so I will not describe it as a causal experiment.
+
+I created a small, sourced [CSV of published results](data/ai-learning-published-results.csv) so the numbers for initial charts are available in my portfolio. It is a manually assembled table of statistics reported by the studies, **not the studies' original participant-level dataset**. I will use the two public primary datasets above for original analyses and these published results for context. Different studies involve different populations, tasks, and assessments, so their scores should not be pooled into one ranking.
+
+### Data source inventory
+
+| Source | Evidence I want to use | Actual data access |
+| --- | --- | --- |
+| [Bastani et al., 2025 — mathematics](https://doi.org/10.1073/pnas.2422633122) | Assisted practice, independent exam, study habits, AI condition | [Public CSV](https://raw.githubusercontent.com/obastani/GenAICanHarmLearning/main/main_regressions/final_data.csv) |
+| [Kestin et al., 2025 — university physics](https://doi.org/10.1038/s41598-025-97652-6) | AI tutoring versus active class, learning, time | [Public Stata dataset](https://github.com/HarvardAItutor/Study-Data-v4/blob/main/Harvard_AI_Tutor_Study_Data.dta) |
+| [Anthropic, 2026 — programming skills](https://www.anthropic.com/research/AI-assistance-coding-skills) | Quiz scores, task time, ways of interacting with AI | Published aggregate results; [sourced values CSV](data/ai-learning-published-results.csv) |
+| [Smerdon, 2024 — research proposal](https://doi.org/10.1016/j.caeai.2024.100288) | Whether AI use is associated with better assignment grades | Published study findings; not counted as a participant-level dataset |
+
+## 4. Method and medium
+
+I plan to build an **interactive, scrolling data story using Shorthand**, with charts created in **Tableau** and embedded in the story. The reader will start with a familiar student decision and move through research evidence before reaching the final decision guide. Rather than designing a standalone dashboard, I want each chart to answer one question and lead naturally to the next part of the story.
+
+For analysis, I will clean and explore the downloadable data using Python (and Stata-compatible readers for the Harvard file). I will export summarized, clearly labeled data for Tableau. I will use color consistently across the graphics, show the relevant groups and study context, and separate measured results from my own hypothetical student scenarios. I will also make sure the charts have readable labels, accessible descriptions, and source credits. If any interactive feature cannot be built reliably, the explanation and main results should still be understandable without it.
+
+## 5. What I still need to investigate
+
+- Whether the Harvard raw file includes the time variable at the level needed for the planned comparison.
+- Whether there is enough time information in the mathematics study to discuss active engagement without confusing it with self-reported study hours.
+- How to make the final student decision guide useful without overstating what any single experiment proves.
+- How to present different populations (high-school students, university students, and professional developers) clearly instead of treating them as interchangeable.
 
 ## References
-_List any references you used here._
 
-## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
+1. Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). *Generative AI without guardrails can harm learning: Evidence from high school mathematics.* Proceedings of the National Academy of Sciences. https://doi.org/10.1073/pnas.2422633122
+2. Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). *AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting.* Scientific Reports. https://doi.org/10.1038/s41598-025-97652-6
+3. Anthropic. (2026, January 29). *How AI assistance impacts the formation of coding skills.* https://www.anthropic.com/research/AI-assistance-coding-skills
+4. Smerdon, D. (2024). *AI in essay-based assessment: Student adoption, usage, and performance.* Computers and Education: Artificial Intelligence. https://doi.org/10.1016/j.caeai.2024.100288
+
+## AI acknowledgement
+
+I used ChatGPT to brainstorm and refine the project question, locate and check public research sources, organize the story outline, create original digital storyboard sketches, and help write and edit this Part I proposal. I chose the topic based on my own experiences and questions as a student. The sketches are plans for future visuals, and I have not presented hypothetical values as actual research results.
