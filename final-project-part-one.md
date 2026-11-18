@@ -122,7 +122,3 @@ For analysis, I will clean and explore the downloadable data using Python (and S
 2. Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). *AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting.* Scientific Reports. https://doi.org/10.1038/s41598-025-97652-6
 3. Anthropic. (2026, January 29). *How AI assistance impacts the formation of coding skills.* https://www.anthropic.com/research/AI-assistance-coding-skills
 4. Smerdon, D. (2024). *AI in essay-based assessment: Student adoption, usage, and performance.* Computers and Education: Artificial Intelligence. https://doi.org/10.1016/j.caeai.2024.100288
-
-## AI acknowledgement
-
-I used ChatGPT to brainstorm and refine the project question, locate and check public research sources, organize the story outline, create original digital storyboard sketches, and help write and edit this Part I proposal. I chose the topic based on my own experiences and questions as a student. The sketches are plans for future visuals, and I have not presented hypothetical values as actual research results.
