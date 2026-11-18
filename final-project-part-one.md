@@ -50,25 +50,25 @@ These are my **original digital sketches for the proposal**, not final charts. T
 
 ![Sketch 1: four ways to spend one hour using different amounts of independent work and AI assistance](assets/ai-part1-sketch-opening.svg)
 
-This is how I want to begin. I will ask the reader who they think would do best on an exam without AI. The goal is to make the audience curious before showing any research.
+This is how I want to begin. I will ask the reader who they think would do best on an exam without AI. The goal is to make the audience curious before showing any research. **Planned evidence:** the following sections will use the mathematics and programming studies; these four students are only examples.
 
 ### Sketch 2 — The surprise: good performance does not guarantee learning
 
 ![Sketch 2: side-by-side proposed bar charts comparing assisted practice and independent exams](assets/ai-part1-sketch-performance.svg)
 
-I plan to use the public mathematics dataset for the real version. Putting the two outcomes next to each other makes the contrast visible without asking readers to remember numbers across several slides. The sketch does **not** contain real bar heights yet.
+I plan to use the public **Bastani mathematics dataset** for the real version. Putting assisted practice and the independent exam next to each other makes the contrast easier to see. The sketch does **not** contain real bar heights yet.
 
 ### Sketch 3 — Time matters, but time alone is not learning
 
 ![Sketch 3: proposed time comparison and explanatory notes for the Harvard tutoring experiment](assets/ai-part1-sketch-time.svg)
 
-This is where I want to examine my own hypothesis about study time. The Harvard study reports a median of roughly 49 minutes using the AI tutor versus about 60 minutes available for the classroom activity. That does not mean the 60-minute figure is a median, and it does not prove that reducing time always improves results. I will pair time with learning outcomes from the same study.
+This sketch uses the **Harvard physics study (Kestin et al., 2025)**. Students using the AI tutor spent a median of about 49 minutes, compared with an assumed 60 minutes of learning during class. The researchers also reported no correlation between time on task and post-test scores within the AI group. This is interesting for my question: **more time does not always mean more learning**. I will show learning scores alongside time, without claiming that simply spending less time causes better results.
 
 ### Sketch 4 — Ending: a practical decision guide
 
 ![Sketch 4: decision flow for students choosing how to use time and AI](assets/ai-part1-sketch-decision.svg)
 
-I want to finish with something that students can actually use. The guide will consider the main goal, whether AI is permitted, and whether the student will eventually need to perform alone. It will be presented as guidance based on available evidence, not as an experimentally proven rule for every situation.
+I want to finish with something students can actually use. The guide will consider whether the goal is to learn a concept, finish an assignment, or prepare for an exam; whether AI is allowed; and whether students need to perform without AI later. **Planned evidence:** the mathematics, physics, and programming studies. These are possible strategies, not rules proven for every student.
 
 ## 3. The data
 
@@ -92,6 +92,8 @@ I plan to compare the groups' learning outcomes within that experiment. I will a
 
 I also plan to use two additional studies as context. **Anthropic's 2026 coding-skills experiment** compared AI-assisted programmers with programmers working without AI. The published report states that average scores on an independent skills quiz were 50% with AI versus 67% without AI, while the average task-time advantage of AI was not statistically significant. Its exploratory interaction categories are especially relevant to my question about *how* students use AI, but those categories were not randomly assigned. **Smerdon (2024)** studied permitted AI usage on an undergraduate research-proposal assignment and found no clear average grade advantage for AI users. This is observational evidence, so I will not describe it as a causal experiment.
 
+**Another relevant study:** [Liu et al. (2026), a university AI-tutoring trial](https://scale.stanford.edu/ai/repository/effects-course-integrated-ai-tutoring-student-performance-and-engagement-randomized-university-trial), looked at 2,379 students. In that study, access to an AI tutor reduced participation in other course activities and did not improve academic performance. I may mention it when discussing whether AI can replace rather than support studying. I will use its published findings only, since I have not confirmed access to its student-level data.
+
 I created a small, sourced [CSV of published results](data/ai-learning-published-results.csv) so the numbers for initial charts are available in my portfolio. It is a manually assembled table of statistics reported by the studies, **not the studies' original participant-level dataset**. I will use the two public primary datasets above for original analyses and these published results for context. Different studies involve different populations, tasks, and assessments, so their scores should not be pooled into one ranking.
 
 ### Data source inventory
@@ -111,7 +113,7 @@ For analysis, I will clean and explore the downloadable data using Python (and S
 
 ## 5. What I still need to investigate
 
-- Whether the Harvard raw file includes the time variable at the level needed for the planned comparison.
+- Whether the Harvard raw file includes the time variable at the level needed for the planned comparison. The published paper also reports time-on-task results that I can use.
 - Whether there is enough time information in the mathematics study to discuss active engagement without confusing it with self-reported study hours.
 - How to make the final student decision guide useful without overstating what any single experiment proves.
 - How to present different populations (high-school students, university students, and professional developers) clearly instead of treating them as interchangeable.
@@ -122,3 +124,4 @@ For analysis, I will clean and explore the downloadable data using Python (and S
 2. Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). *AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting.* Scientific Reports. https://doi.org/10.1038/s41598-025-97652-6
 3. Anthropic. (2026, January 29). *How AI assistance impacts the formation of coding skills.* https://www.anthropic.com/research/AI-assistance-coding-skills
 4. Smerdon, D. (2024). *AI in essay-based assessment: Student adoption, usage, and performance.* Computers and Education: Artificial Intelligence. https://doi.org/10.1016/j.caeai.2024.100288
+5. Liu, J., et al. (2026). *The effects of course-integrated AI tutoring on student performance and engagement: A randomized university trial.* EdWorking Papers. https://edworkingpapers.com/ai26-1598
