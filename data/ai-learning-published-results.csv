@@ -1,0 +1,8 @@
+"study","year","measurement","condition","value","unit","comparison","source","interpretation_note"
+"Bastani et al. math","2025","Assisted practice performance","GPT Base","48","relative percent change","vs no AI control","https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/","Study-reported improvement; not raw percentage points"
+"Bastani et al. math","2025","Assisted practice performance","GPT Tutor","127","relative percent change","vs no AI control","https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/","Study-reported improvement; not raw percentage points"
+"Bastani et al. math","2025","Unaided exam performance","GPT Base","-17","relative percent change","vs no AI control","https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/","Study-reported decrease; not raw percentage points"
+"Anthropic coding study","2026","Immediate independent skills quiz","AI-assisted","50","percent correct","vs hand-coding group","https://www.anthropic.com/research/AI-assistance-coding-skills","Group mean score after completing coding task"
+"Anthropic coding study","2026","Immediate independent skills quiz","Hand coding","67","percent correct","vs AI-assisted group","https://www.anthropic.com/research/AI-assistance-coding-skills","Group mean score after completing coding task"
+"Harvard AI tutor physics","2025","Time on task","AI tutor","49","minutes (median)","vs available class instruction time","https://doi.org/10.1038/s41598-025-97652-6","AI tutoring time; not directly equivalent to scheduled class time"
+"Harvard AI tutor physics","2025","Classroom instructional time","In-class active learning","60","minutes allotted","vs AI tutor time on task","https://doi.org/10.1038/s41598-025-97652-6","Available in-class activity time after pre/post tests; not class median"
