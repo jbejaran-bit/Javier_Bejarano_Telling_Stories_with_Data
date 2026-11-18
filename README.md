@@ -39,7 +39,7 @@ This section will grow as I complete assignments and projects during the semeste
 
 ### Final Project
 
-My final project will be developed throughout the semester. This section will document my ideas, research, and final visualization.
+My final project asks **AI: Making Us Smarter or More Dependent?** I want to investigate how students should divide their time between AI tutoring, independent problem-solving, assignments, and exam preparation. Part I includes my proposed story, four sketches, and public research datasets.
 
 - [Part I — Project Proposal](final-project-part-one)
 - [Part II — Sketches and User Research](final-project-part-two)
