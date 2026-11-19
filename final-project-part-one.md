@@ -59,6 +59,24 @@ The second **Tableau** chart will compare those groups on their independent exam
 
 My third **Tableau** chart will help compare the three groups across practice and exam performance. I will finish in **Shorthand** with a short explanation of what the findings mean for students, without claiming one strategy is always best.
 
+### Preliminary charts using the research data
+
+I also created three simple **color charts from the actual student-level research CSV**, to test the comparisons I want to communicate in the final story. These are preliminary data visualizations, **not Tableau screenshots**. The finished story can recreate and refine them in Tableau.
+
+**Chart 1: Practice performance**
+
+![Actual average practice scores for the three AI study groups](assets/ai-real-chart-practice.svg)
+
+**Chart 2: Independent exam performance**
+
+![Actual independent exam averages for the same study groups](assets/ai-real-chart-exam.svg)
+
+**Chart 3: Practice versus independent exam**
+
+![Side-by-side bars comparing practice and independent exam average scores by group](assets/ai-real-chart-both.svg)
+
+The original public file has multiple session records per student. For these descriptive charts, I averaged each student's available session scores first and then averaged across students in each experimental group. Results are **unadjusted descriptive group means**, not estimates of the causal effect reported by the study.
+
 ## 3. The data
 
 ### Primary dataset 1: high-school mathematics experiment
