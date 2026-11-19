@@ -124,19 +124,19 @@ I already have links to two public datasets I can analyze: the mathematics exper
 
 ## 4. Method and medium
 
-I plan to build an **interactive, scrolling story in Shorthand**, with **three main Tableau charts** embedded along the way. The existing six sketches are ideas from my brainstorming, but I will prioritize the three comparisons described above. Short text will explain each result in plain language. The reader will start with a familiar student decision and move through research evidence before reaching the final decision guide. Rather than designing a standalone dashboard, I want each chart to answer one question and lead naturally to the next part of the story.
+I plan to make a short, interactive data story in **Shorthand** using **three Tableau charts**. I will use the public mathematics experiment CSV to compare practice performance, independent exam results, and different types of AI assistance. Each chart will answer one question, with a short explanation before moving to the next part of the story.
 
-For analysis, I will clean and explore the downloadable data using Python (and Stata-compatible readers for the Harvard file). I will export summarized, clearly labeled data for Tableau. I will use color consistently across the graphics, show the relevant groups and study context, and separate measured results from my own hypothetical student scenarios. I will also make sure the charts have readable labels, accessible descriptions, and source credits. If any interactive feature cannot be built reliably, the explanation and main results should still be understandable without it.
+I will open the CSV directly in **Tableau Public**, check how the student and session records are organized, and calculate the group comparisons there. Because some students have multiple rows, I will make sure they are not incorrectly counted more than once. I will use clear labels, consistent colors, and source notes. **Python is not part of my planned workflow**; I would only use it if the data cannot be prepared accurately in Tableau.
 
 ### Simple workflow
 
-1. Download the public datasets and check which variables I can use.
-2. Analyze the results in Python and prepare small tables for the charts.
-3. Build three clear research charts in Tableau using the mathematics dataset.
-4. Put the charts into a scrolling story in Shorthand, with short explanations.
-5. Use feedback to improve the charts and finish with a careful student decision guide.
+1. Download the mathematics experiment CSV and open it in Tableau Public.
+2. Check the student IDs, study groups, and scores so the comparisons are accurate.
+3. Create and publish three Tableau charts.
+4. Embed the charts in a Shorthand story with a short introduction and conclusion.
+5. Review the charts and improve them using feedback.
 
-**Why this project is feasible:** It uses existing research and public data, so I do not need to run my own experiment. The planned visuals each answer one part of the same question, instead of becoming a collection of unrelated statistics.
+**Why this project is feasible:** I have access to the main dataset, and I can create the visualizations using tools we have learned in class. I do not need to conduct my own experiment or analyze several different datasets.
 
 ## 5. What I still need to investigate
 
