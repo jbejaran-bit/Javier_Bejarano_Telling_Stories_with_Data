@@ -1,0 +1,944 @@
+Participant,AI_group,Practice_score_percent,Independent_exam_score_percent,Sessions
+1,No AI,15.00,31.30,4
+2,Guided AI tutor,72.50,35.87,4
+3,No AI,70.00,76.56,4
+4,No AI,77.50,28.85,2
+5,Regular AI,6.25,21.55,4
+6,Guided AI tutor,95.00,66.37,4
+7,Guided AI tutor,35.00,24.78,4
+8,Guided AI tutor,63.33,10.21,3
+9,No AI,15.00,61.67,3
+10,No AI,55.00,57.43,4
+11,No AI,0.00,0.00,2
+12,Regular AI,42.50,17.32,4
+13,Guided AI tutor,50.00,52.67,4
+14,No AI,10.00,3.91,4
+15,No AI,43.33,39.28,3
+16,Regular AI,80.00,7.50,4
+17,Guided AI tutor,45.00,24.88,4
+18,Regular AI,75.00,25.42,4
+19,Guided AI tutor,83.75,42.66,4
+20,Guided AI tutor,83.75,57.40,4
+21,Regular AI,22.50,4.38,4
+22,Guided AI tutor,75.00,67.95,4
+23,No AI,21.67,87.36,3
+24,Guided AI tutor,80.00,0.00,2
+25,Regular AI,0.00,1.25,2
+26,Regular AI,52.50,1.82,4
+27,No AI,0.00,1.56,2
+28,Regular AI,40.00,12.50,3
+29,Guided AI tutor,75.00,46.60,4
+30,No AI,0.00,5.31,2
+31,Regular AI,32.50,22.77,4
+32,Guided AI tutor,71.25,31.20,4
+33,Guided AI tutor,63.75,32.05,4
+34,No AI,0.00,12.50,1
+35,Guided AI tutor,91.67,19.26,3
+36,Guided AI tutor,95.00,67.99,4
+37,Guided AI tutor,83.75,15.63,4
+38,No AI,33.33,41.94,3
+39,Guided AI tutor,86.67,43.07,3
+40,No AI,51.67,78.37,3
+41,Guided AI tutor,93.33,68.89,3
+42,Regular AI,40.00,0.00,3
+43,No AI,26.25,35.14,4
+44,Guided AI tutor,82.50,54.66,4
+45,Regular AI,42.50,3.13,4
+46,Guided AI tutor,95.00,60.16,4
+47,Guided AI tutor,72.50,39.48,4
+48,No AI,5.00,15.22,4
+49,Guided AI tutor,63.33,28.47,3
+50,Guided AI tutor,95.00,46.89,4
+51,Guided AI tutor,72.50,6.35,4
+52,Guided AI tutor,90.00,45.05,4
+53,Guided AI tutor,75.00,60.51,4
+54,Guided AI tutor,68.75,45.87,4
+55,Regular AI,31.25,23.59,4
+56,No AI,58.75,58.61,4
+57,Guided AI tutor,75.00,9.90,4
+58,No AI,0.00,2.43,3
+59,No AI,0.00,5.86,4
+60,Regular AI,50.00,3.33,3
+61,Guided AI tutor,50.00,12.19,4
+62,Regular AI,0.00,6.25,1
+63,Regular AI,31.25,50.15,4
+64,No AI,13.33,23.09,3
+65,No AI,27.50,26.44,4
+66,Guided AI tutor,77.50,11.72,4
+67,Guided AI tutor,50.00,3.13,4
+68,No AI,0.00,14.20,4
+69,No AI,10.00,7.24,4
+70,No AI,5.00,16.98,4
+71,No AI,21.25,29.90,4
+72,No AI,10.00,8.75,2
+73,Guided AI tutor,88.75,36.06,4
+74,No AI,15.00,22.12,3
+75,No AI,10.00,48.53,4
+76,No AI,80.00,45.00,3
+77,No AI,0.00,15.21,3
+78,No AI,47.50,56.82,4
+79,Guided AI tutor,60.00,23.19,2
+80,No AI,10.00,7.71,2
+81,No AI,0.00,14.35,3
+82,Regular AI,60.00,32.94,4
+83,Guided AI tutor,65.00,68.61,3
+84,No AI,0.00,2.77,4
+85,Regular AI,30.00,6.25,4
+86,No AI,10.00,11.81,4
+87,Regular AI,47.50,14.65,4
+88,No AI,8.33,11.46,3
+89,Guided AI tutor,55.00,25.01,3
+90,Guided AI tutor,41.25,17.31,4
+91,Regular AI,60.00,25.00,1
+92,Guided AI tutor,90.00,67.18,4
+93,No AI,13.33,31.85,3
+94,No AI,13.33,7.29,3
+95,Guided AI tutor,75.00,62.41,4
+96,Regular AI,6.25,5.52,4
+97,Regular AI,46.67,8.75,3
+98,Guided AI tutor,57.50,2.08,2
+99,No AI,13.33,45.00,3
+100,Guided AI tutor,63.33,47.25,3
+101,No AI,17.50,22.60,4
+102,Guided AI tutor,86.67,20.49,3
+103,Regular AI,25.00,5.63,4
+104,No AI,41.25,30.83,4
+105,Guided AI tutor,58.33,3.73,3
+106,No AI,28.33,56.88,3
+107,No AI,10.00,3.13,2
+108,No AI,60.00,49.95,4
+109,Regular AI,35.00,61.08,4
+110,No AI,11.25,26.30,4
+111,Guided AI tutor,61.25,16.05,4
+112,Regular AI,51.25,79.83,4
+113,No AI,11.25,7.19,4
+114,Guided AI tutor,48.33,1.19,3
+115,Regular AI,37.50,35.88,4
+116,Guided AI tutor,32.50,7.81,4
+117,Regular AI,65.00,29.00,3
+118,Regular AI,50.00,67.50,3
+119,No AI,0.00,1.74,4
+120,Regular AI,36.25,32.81,4
+121,Guided AI tutor,50.00,2.08,2
+122,No AI,25.00,43.04,3
+123,Regular AI,66.67,49.06,3
+124,Guided AI tutor,70.00,4.79,3
+125,Guided AI tutor,0.00,5.00,2
+126,No AI,21.67,22.22,3
+127,Regular AI,41.25,34.59,4
+128,No AI,73.33,54.10,3
+129,Regular AI,63.33,67.73,3
+130,Regular AI,57.50,18.75,2
+131,No AI,13.33,24.97,3
+132,Guided AI tutor,25.00,6.83,4
+133,No AI,0.00,11.46,4
+134,No AI,0.00,13.68,3
+135,Regular AI,62.50,30.90,4
+136,Guided AI tutor,20.00,6.25,2
+137,No AI,8.33,47.68,3
+138,No AI,0.00,6.25,3
+139,No AI,66.67,59.27,3
+140,Guided AI tutor,36.25,8.07,4
+141,No AI,58.75,13.54,4
+142,No AI,0.00,0.00,3
+143,No AI,15.00,36.25,4
+144,Guided AI tutor,68.75,24.59,4
+145,Regular AI,55.00,42.90,4
+146,No AI,48.75,58.59,4
+147,Regular AI,80.00,37.92,3
+148,Regular AI,25.00,23.36,4
+149,Regular AI,87.50,55.42,2
+150,Regular AI,62.50,23.18,4
+151,Regular AI,93.33,41.44,3
+152,No AI,13.33,14.58,3
+153,No AI,20.00,6.60,3
+154,No AI,20.00,25.63,2
+155,No AI,27.50,32.05,4
+156,Guided AI tutor,73.75,46.40,4
+157,No AI,0.00,9.45,4
+158,No AI,50.00,41.67,1
+159,Guided AI tutor,63.75,20.85,4
+160,Regular AI,56.25,57.60,4
+161,Guided AI tutor,70.00,0.00,2
+162,Regular AI,80.00,44.49,4
+163,No AI,0.00,7.92,3
+164,Guided AI tutor,25.00,10.89,4
+165,Regular AI,86.67,31.48,3
+166,Guided AI tutor,51.67,14.29,3
+167,Regular AI,58.33,6.75,3
+168,No AI,28.33,72.22,3
+169,Regular AI,57.50,52.50,2
+170,Guided AI tutor,65.00,1.04,4
+171,Regular AI,85.00,55.13,4
+172,Guided AI tutor,20.00,0.00,1
+173,Guided AI tutor,85.00,33.25,4
+174,No AI,0.00,2.08,3
+175,Regular AI,52.50,56.28,4
+176,Guided AI tutor,50.00,7.29,4
+177,Regular AI,41.25,27.84,4
+178,Guided AI tutor,25.00,54.32,4
+179,Regular AI,83.33,49.86,3
+180,Regular AI,37.50,16.85,4
+181,Guided AI tutor,75.00,43.75,1
+182,No AI,15.00,7.85,4
+183,No AI,37.50,38.28,4
+184,Regular AI,41.25,21.00,4
+185,Guided AI tutor,85.00,61.37,4
+186,Regular AI,63.75,76.74,4
+187,No AI,13.33,45.90,3
+188,Guided AI tutor,80.00,2.78,2
+189,Regular AI,62.50,58.63,4
+190,No AI,13.33,9.72,3
+191,No AI,5.00,7.76,4
+192,Regular AI,53.33,70.25,3
+193,Guided AI tutor,42.50,1.82,4
+194,No AI,16.25,24.79,4
+195,Guided AI tutor,65.00,6.51,4
+196,Regular AI,42.50,8.96,4
+197,No AI,43.75,49.63,4
+198,No AI,0.00,6.67,3
+199,Guided AI tutor,70.00,2.78,3
+200,Guided AI tutor,100.00,19.25,3
+201,Regular AI,36.25,12.50,4
+202,Guided AI tutor,61.25,25.73,4
+203,No AI,0.00,0.00,3
+204,Guided AI tutor,95.00,59.91,4
+205,Guided AI tutor,70.00,56.32,4
+206,Regular AI,21.25,37.58,4
+207,Guided AI tutor,40.00,7.81,2
+208,Guided AI tutor,31.25,19.71,4
+209,Regular AI,100.00,43.75,1
+210,Regular AI,50.00,26.09,4
+211,No AI,5.00,29.83,4
+212,Regular AI,50.00,44.58,3
+213,No AI,20.00,5.56,3
+214,No AI,16.67,30.28,3
+215,No AI,20.00,25.39,4
+216,Regular AI,28.75,3.75,4
+217,Regular AI,57.50,20.52,2
+218,Regular AI,48.75,26.58,4
+219,Regular AI,47.50,5.07,4
+220,Regular AI,38.75,16.24,4
+221,Regular AI,75.00,54.32,4
+222,Regular AI,40.00,49.95,3
+223,No AI,27.50,27.82,4
+224,Guided AI tutor,85.00,32.29,4
+225,Regular AI,37.50,24.02,4
+226,No AI,32.50,13.75,4
+227,Regular AI,31.25,3.02,4
+228,No AI,20.00,23.75,2
+229,Guided AI tutor,75.00,83.23,4
+230,Guided AI tutor,95.00,57.29,4
+231,Guided AI tutor,83.75,32.72,4
+232,No AI,23.33,36.67,3
+233,Guided AI tutor,61.25,40.13,4
+234,Regular AI,65.00,20.78,4
+235,Regular AI,36.25,30.16,4
+236,No AI,36.67,24.17,3
+237,Guided AI tutor,68.75,14.43,4
+238,No AI,8.33,1.67,3
+239,Guided AI tutor,38.75,39.69,4
+240,Guided AI tutor,71.25,39.85,4
+241,Guided AI tutor,100.00,57.90,4
+242,Regular AI,46.25,25.07,4
+243,No AI,15.00,31.72,4
+244,No AI,28.33,21.67,3
+245,Guided AI tutor,46.25,49.76,4
+246,No AI,95.00,91.25,4
+247,No AI,10.00,14.78,4
+248,Guided AI tutor,77.50,44.81,4
+249,Guided AI tutor,72.50,15.63,4
+250,No AI,45.00,24.68,3
+251,Guided AI tutor,83.75,29.13,4
+252,No AI,32.50,32.50,4
+253,No AI,32.50,32.66,4
+254,Regular AI,31.25,25.50,4
+255,Guided AI tutor,42.50,62.50,2
+256,No AI,25.00,57.34,4
+257,Regular AI,45.00,11.88,4
+258,Guided AI tutor,53.75,29.39,4
+259,No AI,42.50,39.90,4
+260,Guided AI tutor,65.00,48.89,3
+261,Guided AI tutor,5.00,10.63,4
+262,No AI,48.75,37.19,4
+263,Regular AI,60.00,52.32,3
+264,No AI,60.00,26.79,1
+265,Guided AI tutor,30.00,18.09,4
+266,Guided AI tutor,95.00,49.78,4
+267,Guided AI tutor,35.00,25.69,3
+268,No AI,32.50,28.75,4
+269,No AI,20.00,33.89,3
+270,No AI,52.50,28.58,4
+271,No AI,32.50,32.51,4
+272,Regular AI,37.50,28.39,4
+273,No AI,16.25,32.57,4
+274,Regular AI,58.75,10.10,4
+275,Guided AI tutor,90.00,36.20,4
+276,Guided AI tutor,73.75,27.19,4
+277,No AI,63.75,54.41,4
+278,Regular AI,36.25,32.34,4
+279,Guided AI tutor,85.00,78.33,3
+280,Regular AI,71.67,17.92,3
+281,Regular AI,42.50,22.50,4
+282,Regular AI,58.75,45.47,4
+283,Regular AI,65.00,47.86,3
+284,No AI,25.00,16.88,2
+285,Guided AI tutor,57.50,53.15,4
+286,No AI,22.50,21.25,2
+287,Guided AI tutor,67.50,20.63,4
+288,Guided AI tutor,86.67,75.46,3
+289,No AI,58.33,19.03,3
+290,No AI,21.25,16.43,4
+291,Regular AI,31.25,23.59,4
+292,No AI,36.67,30.18,3
+293,No AI,31.25,8.75,4
+294,Regular AI,36.25,39.29,4
+295,Guided AI tutor,93.33,79.54,3
+296,Guided AI tutor,20.00,20.36,3
+297,Guided AI tutor,47.50,5.05,4
+298,Regular AI,56.67,33.96,3
+299,Guided AI tutor,65.00,33.23,4
+300,Guided AI tutor,88.75,33.28,4
+301,Regular AI,20.00,24.17,3
+302,Regular AI,90.00,69.17,4
+303,Regular AI,21.67,36.25,3
+304,No AI,26.25,27.08,4
+305,Regular AI,58.75,43.97,4
+306,Regular AI,20.00,10.63,2
+307,No AI,28.33,35.83,3
+308,Regular AI,13.33,5.42,3
+309,Guided AI tutor,12.50,77.08,2
+310,No AI,37.50,23.40,4
+311,Regular AI,37.50,26.25,4
+312,Guided AI tutor,91.67,34.60,3
+313,Guided AI tutor,83.33,31.16,3
+314,No AI,20.00,35.10,4
+315,No AI,10.00,13.44,4
+316,Regular AI,73.33,89.31,3
+317,Regular AI,37.50,15.78,4
+318,No AI,0.00,14.95,4
+319,Guided AI tutor,80.00,67.50,4
+320,No AI,30.00,52.22,3
+321,No AI,21.67,14.65,3
+322,Guided AI tutor,65.00,0.83,3
+323,Guided AI tutor,47.50,17.50,4
+324,Guided AI tutor,35.00,37.50,3
+325,Regular AI,40.00,6.25,1
+326,No AI,36.25,52.29,4
+327,Regular AI,65.00,35.17,4
+328,No AI,30.00,10.80,4
+329,Regular AI,47.50,21.77,4
+330,Guided AI tutor,63.33,41.67,3
+331,No AI,32.50,27.40,4
+332,Guided AI tutor,93.75,77.08,4
+333,No AI,16.25,6.25,4
+334,No AI,65.00,67.50,2
+335,Regular AI,20.00,48.75,2
+336,No AI,86.67,75.67,3
+337,Regular AI,32.50,22.41,4
+338,Guided AI tutor,48.75,10.63,4
+339,No AI,43.75,40.65,4
+340,Guided AI tutor,36.67,20.56,3
+341,Guided AI tutor,46.25,33.50,4
+342,Guided AI tutor,26.67,37.15,3
+343,No AI,20.00,29.58,3
+344,Regular AI,21.25,2.97,4
+345,Guided AI tutor,93.33,65.37,3
+346,No AI,35.00,39.27,2
+347,Guided AI tutor,86.67,31.49,3
+348,Regular AI,16.25,15.63,4
+349,No AI,35.00,34.17,3
+350,No AI,33.75,59.67,4
+351,No AI,36.25,32.24,4
+352,No AI,52.50,69.53,4
+353,Guided AI tutor,58.75,25.82,4
+354,Guided AI tutor,80.00,5.00,2
+355,Guided AI tutor,66.25,19.98,4
+356,Regular AI,63.75,48.49,4
+357,No AI,10.00,10.16,4
+358,Regular AI,68.75,8.66,4
+359,No AI,15.00,23.13,4
+360,No AI,30.00,12.71,3
+361,Guided AI tutor,85.00,13.19,3
+362,Regular AI,56.67,39.84,3
+363,Regular AI,36.25,18.19,4
+364,Guided AI tutor,63.33,87.25,3
+365,Guided AI tutor,90.00,34.02,4
+366,Guided AI tutor,26.67,5.00,3
+367,No AI,53.75,56.79,4
+368,Regular AI,36.25,29.69,4
+369,No AI,5.00,11.46,4
+370,Regular AI,38.75,30.00,4
+371,Regular AI,47.50,36.41,4
+372,Guided AI tutor,70.00,68.72,4
+373,No AI,30.00,25.00,4
+374,Regular AI,42.50,21.25,4
+375,No AI,16.25,2.81,4
+376,Regular AI,58.33,27.08,3
+377,Regular AI,68.75,41.15,4
+378,No AI,26.25,15.43,4
+379,Regular AI,51.25,20.63,4
+380,Guided AI tutor,51.25,44.74,4
+381,Regular AI,53.75,36.91,4
+382,Regular AI,57.50,39.69,4
+383,No AI,28.75,27.66,4
+384,Regular AI,30.00,34.17,3
+385,No AI,40.00,78.54,3
+386,Guided AI tutor,48.75,1.25,4
+387,No AI,32.50,51.41,4
+388,No AI,10.00,1.41,4
+389,No AI,0.00,8.75,2
+390,Regular AI,51.25,17.48,4
+391,No AI,23.75,26.88,4
+392,Guided AI tutor,78.75,53.85,4
+393,No AI,0.00,0.00,1
+394,Guided AI tutor,95.00,55.58,4
+395,Guided AI tutor,78.75,56.76,4
+396,Guided AI tutor,67.50,6.98,4
+397,Guided AI tutor,100.00,69.76,3
+398,No AI,93.33,100.00,3
+399,No AI,43.33,71.67,3
+400,No AI,20.00,27.15,3
+401,No AI,16.67,25.52,3
+402,Regular AI,71.67,36.46,3
+403,Guided AI tutor,90.00,65.36,4
+404,Regular AI,45.00,11.25,2
+405,Regular AI,16.25,18.54,4
+406,Guided AI tutor,93.33,81.84,3
+407,No AI,90.00,68.44,4
+408,Regular AI,65.00,57.86,4
+409,Guided AI tutor,56.25,29.69,4
+410,Regular AI,46.67,50.49,3
+411,No AI,40.00,30.21,3
+412,Guided AI tutor,45.00,1.56,4
+413,Regular AI,37.50,15.99,4
+414,Regular AI,53.75,7.66,4
+415,No AI,20.00,16.32,3
+416,Guided AI tutor,80.00,76.80,4
+417,No AI,71.67,63.33,3
+418,Regular AI,58.75,23.88,4
+419,No AI,48.75,67.29,4
+420,No AI,41.25,54.90,4
+421,Guided AI tutor,95.00,16.88,4
+422,Guided AI tutor,93.33,28.90,3
+423,Guided AI tutor,82.50,66.17,4
+424,No AI,30.00,25.89,2
+425,No AI,80.00,85.42,2
+426,Regular AI,45.00,8.98,3
+427,Regular AI,20.00,21.43,1
+428,No AI,43.75,39.09,4
+429,No AI,15.00,24.55,4
+430,Regular AI,45.00,32.37,4
+431,Guided AI tutor,70.00,43.07,4
+432,No AI,36.67,47.59,3
+433,No AI,36.67,16.88,3
+434,Guided AI tutor,82.50,64.32,4
+435,Guided AI tutor,33.33,5.36,3
+436,Regular AI,26.25,26.43,4
+437,Guided AI tutor,20.00,8.85,2
+438,Guided AI tutor,90.00,32.08,4
+439,Guided AI tutor,95.00,80.63,4
+440,Guided AI tutor,61.25,22.75,4
+441,Guided AI tutor,58.33,0.00,3
+442,Guided AI tutor,50.00,26.61,4
+443,Guided AI tutor,75.00,52.05,3
+444,Guided AI tutor,40.00,23.68,4
+445,Guided AI tutor,100.00,61.44,3
+446,Regular AI,46.67,19.23,3
+447,No AI,58.75,66.82,4
+448,Regular AI,66.67,29.32,3
+449,Guided AI tutor,71.67,64.52,3
+450,No AI,0.00,6.25,4
+451,Regular AI,50.00,58.04,2
+452,Regular AI,62.50,38.51,4
+453,Regular AI,63.33,48.56,3
+454,Regular AI,70.00,25.64,4
+455,No AI,60.00,66.88,2
+456,Guided AI tutor,100.00,87.24,4
+457,No AI,70.00,67.81,2
+458,No AI,33.33,46.98,3
+459,Guided AI tutor,80.00,8.59,4
+460,No AI,75.00,73.79,4
+461,No AI,21.67,43.54,3
+462,No AI,60.00,88.75,2
+463,Regular AI,51.67,52.55,3
+464,Regular AI,57.50,46.56,2
+465,Regular AI,67.50,49.17,2
+466,Guided AI tutor,41.67,14.07,3
+467,No AI,13.33,27.85,3
+468,Regular AI,0.00,0.00,3
+469,Regular AI,20.00,20.94,4
+470,Guided AI tutor,70.00,43.47,4
+471,Guided AI tutor,33.33,38.13,3
+472,Guided AI tutor,51.67,5.56,3
+473,No AI,52.50,48.10,4
+474,Regular AI,25.00,22.00,4
+475,Guided AI tutor,73.75,46.19,4
+476,No AI,36.25,60.81,4
+477,Regular AI,36.25,28.26,4
+478,No AI,5.00,1.88,4
+479,Guided AI tutor,61.25,35.83,4
+480,No AI,5.00,2.68,4
+481,No AI,47.50,48.02,4
+482,No AI,0.00,7.22,3
+483,Guided AI tutor,88.75,59.22,4
+484,Guided AI tutor,95.00,49.80,4
+485,Guided AI tutor,35.00,39.05,3
+486,Regular AI,67.50,18.80,4
+487,Regular AI,53.75,10.63,4
+488,No AI,20.00,41.15,4
+489,Regular AI,53.33,45.63,3
+490,Guided AI tutor,68.75,32.40,4
+491,No AI,6.67,21.25,3
+492,Regular AI,20.00,19.38,2
+493,Guided AI tutor,67.50,49.95,4
+494,Guided AI tutor,36.25,17.33,4
+495,Guided AI tutor,95.00,54.17,4
+496,Guided AI tutor,73.33,65.97,3
+497,Guided AI tutor,93.33,77.27,3
+498,Regular AI,78.75,50.71,4
+499,Guided AI tutor,65.00,20.98,4
+500,Regular AI,68.75,68.91,4
+501,Regular AI,75.00,64.99,4
+502,No AI,10.00,4.38,2
+503,Guided AI tutor,73.33,6.25,3
+504,Regular AI,30.00,8.33,3
+505,No AI,0.00,17.69,3
+506,No AI,6.67,34.38,3
+507,Regular AI,46.67,21.79,3
+508,Guided AI tutor,93.75,67.92,4
+509,No AI,15.00,33.71,4
+510,Regular AI,33.33,7.71,3
+511,Guided AI tutor,67.50,61.07,4
+512,Regular AI,50.00,53.69,3
+513,Guided AI tutor,91.67,38.40,3
+514,Guided AI tutor,51.25,58.68,4
+515,No AI,46.67,62.74,3
+516,No AI,28.75,17.81,4
+517,Guided AI tutor,72.50,32.50,4
+518,No AI,88.75,68.49,4
+519,No AI,21.67,18.33,3
+520,No AI,41.25,35.83,4
+521,Guided AI tutor,100.00,19.24,3
+522,Guided AI tutor,56.67,4.86,3
+523,No AI,6.67,25.23,3
+524,Regular AI,22.50,39.53,4
+525,No AI,33.33,64.98,3
+526,Guided AI tutor,57.50,26.93,4
+527,No AI,42.50,12.66,4
+528,Guided AI tutor,51.25,16.70,4
+529,Regular AI,20.00,41.79,4
+530,Guided AI tutor,48.33,23.96,3
+531,No AI,88.75,81.38,4
+532,No AI,28.33,47.15,3
+533,Guided AI tutor,46.25,22.86,4
+534,No AI,0.00,20.14,3
+535,No AI,80.00,83.33,3
+536,Regular AI,33.75,4.06,4
+537,No AI,26.25,22.05,4
+538,No AI,90.00,71.67,4
+539,Guided AI tutor,83.75,2.03,4
+540,Guided AI tutor,83.75,49.10,4
+541,No AI,66.67,45.42,3
+542,Regular AI,31.25,22.69,4
+543,Guided AI tutor,78.75,22.26,4
+544,No AI,50.00,38.19,3
+545,No AI,60.00,48.47,3
+546,No AI,32.50,57.53,4
+547,Regular AI,58.75,31.98,4
+548,Guided AI tutor,75.00,23.70,4
+549,No AI,50.00,41.67,3
+550,Guided AI tutor,78.33,36.57,3
+551,No AI,93.33,96.88,3
+552,Regular AI,57.50,19.06,4
+553,Guided AI tutor,51.25,55.97,4
+554,No AI,43.33,52.43,3
+555,Regular AI,36.67,12.36,3
+556,Guided AI tutor,85.00,65.25,4
+557,Guided AI tutor,38.75,2.08,4
+558,No AI,23.33,27.50,3
+559,No AI,20.00,14.92,4
+560,Regular AI,52.50,48.72,4
+561,Regular AI,75.00,65.21,4
+562,Guided AI tutor,87.50,4.38,4
+563,Regular AI,60.00,37.19,2
+564,Regular AI,47.50,53.80,4
+565,Guided AI tutor,31.25,29.06,4
+566,Guided AI tutor,62.50,57.00,4
+567,Regular AI,65.00,19.34,3
+568,No AI,32.50,36.37,4
+569,Regular AI,35.00,19.73,3
+570,No AI,48.75,55.54,4
+571,No AI,13.33,20.14,3
+572,Regular AI,41.25,36.83,4
+573,Regular AI,87.50,60.31,2
+574,Regular AI,37.50,32.50,4
+575,No AI,45.00,82.50,2
+576,Regular AI,63.75,47.56,4
+577,No AI,13.33,19.66,3
+578,Guided AI tutor,25.00,0.00,2
+579,Guided AI tutor,66.67,36.62,3
+580,Guided AI tutor,93.33,58.01,3
+581,No AI,5.00,10.31,4
+582,No AI,33.75,24.44,4
+583,Guided AI tutor,70.00,55.72,4
+584,Guided AI tutor,93.75,26.34,4
+585,No AI,80.00,53.12,4
+586,Regular AI,70.00,45.26,4
+587,No AI,6.67,37.57,3
+588,Regular AI,63.33,31.98,3
+589,No AI,41.25,33.75,4
+590,Regular AI,51.67,52.92,3
+591,No AI,8.33,17.50,3
+592,Regular AI,56.67,69.29,3
+593,Regular AI,83.75,64.60,4
+594,Regular AI,56.25,66.21,4
+595,No AI,46.67,38.47,3
+596,Guided AI tutor,6.67,11.33,3
+597,Guided AI tutor,0.00,10.68,4
+598,No AI,60.00,60.05,3
+599,Regular AI,56.67,25.00,3
+600,Guided AI tutor,73.75,82.22,4
+601,Guided AI tutor,20.00,9.82,3
+602,No AI,51.67,63.38,3
+603,No AI,5.00,1.25,4
+604,No AI,6.67,6.25,3
+605,Regular AI,52.50,10.31,4
+606,No AI,0.00,30.83,2
+607,Regular AI,26.25,17.31,4
+608,Regular AI,80.00,72.99,4
+609,No AI,52.50,40.48,4
+610,Guided AI tutor,80.00,55.14,3
+611,No AI,21.67,28.80,3
+612,Regular AI,37.50,6.88,4
+613,Regular AI,70.00,35.95,4
+614,Regular AI,41.25,36.23,4
+615,No AI,6.67,6.25,3
+616,No AI,75.00,69.51,4
+617,Guided AI tutor,68.33,37.75,3
+618,Regular AI,35.00,32.55,4
+619,No AI,20.00,41.02,3
+620,Guided AI tutor,85.00,40.62,4
+621,Regular AI,63.75,6.46,4
+622,Regular AI,48.75,32.44,4
+623,No AI,42.50,35.83,4
+624,No AI,80.00,71.46,4
+625,No AI,47.50,65.69,4
+626,No AI,56.67,49.35,3
+627,Guided AI tutor,80.00,23.09,4
+628,No AI,46.67,49.47,3
+629,Regular AI,26.25,8.13,4
+630,No AI,42.50,25.16,4
+631,Regular AI,66.67,49.31,3
+632,No AI,51.25,71.75,4
+633,No AI,0.00,18.98,3
+634,No AI,0.00,0.00,1
+635,Guided AI tutor,73.75,50.49,4
+636,Guided AI tutor,100.00,19.17,3
+637,No AI,21.25,38.75,4
+638,Regular AI,63.33,70.00,3
+639,No AI,32.50,37.51,4
+640,Regular AI,37.50,18.60,4
+641,No AI,10.00,43.21,2
+642,Guided AI tutor,63.75,54.44,4
+643,No AI,56.67,65.35,3
+644,Guided AI tutor,63.75,48.23,4
+645,Regular AI,26.67,23.33,3
+646,No AI,22.50,43.37,2
+647,Guided AI tutor,70.00,33.22,3
+648,Regular AI,22.50,15.50,2
+649,Guided AI tutor,81.25,16.46,4
+650,Regular AI,78.75,77.14,4
+651,Guided AI tutor,50.00,24.79,3
+652,No AI,53.75,53.25,4
+653,No AI,27.50,26.55,4
+654,No AI,80.00,78.16,4
+655,No AI,46.67,63.42,3
+656,No AI,38.75,38.89,4
+657,No AI,0.00,33.29,4
+658,Guided AI tutor,70.00,68.06,4
+659,Regular AI,83.33,80.42,3
+660,Regular AI,30.00,26.90,2
+661,Regular AI,43.33,46.58,3
+662,Guided AI tutor,90.00,50.21,4
+663,Guided AI tutor,77.50,6.25,2
+664,Regular AI,60.00,23.75,3
+665,Guided AI tutor,40.00,9.63,3
+666,No AI,32.50,49.69,4
+667,Regular AI,73.75,76.94,4
+668,Guided AI tutor,67.50,22.33,4
+669,Guided AI tutor,63.75,20.45,4
+670,Regular AI,31.25,8.28,4
+671,No AI,13.33,8.75,3
+672,Guided AI tutor,8.33,28.53,3
+673,No AI,23.33,45.42,3
+674,Regular AI,42.50,14.17,4
+675,Guided AI tutor,83.75,63.06,4
+676,No AI,6.67,8.33,3
+677,Regular AI,43.33,34.44,3
+678,No AI,17.50,37.92,4
+679,No AI,53.75,30.67,4
+680,Guided AI tutor,77.50,25.51,4
+681,Guided AI tutor,23.33,9.11,3
+682,No AI,13.33,8.33,3
+683,No AI,21.25,36.72,4
+684,No AI,65.00,62.81,4
+685,Regular AI,31.25,20.78,4
+686,Regular AI,85.00,55.60,3
+687,Regular AI,40.00,14.21,3
+688,Regular AI,43.75,29.43,4
+689,Guided AI tutor,80.00,20.54,4
+690,No AI,13.33,36.32,3
+691,No AI,16.25,3.59,4
+692,Regular AI,47.50,43.26,4
+693,No AI,51.67,60.83,3
+694,No AI,23.33,31.88,3
+695,Guided AI tutor,86.67,23.19,3
+696,Guided AI tutor,31.25,23.61,4
+697,Guided AI tutor,61.25,11.56,4
+698,Guided AI tutor,73.75,18.03,4
+699,No AI,73.33,62.17,3
+700,No AI,8.33,13.54,3
+701,No AI,47.50,45.16,4
+702,No AI,43.75,35.00,4
+703,No AI,13.33,17.50,3
+704,Regular AI,58.75,46.66,4
+705,Regular AI,62.50,67.81,2
+706,No AI,10.00,39.87,4
+707,No AI,66.67,64.65,3
+708,Regular AI,48.33,15.63,3
+709,Guided AI tutor,81.25,4.90,4
+710,No AI,0.00,0.00,3
+711,No AI,13.33,33.19,3
+712,No AI,51.25,38.13,4
+713,Guided AI tutor,51.25,8.44,4
+714,Regular AI,37.50,21.36,4
+715,No AI,22.50,23.33,4
+716,No AI,42.50,54.79,4
+717,No AI,32.50,58.28,4
+718,Regular AI,85.00,87.37,4
+719,Guided AI tutor,100.00,91.67,3
+720,Guided AI tutor,72.50,54.45,4
+721,Guided AI tutor,93.33,27.63,3
+722,Regular AI,31.25,49.32,4
+723,No AI,0.00,9.60,2
+724,No AI,21.67,20.62,3
+725,No AI,30.00,32.22,3
+726,Regular AI,63.75,6.88,4
+727,Regular AI,53.33,34.23,3
+728,Guided AI tutor,50.00,45.97,4
+729,Regular AI,42.50,19.90,4
+730,Regular AI,35.00,3.82,4
+731,Guided AI tutor,90.00,42.05,2
+732,Regular AI,100.00,46.25,1
+733,Regular AI,47.50,3.65,4
+734,Regular AI,30.00,0.00,2
+735,No AI,15.00,8.29,4
+736,Guided AI tutor,60.00,11.25,3
+737,Guided AI tutor,36.67,8.33,3
+738,Guided AI tutor,53.75,21.41,4
+739,No AI,32.50,24.24,4
+740,Regular AI,68.75,12.81,4
+741,Guided AI tutor,93.33,52.69,3
+742,No AI,50.00,50.00,3
+743,No AI,53.33,37.79,3
+744,Regular AI,37.50,31.84,4
+745,Regular AI,41.25,22.01,4
+746,Regular AI,47.50,62.12,4
+747,Regular AI,20.00,32.71,1
+748,No AI,25.00,18.91,4
+749,Guided AI tutor,71.67,50.57,3
+750,No AI,10.00,13.75,2
+751,No AI,35.00,8.75,2
+752,Guided AI tutor,86.67,28.35,3
+753,No AI,30.00,14.73,2
+754,Guided AI tutor,46.25,3.89,4
+755,No AI,33.33,28.82,3
+756,No AI,0.00,20.18,4
+757,No AI,73.33,65.65,3
+758,No AI,80.00,54.79,2
+759,Guided AI tutor,45.00,11.04,4
+760,Guided AI tutor,50.00,50.74,4
+761,Regular AI,36.25,19.75,4
+762,No AI,46.67,37.86,3
+763,Guided AI tutor,63.75,64.69,4
+764,Guided AI tutor,95.00,80.14,4
+765,No AI,100.00,91.11,3
+766,Guided AI tutor,86.67,42.85,3
+767,Guided AI tutor,95.00,64.69,4
+768,No AI,46.25,34.55,4
+769,Guided AI tutor,81.25,25.89,4
+770,No AI,51.25,53.89,4
+771,Guided AI tutor,91.67,33.33,3
+772,Guided AI tutor,86.67,80.83,3
+773,Regular AI,73.75,25.00,4
+774,Regular AI,47.50,60.00,2
+775,Guided AI tutor,93.33,46.25,3
+776,Guided AI tutor,77.50,69.60,4
+777,Regular AI,53.75,33.54,4
+778,No AI,16.25,41.39,4
+779,Regular AI,85.00,54.11,4
+780,No AI,31.25,25.94,4
+781,No AI,77.50,63.75,2
+782,Regular AI,52.50,46.46,4
+783,Regular AI,37.50,50.24,4
+784,No AI,43.33,51.25,3
+785,Guided AI tutor,42.50,3.85,4
+786,Guided AI tutor,52.50,68.96,4
+787,Regular AI,57.50,19.38,4
+788,Regular AI,21.25,18.13,4
+789,No AI,85.00,60.78,3
+790,No AI,35.00,49.18,4
+791,No AI,27.50,18.65,4
+792,No AI,43.75,24.06,4
+793,No AI,90.00,64.39,4
+794,Guided AI tutor,51.25,29.98,4
+795,Regular AI,40.00,9.17,3
+796,Guided AI tutor,46.67,14.03,3
+797,Regular AI,51.25,53.65,4
+798,No AI,100.00,84.58,3
+799,Guided AI tutor,86.67,74.26,3
+800,No AI,36.67,50.21,3
+801,Regular AI,46.67,25.62,3
+802,No AI,21.25,19.84,4
+803,Guided AI tutor,93.75,18.46,4
+804,Regular AI,77.50,71.54,4
+805,No AI,0.00,9.08,4
+806,Regular AI,40.00,50.80,2
+807,Regular AI,53.75,26.19,4
+808,No AI,32.50,17.86,4
+809,Regular AI,32.50,38.54,4
+810,Regular AI,63.33,81.88,3
+811,No AI,0.00,2.08,3
+812,Guided AI tutor,71.25,30.16,4
+813,No AI,15.00,18.71,4
+814,Guided AI tutor,93.33,40.57,3
+815,Regular AI,41.25,58.37,4
+816,Regular AI,58.75,43.49,4
+817,Guided AI tutor,33.33,2.08,3
+818,No AI,0.00,10.00,3
+819,No AI,6.67,19.62,3
+820,Regular AI,78.33,26.69,3
+821,No AI,21.67,9.38,3
+822,Regular AI,48.75,60.08,4
+823,Regular AI,57.50,20.73,4
+824,Guided AI tutor,55.00,78.96,3
+825,Regular AI,70.00,49.29,3
+826,No AI,10.00,16.25,2
+827,No AI,0.00,8.96,3
+828,Regular AI,53.33,55.69,3
+829,No AI,5.00,23.20,4
+830,Regular AI,60.00,79.41,3
+831,Regular AI,68.75,83.06,4
+832,Regular AI,75.00,84.17,4
+833,Regular AI,35.00,43.47,4
+834,Regular AI,63.75,76.41,4
+835,Guided AI tutor,100.00,50.00,1
+836,Guided AI tutor,90.00,61.65,4
+837,No AI,20.00,53.19,3
+838,No AI,30.00,76.71,3
+839,No AI,86.67,58.53,3
+840,Regular AI,33.33,61.37,3
+841,Regular AI,56.67,74.86,3
+842,Guided AI tutor,73.33,73.13,3
+843,No AI,0.00,8.96,3
+844,Guided AI tutor,71.25,35.63,4
+845,Regular AI,52.50,15.79,4
+846,Guided AI tutor,90.00,77.81,2
+847,Guided AI tutor,40.00,24.48,2
+848,No AI,33.75,39.36,4
+849,Guided AI tutor,41.67,23.98,3
+850,Guided AI tutor,77.50,53.91,4
+851,Guided AI tutor,40.00,15.31,4
+852,Regular AI,65.00,44.21,3
+853,Regular AI,40.00,29.17,1
+854,Regular AI,58.33,3.75,3
+855,Guided AI tutor,60.00,20.40,2
+856,No AI,36.67,48.33,3
+857,Guided AI tutor,76.25,15.06,4
+858,No AI,33.33,42.23,3
+859,Guided AI tutor,68.75,38.85,4
+860,Guided AI tutor,67.50,0.00,4
+861,No AI,20.00,0.00,2
+862,Guided AI tutor,13.33,0.00,3
+863,Guided AI tutor,28.33,10.42,3
+864,Regular AI,47.50,62.34,4
+865,No AI,48.75,59.74,4
+866,Guided AI tutor,78.75,29.43,4
+867,Guided AI tutor,83.75,45.73,4
+868,Guided AI tutor,60.00,80.38,2
+869,Regular AI,77.50,56.25,2
+870,Regular AI,40.00,20.42,3
+871,Guided AI tutor,78.75,40.26,4
+872,Guided AI tutor,78.75,62.47,4
+873,Regular AI,65.00,40.73,4
+874,Regular AI,45.00,13.33,3
+875,No AI,78.75,67.66,4
+876,Guided AI tutor,100.00,56.88,1
+877,Guided AI tutor,47.50,52.71,4
+878,No AI,20.00,12.29,3
+879,No AI,51.67,50.28,3
+880,Guided AI tutor,71.67,72.59,3
+881,No AI,77.50,89.38,4
+882,No AI,56.25,74.69,4
+883,Regular AI,71.67,67.69,3
+884,No AI,78.75,62.80,4
+885,Guided AI tutor,71.25,7.50,4
+886,No AI,27.50,22.92,4
+887,Regular AI,42.50,8.75,4
+888,No AI,85.00,79.23,4
+889,Guided AI tutor,60.00,25.00,4
+890,No AI,32.50,41.17,4
+891,Guided AI tutor,70.00,53.40,4
+892,Regular AI,47.50,47.61,4
+893,Regular AI,51.25,76.51,4
+894,Guided AI tutor,80.00,25.80,4
+895,Guided AI tutor,48.75,35.31,4
+896,Guided AI tutor,62.50,48.75,4
+897,Guided AI tutor,100.00,77.59,4
+898,Guided AI tutor,83.75,22.50,4
+899,Regular AI,36.67,30.14,3
+900,No AI,26.67,38.87,3
+901,No AI,30.00,15.00,2
+902,Regular AI,65.00,67.29,4
+903,No AI,80.00,77.50,2
+904,No AI,16.67,42.25,3
+905,Guided AI tutor,70.00,24.32,3
+906,No AI,67.50,41.61,4
+907,No AI,0.00,2.78,3
+908,No AI,8.33,9.17,3
+909,Regular AI,38.75,3.12,4
+910,Regular AI,56.67,27.35,3
+911,Regular AI,31.25,22.43,4
+912,Guided AI tutor,70.00,7.44,3
+913,Guided AI tutor,85.00,14.06,4
+914,Regular AI,70.00,43.44,4
+915,Guided AI tutor,53.75,8.51,4
+916,No AI,27.50,35.16,4
+917,Guided AI tutor,100.00,25.00,2
+918,Regular AI,47.50,44.74,4
+919,No AI,10.00,20.73,4
+920,Regular AI,53.75,32.33,4
+921,Guided AI tutor,83.75,13.33,4
+922,Guided AI tutor,100.00,5.30,4
+923,Guided AI tutor,52.50,15.43,2
+924,Guided AI tutor,36.67,54.89,3
+925,Regular AI,66.25,33.37,4
+926,Regular AI,53.75,11.88,4
+927,No AI,25.00,44.06,4
+928,Guided AI tutor,78.33,32.92,3
+929,Guided AI tutor,68.33,53.54,3
+930,No AI,36.67,54.65,3
+931,Guided AI tutor,21.67,12.36,3
+932,Regular AI,21.25,29.84,4
+933,No AI,15.00,30.24,3
+934,No AI,13.33,9.33,3
+935,Regular AI,48.75,34.48,4
+936,No AI,16.25,20.64,4
+937,Regular AI,40.00,52.13,3
+938,Regular AI,22.50,0.00,4
+939,No AI,10.00,18.56,4
+940,Guided AI tutor,95.00,35.94,4
+941,Regular AI,66.67,43.13,3
+942,Regular AI,62.50,65.68,4
+943,Guided AI tutor,62.50,22.06,4
