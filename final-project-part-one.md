@@ -22,23 +22,20 @@ I do not think the answer is simply that AI is good or bad. A student who comple
 My primary audience is college students who have assignments, lectures, and exams competing for their time. A secondary audience is professors who are thinking about how students learn with AI. Readers should leave knowing that finishing work quickly and actually learning are not necessarily the same outcome. The story will also show where the evidence is strong, where it is mixed, and where studies do not yet answer the practical question.
 
 **Questions I want the audience to consider:**
-- If I have one hour, should I solve an assignment independently, ask AI for hints, or use AI and spend the saved time studying?
-- If I learn more from an AI tutor than a difficult lecture, what does the available research actually tell me? (A single experiment cannot justify skipping all lectures.)
-- If my final exam is without AI, how should I prepare?
-- Does learning depend on how I interact with AI and how much time I spend actively thinking?
-- Does using AI even improve the quality of the assignment itself?
+- Does AI improve practice scores?
+- Do those improvements last when AI is unavailable?
+- Does a guided AI tutor lead to different outcomes than unrestricted AI?
+- What should a student keep in mind when preparing for an exam without AI?
 
 ### Story arc and planned chapters
 
 My story starts with a choice that many students recognize, introduces evidence that challenges an easy answer, then compares different ways of using AI. The ending returns to the opening question and gives a decision framework. I want the audience to keep asking, **“What happens when AI is taken away?”**
 
-| Chapter | Main story and question | Planned visualization / evidence |
+| Stage | Story | Planned evidence |
 | --- | --- | --- |
-| **1. The promise of AI** | Start with four students who each have 60 minutes but spend them differently: independent work, AI followed by practice, attempt-then-hints, or AI without additional practice. Is the fastest assignment necessarily the best outcome? I will also mention research where permitted AI use did not clearly improve research-proposal grades. | Opening 60-minute allocation graphic; Smerdon (2024) as supporting context |
-| **2. Take AI away** | In the experiment by [Bastani et al. (2025)](https://doi.org/10.1073/pnas.2422633122), AI improved assisted practice performance, but unrestricted AI use was followed by worse performance on an independent exam. A programming study raises a similar concern about acquiring new skills. | Side-by-side practice versus independent-test charts from Bastani et al. (2025), with Anthropic (2026) as a separate example |
-| **3. The contradiction** | The experiment by [Kestin et al. (2025)](https://doi.org/10.1038/s41598-025-97652-6) found that a carefully designed AI physics tutor improved learning compared with in-class active learning. So AI does not automatically hurt learning either. | Compare learning outcomes within the Harvard physics experiment (Kestin et al., 2025), without treating different studies' tests as one comparable scale |
-| **4. Time and the way we use AI** | Perhaps the important question is not just *whether* students use AI, but *how*. Does getting answers immediately replace active thinking? Can an interactive tutor save time while preserving learning? I want to examine study time and the difference between asking for answers and asking for explanations. | Time-on-task graphic; exploratory look at study-hour variables in the math dataset; coding study's reported interaction patterns |
-| **5. What should students do?** | Return to the 60-minute question. A student preparing for an AI-free exam may need independent practice, while another may benefit from guided explanations. The right approach also depends on course rules and the task. | A final decision guide with evidence labels: supported, suggestive, and not directly tested |
+| **Setup: the promise of AI** | AI can make practice easier, but is finishing faster the same as learning? Start with one student's study dilemma. | Short scenario and Bastani practice results |
+| **Conflict: take AI away** | Compare the same experimental groups on a later independent mathematics exam. | Bastani exam results, shown beside practice |
+| **Resolution: does the type of help matter?** | Compare unrestricted AI with a guided AI tutor and explain what the study can (and cannot) tell students. | Bastani's three study groups; end with a cautious student takeaway |
 
 ### Visualization plan: three main charts
 
@@ -128,11 +125,11 @@ The data contains variables including `Part2Tot` (practice score), `Part3Tot` (i
 
 **Public working data:** [Download the main CSV](https://raw.githubusercontent.com/obastani/GenAICanHarmLearning/main/main_regressions/final_data.csv) · [Open the data file on GitHub](https://github.com/obastani/GenAICanHarmLearning/blob/main/main_regressions/final_data.csv) · [Data dictionary and analysis code](https://github.com/obastani/GenAICanHarmLearning).
 
-### Primary dataset 2: Harvard physics AI-tutor experiment
+### Optional supporting dataset: Harvard physics AI-tutor experiment
 
 My second primary dataset comes from [**Kestin et al. (2025), _AI tutoring outperforms in-class active learning_**](https://doi.org/10.1038/s41598-025-97652-6). This randomized study compared a purpose-built AI tutor with in-person active-learning instruction in a university physics course. It is useful because it measures learning, rather than merely whether students can finish a task faster. It provides evidence that a well-designed AI tutor can sometimes lead to better learning in less time in the setting studied. I located the public Stata dataset (`.dta`) in the research team's repository.
 
-I plan to compare the groups' learning outcomes within that experiment. I will also show the reported time comparison, while separating actual time on task from scheduled classroom time. If the public file does not contain every time measure I need, I will use the study's explicitly published aggregate numbers and label them as reported results. This experiment does not tell us that all lectures are ineffective, or that students should skip classes.
+If time permits, I could compare the groups' learning outcomes within that experiment. I will also show the reported time comparison, while separating actual time on task from scheduled classroom time. If the public file does not contain every time measure I need, I will use the study's explicitly published aggregate numbers and label them as reported results. This experiment does not tell us that all lectures are ineffective, or that students should skip classes.
 
 **Public working data:** [Download the Stata data file](https://raw.githubusercontent.com/HarvardAItutor/Study-Data-v4/main/Harvard_AI_Tutor_Study_Data.dta) · [Open the dataset repository](https://github.com/HarvardAItutor/Study-Data-v4) · [Read the paper](https://doi.org/10.1038/s41598-025-97652-6).
 
