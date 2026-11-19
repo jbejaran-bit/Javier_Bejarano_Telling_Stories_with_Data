@@ -3,11 +3,11 @@
 # Final Project — Part I: Outline, Data, and Sketches
 
 ## AI: Making Us Smarter or More Dependent?
-### How should students spend their time to actually learn?
+### Does AI help students learn when they have to work without it?
 
-I want to use research about AI and learning to help students think about when to use AI, when to work independently, and how to spend their limited study time.
+I want to investigate whether AI helps students learn, or mainly helps them finish practice problems. I am especially interested in what happens when students have to solve problems without AI on an exam.
 
-My goal is to compare **performance, independent learning, and time**, then help students think about how to use AI in different situations. I am not trying to prove that AI is always good or bad.
+My goal is to tell one clear story about **practice performance versus independent learning**. I will finish with practical questions students can ask before using AI to study, without claiming there is one perfect way to spend their time.
 
 ## 1. Project outline
 
@@ -40,20 +40,27 @@ My story starts with a choice that many students recognize, introduces evidence 
 | **4. Time and the way we use AI** | Perhaps the important question is not just *whether* students use AI, but *how*. Does getting answers immediately replace active thinking? Can an interactive tutor save time while preserving learning? I want to examine study time and the difference between asking for answers and asking for explanations. | Time-on-task graphic; exploratory look at study-hour variables in the math dataset; coding study's reported interaction patterns |
 | **5. What should students do?** | Return to the 60-minute question. A student preparing for an AI-free exam may need independent practice, while another may benefit from guided explanations. The right approach also depends on course rules and the task. | A final decision guide with evidence labels: supported, suggestive, and not directly tested |
 
-### Visualization plan: let the charts tell the story
+### Visualization plan: three main charts
 
-I want the final project to feel like a **data story**, not a long article or a dashboard. I plan to use **Tableau** for the main research charts and **Shorthand** to connect them with short explanations and transitions. I will start each section with a question, show a chart, and explain what the evidence does and does not mean.
+I want the final project to feel like a **data story**, not a long article or a dashboard. To keep it realistic, I will focus on **one main public dataset** (Bastani's mathematics experiment) and **three Tableau charts**. I will use **Shorthand** to connect the charts with a short setup, a surprising result, and a conclusion. The other studies are supporting context, not separate analyses I need to finish.
 
-| Order | Chart or visual | Main question | Source and tool |
+| Order | Main chart (Tableau) | What it shows | Data |
 | --- | --- | --- | --- |
-| 1 | **One hour, four choices** — simple stacked time bars (hypothetical) | How could students spend the same hour differently? | Original opening illustration in Shorthand |
-| 2 | **AI helps during practice, but what happens afterward?** — two aligned bar charts | Do assisted scores and independent exam scores tell different stories? | Bastani math dataset; Tableau |
-| 3 | **Programming skills without AI** — horizontal bar chart, 67% vs 50% | Did AI users do as well on an independent quiz? | Anthropic's published experiment; Tableau |
-| 4 | **An AI tutor can help** — within-study learning comparison | Can guided tutoring improve real learning? | Harvard physics dataset; Tableau |
-| 5 | **Time versus learning** — paired time and learning measures, or a scatterplot if the data supports one | Does more time necessarily produce more learning? | Harvard paper/data; Tableau |
-| 6 | **What should I do with my next hour?** — clear decision flow | What strategies are supported by the evidence for different student goals? | Synthesis in Shorthand; not presented as measured experimental results |
+| 1 | **Practice performance** — simple bar chart | Did students using AI solve more practice problems correctly? | Bastani et al. mathematics experiment |
+| 2 | **Independent exam results** — matching bar chart | What happened when the same groups had to work without AI? | Bastani et al. mathematics experiment |
+| 3 | **Regular AI vs. guided AI tutor** — side-by-side comparison | Does the type of AI assistance matter? | Bastani et al. mathematics experiment |
+
+I would open with a simple **60-minute student scenario** in Shorthand and end with a short **study decision guide**. These are story elements, not extra datasets or complicated interactive tools.
+
+**Optional, only if I have enough time:** one small chart from the Harvard physics study showing that AI tutoring can also support learning. The Anthropic programming study and the study-time question can be brief supporting examples instead of full analyses.
 
 I will keep the charts simple: descriptive headlines, direct labels, readable colors, source notes, and one main idea per chart. Where the data permits, Tableau tooltips can show exact values and study details. The story should still make sense without hovering. I will **not** combine percentages from different studies into one misleading comparison, and I will not invent values for the proposed charts.
+
+### Scope for the final deliverable
+
+For the final Shorthand story, my **one main research question** is: *Does using AI during practice help students when they later take an exam without AI?* The mathematics study lets me compare a no-AI group, a regular-AI group, and a guided-AI-tutor group. This is manageable because I can use the same dataset and clear colors throughout.
+
+My earlier sketches show several ideas I considered, but **I do not plan to build every sketch into a finished chart**. Sketches 2 and 5 illustrate the type of comparisons I like; the final charts will focus primarily on the mathematics data. I will keep the time-allocation question as a personal introduction and a practical takeaway, not promise a precise answer about the best number of minutes to study.
 
 ### Important distinction in the story
 
@@ -148,11 +155,11 @@ I created a small, sourced [CSV of published results](data/ai-learning-published
 
 ### Why the data is enough for this proposal
 
-I already have links to two public datasets I can analyze: the mathematics experiment CSV and the Harvard physics experiment data. I also have a small CSV with reported results from the other studies. I will focus mainly on the first two datasets rather than adding more studies. The supporting studies will help explain why results can differ, but I will not compare scores across different tests as if they were directly equivalent.
+I already have links to two public datasets I can analyze: the mathematics experiment CSV and the Harvard physics experiment data. I also have a small CSV with reported results from the other studies. I will use the mathematics dataset for the three main charts and keep the Harvard dataset as an optional extension rather than committing to another full analysis. The supporting studies will help explain why results can differ, but I will not compare scores across different tests as if they were directly equivalent.
 
 ## 4. Method and medium
 
-I plan to build an **interactive, scrolling story in Shorthand**, with the main charts built in **Tableau** and embedded along the way. The six planned visuals above will carry the argument, while the text will stay short and explain each result in plain language. The reader will start with a familiar student decision and move through research evidence before reaching the final decision guide. Rather than designing a standalone dashboard, I want each chart to answer one question and lead naturally to the next part of the story.
+I plan to build an **interactive, scrolling story in Shorthand**, with **three main Tableau charts** embedded along the way. The existing six sketches are ideas from my brainstorming, but I will prioritize the three comparisons described above. Short text will explain each result in plain language. The reader will start with a familiar student decision and move through research evidence before reaching the final decision guide. Rather than designing a standalone dashboard, I want each chart to answer one question and lead naturally to the next part of the story.
 
 For analysis, I will clean and explore the downloadable data using Python (and Stata-compatible readers for the Harvard file). I will export summarized, clearly labeled data for Tableau. I will use color consistently across the graphics, show the relevant groups and study context, and separate measured results from my own hypothetical student scenarios. I will also make sure the charts have readable labels, accessible descriptions, and source credits. If any interactive feature cannot be built reliably, the explanation and main results should still be understandable without it.
 
@@ -160,7 +167,7 @@ For analysis, I will clean and explore the downloadable data using Python (and S
 
 1. Download the public datasets and check which variables I can use.
 2. Analyze the results in Python and prepare small tables for the charts.
-3. Build the research visualizations in Tableau.
+3. Build three clear research charts in Tableau using the mathematics dataset.
 4. Put the charts into a scrolling story in Shorthand, with short explanations.
 5. Use feedback to improve the charts and finish with a careful student decision guide.
 
