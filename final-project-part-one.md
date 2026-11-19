@@ -5,9 +5,9 @@
 ## AI: Making Us Smarter or More Dependent?
 ### How should students spend their time to actually learn?
 
-**One-sentence summary:** I want to use research about AI and learning to help students think about when to use AI, when to work independently, and how to spend their limited study time.
+I want to use research about AI and learning to help students think about when to use AI, when to work independently, and how to spend their limited study time.
 
-**Main goal:** To tell a clear data story that compares **performance, independent learning, and time**, then helps college students think about how to use AI in different situations. I am not trying to prove that AI is always good or bad.
+To tell a clear data story that compares **performance, independent learning, and time**, then helps college students think about how to use AI in different situations. I am not trying to prove that AI is always good or bad.
 
 ## 1. Project outline
 
