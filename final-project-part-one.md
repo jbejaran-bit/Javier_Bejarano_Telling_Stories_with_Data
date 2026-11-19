@@ -7,6 +7,8 @@
 
 **One-sentence summary:** I want to use research about AI and learning to help students think about when to use AI, when to work independently, and how to spend their limited study time.
 
+**Main goal:** To tell a clear data story that compares **performance, independent learning, and time**, then helps college students think about how to use AI in different situations. I am not trying to prove that AI is always good or bad.
+
 ## 1. Project outline
 
 ### High-level summary
@@ -67,11 +69,15 @@ These are my **original digital sketches for the proposal**, not final charts. T
 
 This is how I want to begin. I will ask the reader who they think would do best on an exam without AI. The goal is to make the audience curious before showing any research. **Planned evidence:** the following sections will use the mathematics and programming studies; these four students are only examples.
 
+**Chart:** Stacked time bars · **Tool:** Shorthand illustration · **Data:** Hypothetical 60-minute scenarios · **Purpose:** Introduce the choice students face.
+
 ### Sketch 2 — The surprise: good performance does not guarantee learning
 
 ![Sketch 2: side-by-side proposed bar charts comparing assisted practice and independent exams](assets/ai-part1-sketch-performance.svg)
 
 I plan to use the public **Bastani mathematics dataset** for the real version. Putting assisted practice and the independent exam next to each other makes the contrast easier to see. The sketch does **not** contain real bar heights yet.
+
+**Chart:** Two aligned bar charts · **Tool:** Tableau · **Data:** Bastani et al. (2025), public CSV · **Purpose:** Contrast performance with AI and independent learning.
 
 ### Sketch 3 — Time matters, but time alone is not learning
 
@@ -79,11 +85,15 @@ I plan to use the public **Bastani mathematics dataset** for the real version. P
 
 This sketch uses the **Harvard physics study (Kestin et al., 2025)**. Students using the AI tutor spent a median of about 49 minutes, compared with an assumed 60 minutes of learning during class. The researchers also reported no correlation between time on task and post-test scores within the AI group. This is interesting for my question: **more time does not always mean more learning**. I will show learning scores alongside time, without claiming that simply spending less time causes better results.
 
+**Chart:** Paired comparison of study time and learning · **Tool:** Tableau · **Data:** Kestin et al. (2025), public research data and reported results · **Purpose:** Show why time alone is not a measure of learning.
+
 ### Sketch 4 — Ending: a practical decision guide
 
 ![Sketch 4: decision flow for students choosing how to use time and AI](assets/ai-part1-sketch-decision.svg)
 
 I want to finish with something students can actually use. The guide will consider whether the goal is to learn a concept, finish an assignment, or prepare for an exam; whether AI is allowed; and whether students need to perform without AI later. **Planned evidence:** the mathematics, physics, and programming studies. These are possible strategies, not rules proven for every student.
+
+**Visual:** Decision flow · **Tool:** Shorthand · **Evidence:** Mathematics, physics, and coding studies · **Purpose:** Help readers apply the story to their own situations.
 
 ### Sketch 5 — Coding test: can you perform without AI?
 
@@ -91,11 +101,15 @@ I want to finish with something students can actually use. The guide will consid
 
 This extra chart uses the **published Anthropic programming study**. Its two bars will show the reported average quiz scores of 67% without AI and 50% with AI. I want readers to see the difference quickly before I explain the study's limitations. The final chart will be built in **Tableau**.
 
+**Chart:** Horizontal comparison bars · **Tool:** Tableau · **Data:** Anthropic (2026), published group results · **Purpose:** Compare independent coding-test scores.
+
 ### Sketch 6 — Study time versus actual learning
 
 ![Sketch 6: proposed time-versus-learning chart with placeholder instead of invented values](assets/ai-part1-sketch-time-learning.svg)
 
 This is another possible **Tableau** chart based on the **Harvard physics study**. I will only use a scatterplot if the available data contains compatible student-level time and learning measures. Otherwise, I will compare the published time figures and learning results in separate, clearly labeled graphics. I do not want to make up a relationship just to fill a chart.
+
+**Chart:** Scatterplot only if data supports it; otherwise paired comparisons · **Tool:** Tableau · **Data:** Kestin et al. (2025), Harvard physics study · **Purpose:** Explore whether study time relates to learning.
 
 ## 3. The data
 
@@ -132,11 +146,25 @@ I created a small, sourced [CSV of published results](data/ai-learning-published
 | [Anthropic, 2026 — programming skills](https://www.anthropic.com/research/AI-assistance-coding-skills) | Quiz scores, task time, ways of interacting with AI | Published aggregate results; [sourced values CSV](data/ai-learning-published-results.csv) |
 | [Smerdon, 2024 — research proposal](https://doi.org/10.1016/j.caeai.2024.100288) | Whether AI use is associated with better assignment grades | Published study findings; not counted as a participant-level dataset |
 
+### Why the data is enough for this proposal
+
+I already have links to two public datasets I can analyze: the mathematics experiment CSV and the Harvard physics experiment data. I also have a small CSV with reported results from the other studies. I will focus mainly on the first two datasets rather than adding more studies. The supporting studies will help explain why results can differ, but I will not compare scores across different tests as if they were directly equivalent.
+
 ## 4. Method and medium
 
 I plan to build an **interactive, scrolling story in Shorthand**, with the main charts built in **Tableau** and embedded along the way. The six planned visuals above will carry the argument, while the text will stay short and explain each result in plain language. The reader will start with a familiar student decision and move through research evidence before reaching the final decision guide. Rather than designing a standalone dashboard, I want each chart to answer one question and lead naturally to the next part of the story.
 
 For analysis, I will clean and explore the downloadable data using Python (and Stata-compatible readers for the Harvard file). I will export summarized, clearly labeled data for Tableau. I will use color consistently across the graphics, show the relevant groups and study context, and separate measured results from my own hypothetical student scenarios. I will also make sure the charts have readable labels, accessible descriptions, and source credits. If any interactive feature cannot be built reliably, the explanation and main results should still be understandable without it.
+
+### Simple workflow
+
+1. Download the public datasets and check which variables I can use.
+2. Analyze the results in Python and prepare small tables for the charts.
+3. Build the research visualizations in Tableau.
+4. Put the charts into a scrolling story in Shorthand, with short explanations.
+5. Use feedback to improve the charts and finish with a careful student decision guide.
+
+**Why this project is feasible:** It uses existing research and public data, so I do not need to run my own experiment. The planned visuals each answer one part of the same question, instead of becoming a collection of unrelated statistics.
 
 ## 5. What I still need to investigate
 
