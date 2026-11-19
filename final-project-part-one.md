@@ -29,11 +29,11 @@ My main audience is college students who use AI for assignments and exam prepara
 
 The story will follow three steps:
 
-| Story stage | What I want to show | Planned Tableau chart |
-| --- | --- | --- |
-| **Setup — AI helps with practice** | Does AI improve scores while students are using it? | Practice scores for the three experimental groups |
-| **Conflict — Take AI away** | Do students still perform well on an independent exam? | Independent exam scores for the same groups |
-| **Resolution — The type of help matters** | Are the results different with unrestricted AI versus a guided AI tutor? | Comparison of the three groups across both outcomes |
+<table style="border-collapse:collapse;width:100%;margin:18px 0;"><thead><tr><th style="background:#225c88;color:#fff;padding:12px 14px;text-align:left;border:1px solid #225c88;">Story stage</th><th style="background:#225c88;color:#fff;padding:12px 14px;text-align:left;border:1px solid #225c88;">What I want to show</th><th style="background:#225c88;color:#fff;padding:12px 14px;text-align:left;border:1px solid #225c88;">Planned Tableau chart</th></tr></thead><tbody>
+<tr><td style="background:#eaf4fb;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;"><strong>Setup — AI helps with practice</strong></td><td style="background:#eaf4fb;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;">Does AI improve scores while students are using it?</td><td style="background:#eaf4fb;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;">Practice scores for the three experimental groups</td></tr>
+<tr><td style="background:#ffffff;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;"><strong>Conflict — Take AI away</strong></td><td style="background:#ffffff;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;">Do students still perform well on an independent exam?</td><td style="background:#ffffff;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;">Independent exam scores for the same groups</td></tr>
+<tr><td style="background:#eaf4fb;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;"><strong>Resolution — The type of help matters</strong></td><td style="background:#eaf4fb;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;">Are the results different with unrestricted AI versus a guided AI tutor?</td><td style="background:#eaf4fb;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;">Comparison of the three groups across both outcomes</td></tr>
+</tbody></table>
 
 I will introduce the story with a **hypothetical student deciding how to spend one hour studying**, then finish with a few practical takeaways. The three main charts will come from **Bastani et al.'s mathematics experiment**, using Tableau. I will connect them in a short scrolling story using Shorthand.
 
@@ -117,12 +117,12 @@ I created a small, sourced [CSV of published results](data/ai-learning-published
 
 ### Data source inventory
 
-| Source | Evidence I want to use | Actual data access |
-| --- | --- | --- |
-| [Bastani et al., 2025 — mathematics](https://doi.org/10.1073/pnas.2422633122) | Assisted practice, independent exam, study habits, AI condition | [Public CSV](https://raw.githubusercontent.com/obastani/GenAICanHarmLearning/main/main_regressions/final_data.csv) |
-| [Kestin et al., 2025 — university physics](https://doi.org/10.1038/s41598-025-97652-6) | AI tutoring versus active class, learning, time | [Public Stata dataset](https://github.com/HarvardAItutor/Study-Data-v4/blob/main/Harvard_AI_Tutor_Study_Data.dta) |
-| [Anthropic, 2026 — programming skills](https://www.anthropic.com/research/AI-assistance-coding-skills) | Quiz scores, task time, ways of interacting with AI | Published aggregate results; [sourced values CSV](data/ai-learning-published-results.csv) |
-| [Smerdon, 2024 — research proposal](https://doi.org/10.1016/j.caeai.2024.100288) | Whether AI use is associated with better assignment grades | Published study findings; not counted as a participant-level dataset |
+<table style="border-collapse:collapse;width:100%;margin:18px 0;"><thead><tr><th style="background:#225c88;color:#fff;padding:12px 14px;text-align:left;border:1px solid #225c88;">Source</th><th style="background:#225c88;color:#fff;padding:12px 14px;text-align:left;border:1px solid #225c88;">Evidence I want to use</th><th style="background:#225c88;color:#fff;padding:12px 14px;text-align:left;border:1px solid #225c88;">Actual data access</th></tr></thead><tbody>
+<tr><td style="background:#eaf4fb;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;"><a href="https://doi.org/10.1073/pnas.2422633122">Bastani et al., 2025 — mathematics</a></td><td style="background:#eaf4fb;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;">Assisted practice, independent exam, study habits, AI condition</td><td style="background:#eaf4fb;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;"><a href="https://raw.githubusercontent.com/obastani/GenAICanHarmLearning/main/main_regressions/final_data.csv">Public CSV</a></td></tr>
+<tr><td style="background:#ffffff;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;"><a href="https://doi.org/10.1038/s41598-025-97652-6">Kestin et al., 2025 — university physics</a></td><td style="background:#ffffff;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;">AI tutoring versus active class, learning, time</td><td style="background:#ffffff;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;"><a href="https://github.com/HarvardAItutor/Study-Data-v4/blob/main/Harvard_AI_Tutor_Study_Data.dta">Public Stata dataset</a></td></tr>
+<tr><td style="background:#eaf4fb;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;"><a href="https://www.anthropic.com/research/AI-assistance-coding-skills">Anthropic, 2026 — programming skills</a></td><td style="background:#eaf4fb;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;">Quiz scores, task time, ways of interacting with AI</td><td style="background:#eaf4fb;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;">Published aggregate results; [sourced values CSV](data/ai-learning-published-results.csv)</td></tr>
+<tr><td style="background:#ffffff;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;"><a href="https://doi.org/10.1016/j.caeai.2024.100288">Smerdon, 2024 — research proposal</a></td><td style="background:#ffffff;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;">Whether AI use is associated with better assignment grades</td><td style="background:#ffffff;color:#25344a;padding:12px 14px;border:1px solid #c6dbe9;vertical-align:top;">Published study findings; not counted as a participant-level dataset</td></tr>
+</tbody></table>
 
 ### Why the data is enough for this proposal
 
