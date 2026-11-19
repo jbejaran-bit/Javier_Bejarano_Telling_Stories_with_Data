@@ -67,6 +67,8 @@ My main quantitative dataset comes from [**Bastani et al. (2025), _Generative AI
 
 The data contains variables including `Part2Tot` (practice score), `Part3Tot` (independent exam score), `GPTBase`, `GPTTutor`, `Treatment arm`, prior GPA, and self-reported weekday/weekend study hours. I plan to compare the randomized groups on practice and independent-test results, clearly labeling those as different outcomes. The study-hour variables are especially relevant to my hypothesis, but those hours are **self-reported background measures**, not a randomized “time spent with AI” treatment. I will not claim that spending fewer hours caused lower exam scores.
 
+**Tableau-ready data:** [Download student-level summary CSV](data/ai-math-tableau-student-summary.csv). I prepared one row per student from the original file by averaging each student's available session scores. The dataset has 943 participants across three study groups. I removed the original student ID and provided scores as percentages to make Tableau comparisons easier. These are **simple descriptive averages**, not the paper's regression-adjusted treatment estimates.
+
 **Public working data:** [Download the main CSV](https://raw.githubusercontent.com/obastani/GenAICanHarmLearning/main/main_regressions/final_data.csv) · [Open the data file on GitHub](https://github.com/obastani/GenAICanHarmLearning/blob/main/main_regressions/final_data.csv) · [Data dictionary and analysis code](https://github.com/obastani/GenAICanHarmLearning).
 
 ### Optional supporting dataset: Harvard physics AI-tutor experiment
@@ -106,7 +108,7 @@ I will open the CSV directly in **Tableau Public**, check how the student and se
 
 ### Simple workflow
 
-1. Download the mathematics experiment CSV and open it in Tableau Public.
+1. Open the [Tableau-ready student summary CSV](data/ai-math-tableau-student-summary.csv) in Tableau Public.
 2. Check the student IDs, study groups, and scores so the comparisons are accurate.
 3. Create and publish three Tableau charts.
 4. Embed the charts in a Shorthand story with a short introduction and conclusion.
