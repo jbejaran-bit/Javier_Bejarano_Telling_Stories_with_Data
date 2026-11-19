@@ -33,55 +33,31 @@ The original sketches below show several ideas I considered. I do **not** need t
 
 ## 2. Initial sketches and storyboard
 
-These are my **original digital sketches for the proposal**, not final charts. They show the headings, layout, intended transitions, and data graphics I hope to build. Where bars have no values, their heights are illustrative placeholders; they are not research measurements.
+These are **simple digital wireframes** showing how I plan to organize the story. I used basic boxes, chart placeholders, headings, and notes instead of polished charts. The final charts will be created in Tableau using the research data. The bar heights in the sketches are **not real results**.
 
-### Sketch 1 — Hook: one hour, four strategies
+### Sketch 1 — Opening question
 
-![Sketch 1: four ways to spend one hour using different amounts of independent work and AI assistance](assets/ai-part1-sketch-opening.svg)
+![Simple opening storyboard with four possible study approaches](assets/ai-wireframe-1-opening.svg)
 
-This is how I want to begin. I will ask the reader who they think would do best on an exam without AI. The goal is to make the audience curious before showing any research. **Planned evidence:** the following sections will use the mathematics and programming studies; these four students are only examples.
+I want to start with a relatable question: if you have one hour before an exam, how should you use it? The four possible approaches are examples, not study groups. This will be a short introduction in **Shorthand**.
 
-**Chart:** Stacked time bars · **Tool:** Shorthand illustration · **Data:** Hypothetical 60-minute scenarios · **Purpose:** Introduce the choice students face.
+### Sketch 2 — Practice with AI
 
-### Sketch 2 — The surprise: good performance does not guarantee learning
+![Wireframe for a Tableau bar chart comparing the three study groups on practice scores](assets/ai-wireframe-2-practice.svg)
 
-![Sketch 2: side-by-side proposed bar charts comparing assisted practice and independent exams](assets/ai-part1-sketch-performance.svg)
+The first **Tableau** chart will compare practice scores for the no-AI group, regular GPT group, and guided tutor group from [Bastani et al. (2025)](https://doi.org/10.1073/pnas.2422633122). I will use the actual scores after checking the data.
 
-I plan to use the public **Bastani mathematics dataset** for the real version. Putting assisted practice and the independent exam next to each other makes the contrast easier to see. The sketch does **not** contain real bar heights yet.
+### Sketch 3 — Exam without AI
 
-**Chart:** Two aligned bar charts · **Tool:** Tableau · **Data:** Bastani et al. (2025), public CSV · **Purpose:** Contrast performance with AI and independent learning.
+![Wireframe showing the independent-exam comparison in the same three groups](assets/ai-wireframe-3-exam.svg)
 
-### Sketch 3 — Time matters, but time alone is not learning
+The second **Tableau** chart will compare those groups on their independent exam, using the same colors and layout as the previous chart. I want readers to see the difference between doing well during practice and learning enough to work alone.
 
-![Sketch 3: proposed time comparison and explanatory notes for the Harvard tutoring experiment](assets/ai-part1-sketch-time.svg)
+### Sketch 4 — Comparing types of AI and ending the story
 
-This sketch uses the [**Harvard physics study (Kestin et al., 2025)**](https://doi.org/10.1038/s41598-025-97652-6). Students using the AI tutor spent a median of about 49 minutes, compared with an assumed 60 minutes of learning during class. The researchers also reported no correlation between time on task and post-test scores within the AI group. This is interesting for my question: **more time does not always mean more learning**. I will show learning scores alongside time, without claiming that simply spending less time causes better results.
+![Wireframe for comparing unrestricted and guided AI and presenting a final takeaway](assets/ai-wireframe-4-ending.svg)
 
-**Chart:** Paired comparison of study time and learning · **Tool:** Tableau · **Data:** Kestin et al. (2025), public research data and reported results · **Purpose:** Show why time alone is not a measure of learning.
-
-### Sketch 4 — Ending: a practical decision guide
-
-![Sketch 4: decision flow for students choosing how to use time and AI](assets/ai-part1-sketch-decision.svg)
-
-I want to finish with something students can actually use. The guide will consider whether the goal is to learn a concept, finish an assignment, or prepare for an exam; whether AI is allowed; and whether students need to perform without AI later. **Planned evidence:** the mathematics, physics, and programming studies. These are possible strategies, not rules proven for every student.
-
-**Visual:** Decision flow · **Tool:** Shorthand · **Evidence:** Mathematics, physics, and coding studies · **Purpose:** Help readers apply the story to their own situations.
-
-### Sketch 5 — Coding test: can you perform without AI?
-
-![Sketch 5: example horizontal bar chart for coding quiz results](assets/ai-part1-sketch-coding.svg)
-
-This extra chart uses [**Anthropic's published programming study (2026)**](https://www.anthropic.com/research/AI-assistance-coding-skills). Its two bars will show the reported average quiz scores of 67% without AI and 50% with AI. I want readers to see the difference quickly before I explain the study's limitations. The final chart will be built in **Tableau**.
-
-**Chart:** Horizontal comparison bars · **Tool:** Tableau · **Data:** Anthropic (2026), published group results · **Purpose:** Compare independent coding-test scores.
-
-### Sketch 6 — Study time versus actual learning
-
-![Sketch 6: proposed time-versus-learning chart with placeholder instead of invented values](assets/ai-part1-sketch-time-learning.svg)
-
-This is another possible **Tableau** chart based on the **Harvard physics study**. I will only use a scatterplot if the available data contains compatible student-level time and learning measures. Otherwise, I will compare the published time figures and learning results in separate, clearly labeled graphics. I do not want to make up a relationship just to fill a chart.
-
-**Chart:** Scatterplot only if data supports it; otherwise paired comparisons · **Tool:** Tableau · **Data:** Kestin et al. (2025), Harvard physics study · **Purpose:** Explore whether study time relates to learning.
+My third **Tableau** chart will help compare the three groups across practice and exam performance. I will finish in **Shorthand** with a short explanation of what the findings mean for students, without claiming one strategy is always best.
 
 ## 3. The data
 
