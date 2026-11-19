@@ -1,5 +1,15 @@
 | [Home](https://jbejaran-bit.github.io/Javier_Bejarano_Telling_Stories_with_Data/) | [Data viz examples](dataviz-examples) | [Critique by design](critique-by-design) | [Final project I](final-project-part-one) | [Final project II](final-project-part-two) | [Final project III](final-project-part-three) |
 
+<style>
+/* Subtle table styling for this project page */
+table { border-collapse: collapse; width: 100%; margin: 1.25rem 0; }
+table thead th { background-color: #285b80; color: #ffffff; padding: 11px 13px; border: 1px solid #285b80; }
+table tbody td { padding: 10px 13px; border: 1px solid #d7e1eb; }
+table tbody tr:nth-child(odd) { background-color: #edf5fa; }
+table tbody tr:nth-child(even) { background-color: #ffffff; }
+table tbody tr:hover { background-color: #dfeef8; }
+</style>
+
 # Final Project — Part I: Outline, Data, and Sketches
 
 ## AI: Making Us Smarter or More Dependent?
