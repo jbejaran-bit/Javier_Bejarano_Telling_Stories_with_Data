@@ -5,63 +5,31 @@
 ## AI: Making Us Smarter or More Dependent?
 ### Does AI help students learn when they have to work without it?
 
-I want to investigate whether AI helps students learn, or mainly helps them finish practice problems. I am especially interested in what happens when students have to solve problems without AI on an exam.
-
-My goal is to tell one clear story about **practice performance versus independent learning**. I will finish with practical questions students can ask before using AI to study, without claiming there is one perfect way to spend their time.
-
 ## 1. Project outline
 
 ### High-level summary
 
-I chose this topic because it is a question I face as a student. Sometimes I sit through a lecture and struggle to follow what is happening, but when I study using AI as my tutor, I can ask for a simpler explanation, practice questions, and exercises similar to an exam. In the same amount of time, it can feel like I am learning much more. I also use AI when working on programming assignments, and I wonder whether it is better to try everything independently first or use AI to finish a task faster and then spend the remaining time practicing.
+I chose this topic because it is something I wonder about as a student. Sometimes I struggle to follow lectures, but when I study using AI as my tutor, I can ask questions, get explanations, and practice exercises similar to an exam. I also wonder whether using AI to finish an assignment faster actually helps me learn or just helps me complete the work.
 
-I do not think the answer is simply that AI is good or bad. A student who completes an assignment quickly with AI might receive a good grade but learn very little. Another student could use AI for an explanation and then solve several problems alone. They are both counted as “AI users,” even though they are doing different things. I want to investigate what the research tells us about **performance** (doing a task well with help), **learning** (being able to solve a similar task later without help), and **efficiency** (how much we learn for the time we spend). My goal is to finish with a useful, evidence-based guide, not to tell everyone to always use AI or never use it.
+I want to compare **performance with AI** and **learning without AI**. Using a public mathematics experiment, I will explore whether students who do better during practice also do better when they have to solve problems independently. The goal is not to say AI is always good or bad, but to help students think about how to use it when studying.
 
-### Audience and purpose
+### Audience and story
 
-My primary audience is college students who have assignments, lectures, and exams competing for their time. A secondary audience is professors who are thinking about how students learn with AI. Readers should leave knowing that finishing work quickly and actually learning are not necessarily the same outcome. The story will also show where the evidence is strong, where it is mixed, and where studies do not yet answer the practical question.
+My main audience is college students who use AI for assignments and exam preparation. Professors may also find the results interesting. The central question is: **What happens when AI is taken away?**
 
-**Questions I want the audience to consider:**
-- Does AI improve practice scores?
-- Do those improvements last when AI is unavailable?
-- Does a guided AI tutor lead to different outcomes than unrestricted AI?
-- What should a student keep in mind when preparing for an exam without AI?
+The story will follow three steps:
 
-### Story arc and planned chapters
-
-My story starts with a choice that many students recognize, introduces evidence that challenges an easy answer, then compares different ways of using AI. The ending returns to the opening question and gives a decision framework. I want the audience to keep asking, **“What happens when AI is taken away?”**
-
-| Stage | Story | Planned evidence |
+| Story stage | What I want to show | Planned Tableau chart |
 | --- | --- | --- |
-| **Setup: the promise of AI** | AI can make practice easier, but is finishing faster the same as learning? Start with one student's study dilemma. | Short scenario and Bastani practice results |
-| **Conflict: take AI away** | Compare the same experimental groups on a later independent mathematics exam. | Bastani exam results, shown beside practice |
-| **Resolution: does the type of help matter?** | Compare unrestricted AI with a guided AI tutor and explain what the study can (and cannot) tell students. | Bastani's three study groups; end with a cautious student takeaway |
+| **Setup — AI helps with practice** | Does AI improve scores while students are using it? | Practice scores for the three experimental groups |
+| **Conflict — Take AI away** | Do students still perform well on an independent exam? | Independent exam scores for the same groups |
+| **Resolution — The type of help matters** | Are the results different with unrestricted AI versus a guided AI tutor? | Comparison of the three groups across both outcomes |
 
-### Visualization plan: three main charts
+I will introduce the story with a **hypothetical student deciding how to spend one hour studying**, then finish with a few practical takeaways. The three main charts will come from **Bastani et al.'s mathematics experiment**, using Tableau. I will connect them in a short scrolling story using Shorthand.
 
-I want the final project to feel like a **data story**, not a long article or a dashboard. To keep it realistic, I will focus on **one main public dataset** (Bastani's mathematics experiment) and **three Tableau charts**. I will use **Shorthand** to connect the charts with a short setup, a surprising result, and a conclusion. The other studies are supporting context, not separate analyses I need to finish.
+The original sketches below show several ideas I considered. I do **not** need to turn all six into final charts. The Harvard physics and Anthropic programming studies can provide brief context if useful, but the mathematics study will be my main evidence.
 
-| Order | Main chart (Tableau) | What it shows | Data |
-| --- | --- | --- | --- |
-| 1 | **Practice performance** — simple bar chart | Did students using AI solve more practice problems correctly? | Bastani et al. mathematics experiment |
-| 2 | **Independent exam results** — matching bar chart | What happened when the same groups had to work without AI? | Bastani et al. mathematics experiment |
-| 3 | **Regular AI vs. guided AI tutor** — side-by-side comparison | Does the type of AI assistance matter? | Bastani et al. mathematics experiment |
-
-I would open with a simple **60-minute student scenario** in Shorthand and end with a short **study decision guide**. These are story elements, not extra datasets or complicated interactive tools.
-
-**Optional, only if I have enough time:** one small chart from the Harvard physics study showing that AI tutoring can also support learning. The Anthropic programming study and the study-time question can be brief supporting examples instead of full analyses.
-
-I will keep the charts simple: descriptive headlines, direct labels, readable colors, source notes, and one main idea per chart. Where the data permits, Tableau tooltips can show exact values and study details. The story should still make sense without hovering. I will **not** combine percentages from different studies into one misleading comparison, and I will not invent values for the proposed charts.
-
-### Scope for the final deliverable
-
-For the final Shorthand story, my **one main research question** is: *Does using AI during practice help students when they later take an exam without AI?* The mathematics study lets me compare a no-AI group, a regular-AI group, and a guided-AI-tutor group. This is manageable because I can use the same dataset and clear colors throughout.
-
-My earlier sketches show several ideas I considered, but **I do not plan to build every sketch into a finished chart**. Sketches 2 and 5 illustrate the type of comparisons I like; the final charts will focus primarily on the mathematics data. I will keep the time-allocation question as a personal introduction and a practical takeaway, not promise a precise answer about the best number of minutes to study.
-
-### Important distinction in the story
-
-The four students in the opening are **hypothetical examples**, not participants or measured results from the research. Existing studies generally do not randomly assign students to exactly those four 60-minute strategies. I will avoid presenting a “best number of minutes” unless data actually supports it. I will also distinguish experimental findings from observational associations and not imply that one study proves AI is better than attending every lecture.
+**Important limitation:** The one-hour scenario is an example, not an experiment. The data cannot prove the best number of minutes to use AI or whether students should skip lectures. I will keep these distinctions clear and label all research findings with their sources.
 
 ## 2. Initial sketches and storyboard
 
