@@ -115,14 +115,14 @@ I will show the same draft sequence to every participant, let them speak before 
 
 ### Interview 1 — Student peer
 
-The first participant thought the visualizations looked decent overall but raised two important questions about the physics study. The feedback below is paraphrased from the participant's comments.
+The first participant, a student peer, had a generally positive impression of the visualizations but questioned how the reported learning improvement was measured and whether the study included the right comparison group. Their feedback is paraphrased below.
 
 | Feedback topic | Interview 1 — Student peer | Interview 2 | Interview 3 |
 | --- | --- | --- | --- |
-| Overall impression | The visualizations look pretty decent. | Pending | Pending |
-| Confusing result | How was the reported 2× increase in learning measured? | Pending | Pending |
-| Missing comparison | What if students studied independently without AI instead of attending class? | Pending | Pending |
-| Alternative explanation | The difference could reflect the effectiveness of classroom instruction rather than the benefit of AI alone. | Pending | Pending |
+| Overall impression | Generally positive about the visualizations. | Pending | Pending |
+| Confusing result | The participant wanted to know how the reported twofold learning gain was calculated. | Pending | Pending |
+| Missing comparison | They suggested comparing AI tutoring with independent study without AI, rather than only with classroom instruction. | Pending | Pending |
+| Alternative explanation | They questioned whether the result reflected a benefit of AI itself or the relative effectiveness of the classroom instruction. | Pending | Pending |
 
 ### Research synthesis — preliminary
 
