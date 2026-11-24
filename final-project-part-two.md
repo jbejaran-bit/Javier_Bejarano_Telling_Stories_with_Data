@@ -38,19 +38,19 @@ I will use a short paragraph and the original opening wireframe from [Part I](fi
 
 ### Chapter 3 — Take away the AI
 
-![High-fidelity chart: independent mathematics exam scores for the same groups](assets/ai-real-chart-exam.svg)
+![High-fidelity chart: independent mathematics exam scores for the same groups](assets/part-two-exam-dotplot.svg)
 
 **Draft caption:** On an independent exam, the descriptive averages are much closer: **34.5% without AI, 33.9% with regular AI, and 34.7% with a guided AI tutor**. This contrast is the turning point of my story.
 
-**Design:** The group order and colors match the preceding chart. Scores are expressed as percentages and are directly labeled.
+**Design:** I switched to a dot plot because the three exam scores are nearly identical. A short annotation highlights that all three group averages are within one percentage point; the axis still runs from 0% to 100%.
 
 ### Chapter 4 — Compare the two outcomes
 
-![High-fidelity chart: practice and independent scores for each experimental group](assets/ai-real-chart-both.svg)
+![High-fidelity chart: practice and independent scores for each experimental group](assets/part-two-practice-exam-slope.svg)
 
 **Draft caption:** Comparing practice and exam scores helps distinguish **assisted performance** from **performance without AI**. The paired bars show the difference for each group. Because the two assessments are not necessarily equivalent in difficulty, the height difference should **not** be described as a measured loss of learning or as a causal effect.
 
-**Design:** The third figure combines the two outcomes; colors here distinguish *practice* and *independent exam*, while group names stay in the same order.
+**Design:** I switched to a slope chart to show how the two assessment averages compare for each study group. The three lines retain consistent group colors. The slopes are **not** estimates of within-student learning loss, since practice and exam are different assessments.
 
 ### Chapter 5 — The ending
 
@@ -62,7 +62,7 @@ This is a practical study suggestion, **not a tested claim that a particular amo
 
 ## 2. Data and chart development
 
-The three visualizations above are **actual draft charts produced from research data**, not imaginary bar heights or Tableau screenshots. I used the [public experiment file](https://raw.githubusercontent.com/obastani/GenAICanHarmLearning/main/main_regressions/final_data.csv) and a [student-level working CSV](data/ai-math-tableau-student-summary.csv). The working file contains **943 unique student records** and groups students by no AI, regular AI, or guided AI tutoring.
+The three visualizations above are **actual draft charts produced from research data**, not imaginary bar heights or Tableau screenshots. I deliberately use **three distinct forms**—bar chart, dot plot, and slope chart—so the reader sees the promise during practice, the near-equal exam outcomes, and the comparison as separate visual moments. I used the [public experiment file](https://raw.githubusercontent.com/obastani/GenAICanHarmLearning/main/main_regressions/final_data.csv) and a [student-level working CSV](data/ai-math-tableau-student-summary.csv). The working file contains **943 unique student records** and groups students by no AI, regular AI, or guided AI tutoring.
 
 To avoid counting students with multiple session rows repeatedly, I first averaged available practice and exam session scores **within each student**, then averaged those scores **within each group**. These are **unadjusted descriptive averages**, and they should not be confused with the study's published regression-adjusted estimates. The full paper is the appropriate source for its inferential and causal conclusions.
 
@@ -118,7 +118,7 @@ These are **initial design priorities based on reviewing the draft**, **not inte
 | --- | --- |
 | Do readers understand “practice” vs. “independent exam”? | Add an explanatory subtitle before the second chart |
 | Can readers interpret the percentages quickly? | Keep direct labels, add a one-line definition of what the scores measure |
-| Does the third chart feel repetitive? | Simplify its labels or replace it with a more direct comparison |
+| Does the slope chart feel clear or misleading? | Add explanation of assessment differences, simplify endpoint labels, or replace it if readers misinterpret it |
 | Is the conclusion too strong? | Make clear that the charts show descriptive averages and the study is not universal |
 | Is the student scenario mistaken for a real participant? | Clearly mark it **hypothetical** in the opening |
 
