@@ -4,7 +4,7 @@
 
 ## AI: A Shortcut to Answers or a Tool for Learning?
 
-**Project status:** Revised storyboard and three draft visuals. User interviews are pending.
+**Project status:** Revised storyboard and three draft visuals. Feedback from one peer recorded; two interviews remain.
 
 ## 1. Draft story and storyboard
 
@@ -111,34 +111,35 @@ I plan to interview three people: a PhD student, a master's student, and a high 
 
 I will show the same draft sequence to every participant, let them speak before explaining the intended message, and take short anonymous notes. I will not suggest answers or treat feedback as research evidence about the effectiveness of AI.
 
-## 4. Interview findings — to complete after three actual interviews
+## 4. Interview findings
 
-**No interviews have been reported or documented yet.** The table below is a recording sheet, not invented research findings. I will add actual anonymous comments and short verbatim quotes after each conversation.
+### Interview 1 — Student peer
 
-| Feedback topic | Interview 1 | Interview 2 | Interview 3 |
+The first participant thought the visualizations looked decent overall but raised two important questions about the physics study. The feedback below is paraphrased from the participant's comments.
+
+| Feedback topic | Interview 1 — Student peer | Interview 2 | Interview 3 |
 | --- | --- | --- | --- |
-| Participant description (general only) | Not yet interviewed | Not yet interviewed | Not yet interviewed |
-| Interpretation of Python quiz chart | Pending | Pending | Pending |
-| Interpretation of physics charts | Pending | Pending | Pending |
-| Confusing labels or story transitions | Pending | Pending | Pending |
-| Most useful suggested change | Pending | Pending | Pending |
-| Short anonymous quote (if consented) | Pending | Pending | Pending |
+| Overall impression | The visualizations look pretty decent. | Pending | Pending |
+| Confusing result | How was the reported 2× increase in learning measured? | Pending | Pending |
+| Missing comparison | What if students studied independently without AI instead of attending class? | Pending | Pending |
+| Alternative explanation | The difference could reflect the effectiveness of classroom instruction rather than the benefit of AI alone. | Pending | Pending |
 
-### Research synthesis — pending
+### Research synthesis — preliminary
 
-After at least three interviews, I will identify which observations are repeated, which differ, and what changes the feedback supports. I will distinguish what participants **actually said** from my own interpretation. I will remove all personally identifiable information before publishing.
+This feedback suggests that the physics visualization needs to define learning gain more clearly. The participant also identified a limitation: the experiment compared AI tutoring with active-learning instruction, but did not include an independent-study group without AI. The comparison therefore does not isolate the contribution of AI from other differences in the learning environment. It also does not establish that the instructor was ineffective.
+
+I will compare these observations with the remaining two interviews before drawing conclusions about common or conflicting feedback.
 
 ## 5. Proposed improvements for Part III
 
-These are **initial design priorities based on reviewing the draft**, **not interview findings**. I will revise them after I receive genuine feedback.
-
-| Design question to test | Possible improvement if interviews support it |
+| Research finding or design question | Anticipated improvement |
 | --- | --- |
-| Do readers understand the difference between the Python quiz and physics learning gains? | Add an explanatory subtitle before the second chart |
-| Can readers interpret the percentages quickly? | Keep direct labels, add a one-line definition of what the scores measure |
-| Is the distinction between measured tutor time and allotted classroom time clear? | Clarify the time labels and avoid claiming a precise time saving |
-| Is the conclusion too strong? | Make clear that the charts show descriptive averages and the study is not universal |
-| Is the student scenario mistaken for a real participant? | Clearly mark it **hypothetical** in the opening |
+| Interview 1: The meaning of the 2× learning gain was unclear. | Show the actual pre-test baseline and post-test scores, clearly define the gain calculation, and explain the ratio. |
+| Interview 1: There is no independent-study group without AI. | Explicitly identify this missing comparison and explain what the experiment cannot establish. |
+| Interview 1: Classroom effectiveness could explain part of the difference. | Avoid claiming AI is universally better than instructors; distinguish the tested learning methods from AI's isolated contribution. |
+| Initial design review: Tutor time and classroom allotted time are different measures. | Retain clear labels and avoid claiming precise individual time savings. |
+
+The first three changes are based on the actual peer feedback. Further changes will be identified after the other interviews.
 
 ## 6. References and transparency
 
