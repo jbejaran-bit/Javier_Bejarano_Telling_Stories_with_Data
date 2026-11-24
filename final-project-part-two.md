@@ -2,83 +2,75 @@
 
 # Final Project — Part II: Storyboard and User Research
 
-## Does AI help students learn when they have to work without it?
+## AI: A Shortcut to Answers or a Tool for Learning?
 
-**Project status:** Draft story and high-fidelity data charts prepared. **User interviews: not yet completed.** The interview findings and resulting revisions must be added after I speak with three actual people.
+**Project status:** Revised storyboard and three draft visuals. User interviews are pending.
 
 ## 1. Draft story and storyboard
 
-My audience is students who use AI when preparing for assignments and exams. The story has a simple question: **doing better with AI is useful, but does that translate into solving problems without it?** I will use a short scrolling presentation (planned in Shorthand), with three figures from [Bastani et al.'s mathematics experiment](https://github.com/obastani/GenAICanHarmLearning).
+My story asks whether AI helps us understand new material or simply helps us finish tasks. I decided to narrow the original proposal to **Python programming and university physics**, two subjects that are relevant to university students. The mathematics study from Part I is no longer used in these charts.
 
-The opening is a **hypothetical** scenario: a student has one hour to study and can ask AI for answers, use it as a tutor, or work independently. This illustration is not part of the experiment and will not be presented as measured evidence.
+### Chapter 1 — Can you solve it without AI?
 
-### Where does the data come from?
+Imagine learning a new Python library. You can ask AI to write the code or try to solve the problem yourself. Which approach helps you understand the material better? This is a hypothetical example, not a research participant.
 
-In fall 2023, researchers conducted a randomized experiment with nearly 1,000 high school students in Turkey. Students practiced **mathematics problems**, not programming exercises, under three conditions:
+### Chapter 2 — Python: finishing a task is not the same as learning
 
-- **No AI:** Students used regular course materials without AI.
-- **Regular AI (GPT Base):** Students could use a ChatGPT-like GPT-4 tool.
-- **Guided AI tutor (GPT Tutor):** Students used a GPT-4 tutor designed with teacher-provided guidance to encourage learning rather than simply supply answers.
+Anthropic's 2026 experiment involved 52 developers learning Trio, an unfamiliar Python library. After a coding task, participants took a quiz measuring their understanding.
 
-After practice, students completed an assessment without AI. The charts show descriptive average scores from the publicly released student data. The published study also uses adjusted statistical models, which found that regular AI harmed subsequent independent performance while the guided tutor largely mitigated that harm.
+<div style="max-width:700px;margin:24px auto;padding:24px;border:1px solid #dce4eb;border-radius:12px;">
+<h3 style="margin:0 0 6px;">Developers using AI scored lower on the quiz</h3>
+<p style="color:#536579;">Mean quiz score (% correct)</p>
+<div style="display:flex;align-items:flex-end;justify-content:center;gap:60px;height:260px;border-bottom:1px solid #aab6c2;">
+<div style="width:130px;height:67%;background:#647f91;position:relative;"><strong style="position:absolute;top:-28px;left:0;width:100%;text-align:center;font-size:20px;">67%</strong></div>
+<div style="width:130px;height:50%;background:#cf803a;position:relative;"><strong style="position:absolute;top:-28px;left:0;width:100%;text-align:center;font-size:20px;">50%</strong></div>
+</div>
+<div style="display:flex;justify-content:center;gap:60px;text-align:center;"><span style="width:130px;">Without AI</span><span style="width:130px;">With AI</span></div>
+<p style="font-weight:bold;color:#9b551d;text-align:center;margin:20px 0 8px;">17 percentage points lower with AI</p>
+<small>Source: Anthropic (2026), How AI assistance impacts the formation of coding skills.</small>
+</div>
 
-**Source:** [Bastani et al. (2025), published study](https://doi.org/10.1073/pnas.2422633122) | [Original data and code](https://github.com/obastani/GenAICanHarmLearning).
+The AI-assisted group scored 50% on average compared with 67% in the hand-coding group. This study concerns immediate coding skill acquisition, not long-term learning or every possible way of using AI.
 
-### Story sequence
+### Chapter 3 — Physics: the way AI is designed matters
 
-| Chapter | What the reader sees | What the reader should understand |
-| --- | --- | --- |
-| **1. The choice** | A question about how to use AI when studying | Completing practice faster is not necessarily the same as learning |
-| **2. The promise** | Practice scores for three randomly assigned study groups | Students working with AI scored higher during assisted practice in these descriptive data |
-| **3. The surprise** | Independent exam scores for those same groups | The large practice gap is not visible in the unassisted exam averages |
-| **4. What matters** | Practice and independent scores together | The type of assistance and the outcome measured both matter; avoid universal claims |
-| **5. Takeaway** | A short decision guide | Use AI as support while checking whether you can solve new problems without it |
+A randomized crossover study of 194 Harvard undergraduate physics students compared a purpose-built AI tutor with an active-learning classroom. Unlike a general coding assistant, the tutor was designed around teaching principles.
 
-### Chapter 1 — The study decision
+<div style="max-width:700px;margin:24px auto;padding:24px;border:1px solid #dce4eb;border-radius:12px;">
+<h3 style="margin:0 0 6px;">A purpose-built AI tutor improved learning gains</h3>
+<p style="color:#536579;">Median learning gain relative to the active-learning class</p>
+<div style="display:flex;align-items:center;gap:12px;margin:24px 0;"><span style="width:150px;">Classroom</span><div style="width:30%;height:42px;background:#647f91;border-radius:4px;"></div><strong>1×</strong></div>
+<div style="display:flex;align-items:center;gap:12px;margin:24px 0;"><span style="width:150px;">AI tutor</span><div style="width:60%;height:42px;background:#32856e;border-radius:4px;"></div><strong>&gt;2×</strong></div>
+<small>Source: Kestin et al. (2025), Scientific Reports. The classroom gain is normalized to 1; the AI result is a reported lower bound, not an exact ratio.</small>
+</div>
 
-**Suggested Shorthand opening:** *You have an hour to study. An AI tool could help you finish the practice problems quickly. But what happens on the exam, when the tool is gone?*
+The authors report more than twice the median learning gain with the AI tutor. This is a different experiment and outcome from the Python quiz; the numbers cannot be compared directly.
 
-I will use a short paragraph and the original opening wireframe from [Part I](final-project-part-one), not a new dataset or an invented numerical comparison.
+### Chapter 4 — Learning time
 
-### Chapter 2 — Practice looks promising
+<div style="max-width:700px;margin:24px auto;padding:24px;border:1px solid #dce4eb;border-radius:12px;">
+<h3 style="margin:0 0 8px;">The physics tutor also took less time than the allotted class activity</h3>
+<p style="color:#536579;">Minutes</p>
+<div style="display:flex;justify-content:space-around;text-align:center;margin:24px 0;gap:12px;"><div style="flex:1;background:#edf6f3;padding:22px;border-radius:8px;"><strong style="font-size:38px;color:#28705c;">49</strong><p>AI tutor<br>Median time</p></div><div style="flex:1;background:#f1f4f7;padding:22px;border-radius:8px;"><strong style="font-size:38px;color:#526779;">60</strong><p>Classroom<br>Allotted time</p></div></div>
+<small>Source: Kestin et al. (2025). Median measured tutor time versus scheduled classroom activity time; not two measured medians.</small>
+</div>
 
-![High-fidelity chart: average assisted-practice scores for three experimental groups](assets/ai-real-chart-practice.svg)
+The tutor's median measured time was 49 minutes, compared with 60 minutes allotted to the classroom activity. This is context for the learning result, not a precise estimate of individual time savings.
 
-**Draft caption:** In the released data, the average practice scores are about **31.2% without AI, 49.6% with regular AI, and 66.9% with a guided AI tutor**. This chart measures performance during practice; it does not by itself establish independent learning.
+### Chapter 5 — What should students do?
 
-**Design:** Horizontal bars let readers compare three groups quickly; each group has a distinct, consistent color, direct percentage labels, and a source note.
+Use AI to ask questions, get explanations, and practice. Afterward, try a new problem independently. These are practical suggestions inspired by the studies, not a claim that one approach is optimal for everyone.
 
-### Chapter 3 — Take away the AI
-
-![High-fidelity chart: independent mathematics exam scores for the same groups](assets/part-two-exam-dotplot.svg)
-
-**Draft caption:** On an independent exam, the descriptive averages are much closer: **34.5% without AI, 33.9% with regular AI, and 34.7% with a guided AI tutor**. This contrast is the turning point of my story.
-
-**Design:** I switched to a dot plot because the three exam scores are nearly identical. A short annotation highlights that all three group averages are within one percentage point; the axis still runs from 0% to 100%.
-
-### Chapter 4 — Practice versus independent exam (simplified charts)
-
-![High-fidelity chart: practice and independent scores for each experimental group](assets/part-two-clear-practice-exam-v2.svg)
-
-**Draft caption:** AI-assisted groups had higher average scores during practice, but all three groups scored around 34–35% on the independent exam. The two assessments are different, so their scores should **not** be interpreted as measured learning losses or causal effects.
-
-**Design:** I replaced the confusing slope chart with two small horizontal bar charts, using the same group order and 0–100% scale. Blue shows practice scores above and gray shows exam scores below; all values are labeled directly.
-
-### Chapter 5 — The ending
-
-**Suggested Shorthand conclusion:** *AI may help you work through practice problems, but the real test is what you can do when the assistance is removed. After using an AI explanation, try a new problem without it.*
-
-This is a practical study suggestion, **not a tested claim that a particular amount of time with AI is optimal**. I will keep the conclusion short and mention the limits of generalizing from one school mathematics experiment to all college courses.
-
-**Draft format:** Five scrolling sections, three main charts, and short transitions. I do not plan a dashboard, additional required datasets, or complicated interactive controls.
+**Storyboard plan:** An opening question, the Python quiz chart, the physics learning-gain chart, the time comparison, and a short conclusion. The final medium is planned as a scrolling Shorthand story.
 
 ## 2. Data and chart development
 
-The three visualizations above are **actual draft charts produced from research data**, not imaginary bar heights or Tableau screenshots. I deliberately use **a bar chart, dot plot, and two-panel comparison**—so the reader sees the promise during practice, the near-equal exam outcomes, and the comparison as separate visual moments. I used the [public experiment file](https://raw.githubusercontent.com/obastani/GenAICanHarmLearning/main/main_regressions/final_data.csv) and a [student-level working CSV](data/ai-math-tableau-student-summary.csv). The working file contains **943 unique student records** and groups students by no AI, regular AI, or guided AI tutoring.
+| Source | Data used in this draft |
+| --- | --- |
+| [Anthropic (2026)](https://www.anthropic.com/research/AI-assistance-coding-skills) | Published group mean quiz scores, 67% and 50% |
+| [Kestin et al. (2025)](https://doi.org/10.1038/s41598-025-97652-6) | Published median learning-gain comparison and time statistics |
 
-To avoid counting students with multiple session rows repeatedly, I first averaged available practice and exam session scores **within each student**, then averaged those scores **within each group**. These are **unadjusted descriptive averages**, and they should not be confused with the study's published regression-adjusted estimates. The full paper is the appropriate source for its inferential and causal conclusions.
-
-The draft charts use clear titles, readable percentage labels, two outcome measures, and source credits. For Part III I will review axis scaling, accessibility, the contrast between study conditions, and whether tooltips add genuine context. The final story may rebuild the figures in Tableau and embed them in Shorthand.
+[Working CSV of published results](data/ai-learning-published-results.csv) contains the source values for the quiz and time comparison. The relative learning-gain graphic uses the published statement of more than twice the median gain, not an invented exact value. I am using published aggregate results, not claiming to have independently analyzed the raw physics or coding records. The studies use different participants, tasks and measurements, so I present them separately.
 
 ## 3. User research protocol
 
@@ -88,18 +80,17 @@ I want to find out whether students can understand the difference between **gett
 
 ### Recruitment plan
 
-I will ask **at least three people** who broadly represent the audience: students who sometimes use AI for coursework and, if available, one student who uses it rarely. I will aim for different levels of familiarity with AI and data charts. I will interview them individually for about **5–10 minutes** and record their reactions without collecting names, contact information, or other identifying details. Participation is voluntary.
+I plan to interview three people: a PhD student, a master's student, and a high school educator. The two students represent my intended audience, while the educator offers a complementary teaching perspective. I will ask them individually for anonymous feedback. Participation is voluntary.
 
 ### Interview script
 
 **Opening:** “I am creating a short data story about AI and studying. I would like your feedback on the early draft, not on your knowledge of statistics. You can be critical. I will report your feedback anonymously.”
 
-1. Before seeing the charts, **what would you expect to happen** to students' exam performance after practicing with AI?
-2. After viewing the **practice chart**, what do you think it shows? Is any label or term confusing?
-3. After viewing the **independent exam chart**, what surprised you? What do the percentages mean to you?
-4. Looking at the **comparison chart**, can you explain the main takeaway in your own words?
-5. Is there any point where you **lose track of the story**, or where a chart or paragraph needs more context?
-6. What **one thing should I change** before presenting this to other students?
+1. What is the main message you get from the graphs?
+2. Did any of the results surprise you?
+3. Which graph was the easiest to understand?
+4. Was anything confusing or difficult to understand?
+5. What would you change or improve?
 
 **Optional follow-up prompts:** “What made you think that?” “Which chart is easiest to understand?” “Would the conclusion make you change anything about how you study?”
 
@@ -112,8 +103,8 @@ I will show the same draft sequence to every participant, let them speak before 
 | Feedback topic | Interview 1 | Interview 2 | Interview 3 |
 | --- | --- | --- | --- |
 | Participant description (general only) | Not yet interviewed | Not yet interviewed | Not yet interviewed |
-| Interpretation of practice chart | Pending | Pending | Pending |
-| Interpretation of exam chart | Pending | Pending | Pending |
+| Interpretation of Python quiz chart | Pending | Pending | Pending |
+| Interpretation of physics charts | Pending | Pending | Pending |
 | Confusing labels or story transitions | Pending | Pending | Pending |
 | Most useful suggested change | Pending | Pending | Pending |
 | Short anonymous quote (if consented) | Pending | Pending | Pending |
@@ -128,16 +119,16 @@ These are **initial design priorities based on reviewing the draft**, **not inte
 
 | Design question to test | Possible improvement if interviews support it |
 | --- | --- |
-| Do readers understand “practice” vs. “independent exam”? | Add an explanatory subtitle before the second chart |
+| Do readers understand the difference between the Python quiz and physics learning gains? | Add an explanatory subtitle before the second chart |
 | Can readers interpret the percentages quickly? | Keep direct labels, add a one-line definition of what the scores measure |
-| Is the two-panel comparison clear without implying a time trend? | Explain assessment differences, keep identical scales, and simplify labels if needed |
+| Is the distinction between measured tutor time and allotted classroom time clear? | Clarify the time labels and avoid claiming a precise time saving |
 | Is the conclusion too strong? | Make clear that the charts show descriptive averages and the study is not universal |
 | Is the student scenario mistaken for a real participant? | Clearly mark it **hypothetical** in the opening |
 
 ## 6. References and transparency
 
-- Bastani, O., et al. (2025). [*Generative AI without guardrails can harm learning*](https://doi.org/10.1073/pnas.2422633122). *Proceedings of the National Academy of Sciences*. [Public study data](https://github.com/obastani/GenAICanHarmLearning).
-- [Part I proposal and sketches](final-project-part-one) and [working student-level CSV](data/ai-math-tableau-student-summary.csv).
+- Anthropic (2026). [How AI assistance impacts the formation of coding skills](https://www.anthropic.com/research/AI-assistance-coding-skills).
+- Kestin et al. (2025). [AI tutoring outperforms in-class active learning](https://doi.org/10.1038/s41598-025-97652-6). Scientific Reports.
+- [Part I proposal](final-project-part-one).
 
-**AI acknowledgment:** I used ChatGPT to help organize the draft story and user-research protocol, prepare the descriptive student-level dataset and preliminary chart graphics, and edit the text on this page. I am responsible for checking the analysis, carrying out the actual user interviews, drawing conclusions from the feedback, and completing the final design. The draft charts are generated graphics based on data, **not Tableau-created figures**. No interviews or feedback were generated by AI.
-
+**AI acknowledgment:** I used ChatGPT to help restructure the story, create HTML charts from published aggregate results, and draft the interview protocol. I will conduct the actual interviews and verify the results and final designs. No interviews or feedback were generated by AI.
