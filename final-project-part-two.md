@@ -12,6 +12,18 @@ My audience is students who use AI when preparing for assignments and exams. The
 
 The opening is a **hypothetical** scenario: a student has one hour to study and can ask AI for answers, use it as a tutor, or work independently. This illustration is not part of the experiment and will not be presented as measured evidence.
 
+### Where does the data come from?
+
+In fall 2023, researchers conducted a randomized experiment with nearly 1,000 high school students in Turkey. Students practiced **mathematics problems**, not programming exercises, under three conditions:
+
+- **No AI:** Students used regular course materials without AI.
+- **Regular AI (GPT Base):** Students could use a ChatGPT-like GPT-4 tool.
+- **Guided AI tutor (GPT Tutor):** Students used a GPT-4 tutor designed with teacher-provided guidance to encourage learning rather than simply supply answers.
+
+After practice, students completed an assessment without AI. The charts show descriptive average scores from the publicly released student data. The published study also uses adjusted statistical models, which found that regular AI harmed subsequent independent performance while the guided tutor largely mitigated that harm.
+
+**Source:** [Bastani et al. (2025), published study](https://doi.org/10.1073/pnas.2422633122) | [Original data and code](https://github.com/obastani/GenAICanHarmLearning).
+
 ### Story sequence
 
 | Chapter | What the reader sees | What the reader should understand |
