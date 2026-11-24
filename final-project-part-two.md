@@ -16,16 +16,16 @@ Imagine learning a new Python library. You can ask AI to write the code or try t
 
 ### Chapter 2 — Python: finishing a task is not the same as learning
 
-Anthropic's 2026 experiment involved 52 developers learning Trio, an unfamiliar Python library. After a coding task, participants took a quiz measuring their understanding.
+Anthropic's 2026 randomized experiment involved 52 software developers learning Trio, a Python library they had never used. One group could use an AI coding assistant; the other wrote code without AI. Both groups completed coding tasks and then took a quiz **without AI** to test their understanding. [Study source](https://www.anthropic.com/research/AI-assistance-coding-skills).
 
 <div style="max-width:700px;margin:24px auto;padding:24px;border:1px solid #dce4eb;border-radius:12px;">
 <h3 style="margin:0 0 6px;">Developers using AI scored lower on the quiz</h3>
-<p style="color:#536579;">Mean quiz score (% correct)</p>
+<p style="color:#536579;">Mean score on the independent Python quiz (% correct)</p>
 <div style="display:flex;align-items:flex-end;justify-content:center;gap:60px;height:260px;border-bottom:1px solid #aab6c2;">
 <div style="width:130px;height:67%;background:#647f91;position:relative;"><strong style="position:absolute;top:-28px;left:0;width:100%;text-align:center;font-size:20px;">67%</strong></div>
 <div style="width:130px;height:50%;background:#cf803a;position:relative;"><strong style="position:absolute;top:-28px;left:0;width:100%;text-align:center;font-size:20px;">50%</strong></div>
 </div>
-<div style="display:flex;justify-content:center;gap:60px;text-align:center;"><span style="width:130px;">Without AI</span><span style="width:130px;">With AI</span></div>
+<div style="display:flex;justify-content:center;gap:60px;text-align:center;"><span style="width:130px;">Coded without AI</span><span style="width:130px;">Coded with AI</span></div>
 <p style="font-weight:bold;color:#9b551d;text-align:center;margin:20px 0 8px;">17 percentage points lower with AI</p>
 <small>Source: Anthropic (2026), How AI assistance impacts the formation of coding skills.</small>
 </div>
@@ -34,22 +34,37 @@ The AI-assisted group scored 50% on average compared with 67% in the hand-coding
 
 ### Chapter 3 — Physics: the way AI is designed matters
 
-A randomized crossover study of 194 Harvard undergraduate physics students compared a purpose-built AI tutor with an active-learning classroom. Unlike a general coding assistant, the tutor was designed around teaching principles.
+In a Harvard introductory physics course, 194 eligible students took part in a randomized crossover experiment. Existing small classroom peer groups were randomly assigned to one of two learning sequences. For one lesson, students attended an instructor-led active-learning class; for the other, they used a purpose-built AI tutor outside class instead.
+
+<div style="max-width:700px;margin:24px auto;padding:20px;border:1px solid #dce4eb;border-radius:12px;">
+<h3 style="text-align:center;margin:0 0 8px;">How the physics experiment worked</h3>
+<p style="text-align:center;"><strong>194 students</strong><br>Random assignment by small peer group</p>
+<table style="width:100%;text-align:center;border-collapse:separate;border-spacing:6px;">
+<thead><tr><th>Lesson</th><th>Sequence A</th><th>Sequence B</th></tr></thead>
+<tbody>
+<tr><td>Lesson 1</td><td style="background:#e7eef5;color:#243d55;padding:16px;">In-person class</td><td style="background:#e3f2eb;color:#205e49;padding:16px;">AI tutor</td></tr>
+<tr><td>Lesson 2</td><td style="background:#e3f2eb;color:#205e49;padding:16px;">AI tutor</td><td style="background:#e7eef5;color:#243d55;padding:16px;">In-person class</td></tr>
+</tbody></table>
+<p style="text-align:center;margin:16px 0;"><strong>For each lesson:</strong><br>Pre-test → Learning activity → Post-test</p>
+<small>Source: Kestin et al. (2025), experimental methods. Sequence labels are illustrative.</small>
+</div>
+
+**What is being compared?** The improvement in quiz scores after each teaching method. Random assignment helps separate the effect of instruction from students' initial ability or preferences. This was a comparison of two specific physics lessons, not students who chose to skip class for an entire semester. The tutor was designed to teach the course material, rather than simply provide answers. [Study source](https://doi.org/10.1038/s41598-025-97652-6).
 
 <div style="max-width:700px;margin:24px auto;padding:24px;border:1px solid #dce4eb;border-radius:12px;">
 <h3 style="margin:0 0 6px;">A purpose-built AI tutor improved learning gains</h3>
-<p style="color:#536579;">Median learning gain relative to the active-learning class</p>
+<p style="color:#536579;">Median improvement from pre-test to post-test (classroom = 1×)</p>
 <div style="display:flex;align-items:center;gap:12px;margin:24px 0;"><span style="width:150px;">Classroom</span><div style="width:30%;height:42px;background:#647f91;border-radius:4px;"></div><strong>1×</strong></div>
 <div style="display:flex;align-items:center;gap:12px;margin:24px 0;"><span style="width:150px;">AI tutor</span><div style="width:60%;height:42px;background:#32856e;border-radius:4px;"></div><strong>&gt;2×</strong></div>
 <small>Source: Kestin et al. (2025), Scientific Reports. The classroom gain is normalized to 1; the AI result is a reported lower bound, not an exact ratio.</small>
 </div>
 
-The authors report more than twice the median learning gain with the AI tutor. This is a different experiment and outcome from the Python quiz; the numbers cannot be compared directly.
+The authors report more than twice the median learning gain with the AI tutor. This means improvement on the lesson quizzes, not twice the overall grade or twice the long-term knowledge. This is a different experiment and outcome from the Python quiz; the numbers cannot be compared directly.
 
 ### Chapter 4 — Learning time
 
 <div style="max-width:700px;margin:24px auto;padding:24px;border:1px solid #dce4eb;border-radius:12px;">
-<h3 style="margin:0 0 8px;">The physics tutor also took less time than the allotted class activity</h3>
+<h3 style="margin:0 0 8px;">How much time was spent or allocated to the physics lesson?</h3>
 <p style="color:#536579;">Minutes</p>
 <div style="display:flex;justify-content:space-around;text-align:center;margin:24px 0;gap:12px;"><div style="flex:1;background:#edf6f3;padding:22px;border-radius:8px;"><strong style="font-size:38px;color:#28705c;">49</strong><p>AI tutor<br>Median time</p></div><div style="flex:1;background:#f1f4f7;padding:22px;border-radius:8px;"><strong style="font-size:38px;color:#526779;">60</strong><p>Classroom<br>Allotted time</p></div></div>
 <small>Source: Kestin et al. (2025). Median measured tutor time versus scheduled classroom activity time; not two measured medians.</small>
@@ -61,7 +76,7 @@ The tutor's median measured time was 49 minutes, compared with 60 minutes allott
 
 Use AI to ask questions, get explanations, and practice. Afterward, try a new problem independently. These are practical suggestions inspired by the studies, not a claim that one approach is optimal for everyone.
 
-**Storyboard plan:** An opening question, the Python quiz chart, the physics learning-gain chart, the time comparison, and a short conclusion. The final medium is planned as a scrolling Shorthand story.
+**Storyboard plan:** An opening question, the Python quiz chart, the physics randomized-experiment diagram, the learning-gain chart, the time comparison, and a short conclusion. The final medium is planned as a scrolling Shorthand story.
 
 ## 2. Data and chart development
 
@@ -131,4 +146,4 @@ These are **initial design priorities based on reviewing the draft**, **not inte
 - Kestin et al. (2025). [AI tutoring outperforms in-class active learning](https://doi.org/10.1038/s41598-025-97652-6). Scientific Reports.
 - [Part I proposal](final-project-part-one).
 
-**AI acknowledgment:** I used ChatGPT to help restructure the story, create HTML charts from published aggregate results, and draft the interview protocol. I will conduct the actual interviews and verify the results and final designs. No interviews or feedback were generated by AI.
+**AI acknowledgment:** I used ChatGPT to help restructure the story, create HTML charts and an experimental-design diagram from published research, and draft the interview protocol. I will conduct the actual interviews and verify the results and final designs. No interviews or feedback were generated by AI.
