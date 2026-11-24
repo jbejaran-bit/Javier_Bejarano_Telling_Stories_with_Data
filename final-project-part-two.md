@@ -44,9 +44,9 @@ I will use a short paragraph and the original opening wireframe from [Part I](fi
 
 **Design:** I switched to a dot plot because the three exam scores are nearly identical. A short annotation highlights that all three group averages are within one percentage point; the axis still runs from 0% to 100%.
 
-### Chapter 4 — Compare the two outcomes
+### Chapter 4 — Practice versus independent exam (simplified charts)
 
-![High-fidelity chart: practice and independent scores for each experimental group](assets/part-two-two-bar-charts.svg)
+![High-fidelity chart: practice and independent scores for each experimental group](assets/part-two-clear-practice-exam-v2.svg)
 
 **Draft caption:** AI-assisted groups had higher average scores during practice, but all three groups scored around 34–35% on the independent exam. The two assessments are different, so their scores should **not** be interpreted as measured learning losses or causal effects.
 
