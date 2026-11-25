@@ -9,12 +9,12 @@
 <div style="background:#142b40;color:#fff;padding:32px 24px;border-radius:12px;margin:24px 0;">
 <p style="color:#b9d8e4;font-size:13px;letter-spacing:2px;margin:0;">AI &amp; EDUCATION</p>
 <h2 style="color:#fff;font-size:30px;line-height:1.2;margin:12px 0;">Are we learning more, or just finishing faster?</h2>
-<p style="color:#e1eaf0;margin:0;">Two experiments reveal why the way we use AI matters.</p>
+<p style="color:#e1eaf0;margin:0;">Two experiments in programming and physics explore how AI assistance relates to immediate learning.</p>
 </div>
 
 ## 1. Draft story and storyboard
 
-My story asks whether AI helps us understand new material or simply helps us finish tasks. I decided to narrow the original proposal to **Python programming and university physics**, two subjects that are relevant to university students. The mathematics study from Part I is no longer used in these charts.
+My intended audience is university students learning new material with AI. My story asks whether AI helps us understand new material or simply helps us finish tasks. I decided to narrow the original proposal to **Python programming and university physics**, two subjects that are relevant to university students. The mathematics study from Part I is no longer used in these charts.
 
 ### Chapter 1 — Can you solve it without AI?
 
@@ -22,22 +22,24 @@ Imagine learning a new Python library. You can ask AI to write the code or try t
 
 ### Chapter 2 — Python: finishing a task is not the same as learning
 
-Shen and Tamkin's (2026) randomized experiment at Anthropic involved 52 software developers learning Trio, a Python library they had never used. One group could use an AI coding assistant; the other wrote code without AI. Both groups completed coding tasks and then took a quiz **without AI** to test their understanding. [Study source](https://www.anthropic.com/research/AI-assistance-coding-skills).
+Shen and Tamkin's (2026) randomized experiment at Anthropic involved 52 software developers learning Trio, a Python library they had never used. One group could use an AI coding assistant; the other wrote code without AI. Both groups completed coding tasks and then took a quiz **without AI** to test their understanding. [Study source](https://arxiv.org/html/2601.20245v3).
 
-<div style="max-width:700px;margin:24px auto;padding:24px;border:1px solid #dce4eb;border-radius:12px;">
-<h3 style="margin:0 0 6px;">Developers using AI scored lower on the quiz</h3>
-<p style="color:#536579;">Mean score on the independent Python quiz (% correct)</p>
-<div style="display:flex;align-items:flex-end;justify-content:center;gap:clamp(16px,6vw,60px);height:260px;border-bottom:1px solid #aab6c2;margin-left:32px;position:relative;">
-<div aria-hidden="true" style="position:absolute;left:-30px;top:0;height:100%;display:flex;flex-direction:column;justify-content:space-between;font-size:11px;color:#536579;"><span>100</span><span>75</span><span>50</span><span>25</span><span>0</span></div>
-<div style="width:clamp(64px,25%,130px);height:67%;background:#647f91;position:relative;"><strong style="position:absolute;top:-28px;left:0;width:100%;text-align:center;font-size:20px;">67%</strong></div>
-<div style="width:clamp(64px,25%,130px);height:50%;background:#b34b42;position:relative;"><strong style="position:absolute;top:-28px;left:0;width:100%;text-align:center;font-size:20px;">50%</strong></div>
+<div style="max-width:700px;margin:24px auto;padding:22px;border:1px solid #dce4eb;border-radius:12px;">
+<h3 style="margin:0 0 6px;">Completing the task and learning are different outcomes</h3>
+<p style="color:#536579;">Python experiment · 26 participants per condition</p>
+<h4 style="margin:18px 0 8px;">1. Completed the second coding task within 35 minutes</h4>
+<div style="display:flex;flex-wrap:wrap;gap:20px;">
+<div style="flex:1;min-width:160px;"><strong>Without AI · 22/26</strong><div style="display:grid;grid-template-columns:repeat(13,1fr);gap:4px;margin:10px 0;"><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#f3d7d3;border:1px solid #b34b42;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#f3d7d3;border:1px solid #b34b42;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#f3d7d3;border:1px solid #b34b42;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#f3d7d3;border:1px solid #b34b42;"></span></div></div>
+<div style="flex:1;min-width:160px;"><strong>With AI · 26/26</strong><div style="display:grid;grid-template-columns:repeat(13,1fr);gap:4px;margin:10px 0;"><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span><span style="display:block;aspect-ratio:1;border-radius:3px;background:#536f83;border:1px solid #536f83;"></span></div></div>
 </div>
-<div style="display:flex;justify-content:center;gap:clamp(16px,6vw,60px);text-align:center;margin-left:32px;"><span style="width:clamp(64px,25%,130px);">Coded without AI</span><span style="width:clamp(64px,25%,130px);">Coded with AI</span></div>
-<p style="font-weight:bold;color:#a43f38;text-align:center;margin:20px 0 8px;">17 percentage points lower with AI</p>
-<small>Source: <a href="https://www.anthropic.com/research/AI-assistance-coding-skills">Shen and Tamkin (2026), Results</a>. Rounded mean scores; chart redrawn from published data.</small>
+<p style="font-size:13px;color:#536579;"><span style="color:#536f83;">■</span> Completed &nbsp; <span style="color:#b34b42;">□</span> Did not complete · Each square represents one participant.</p>
+<h4 style="margin:22px 0 8px;">2. Independent quiz afterward (without AI)</h4>
+<div style="border-left:5px solid #b34b42;background:#fff1ef;color:#722d29;padding:16px;border-radius:4px;"><strong style="font-size:32px;">−15.4 pp</strong><p style="margin:4px 0;">Mean quiz-score difference, AI minus no AI.</p><small>4.15 fewer points out of 27; p = .01.</small></div>
+<p style="margin-top:16px;">Everyone in the AI group completed the second task, but the group scored lower on the subsequent quiz. The study did not find a statistically significant overall reduction in task time.</p>
+<small>Source: <a href="https://arxiv.org/html/2601.20245v3">Shen and Tamkin (2026), revised November 23, sections 4.3 and 5.2.2</a>. Completion counts and quiz difference are separate outcomes.</small>
 </div>
 
-The AI-assisted group scored 50% on average compared with 67% in the hand-coding group. This study concerns immediate coding skill acquisition, not long-term learning or every possible way of using AI.
+The quiz difference is based on the revised paper, rather than the older January research summary. These results concern immediate skill acquisition, not long-term learning.
 
 ### Chapter 3 — Physics: the way AI is designed matters
 
@@ -91,11 +93,17 @@ This is an improvement in lesson assessment scores, not twice the overall grade 
 
 ### Chapter 4 — Learning time
 
-<div style="max-width:700px;margin:24px auto;padding:24px;border:1px solid #dce4eb;border-radius:12px;">
-<h3 style="margin:0 0 8px;">How much time was spent or allocated to the physics lesson?</h3>
-<p style="color:#536579;">Minutes</p>
-<div style="display:flex;justify-content:space-around;text-align:center;margin:24px 0;gap:12px;"><div style="flex:1;background:#edf6f3;padding:22px;border-radius:8px;"><strong style="font-size:38px;color:#28705c;">49</strong><p>AI tutor<br>Median time</p></div><div style="flex:1;background:#f1f4f7;padding:22px;border-radius:8px;"><strong style="font-size:38px;color:#526779;">60</strong><p>Classroom<br>Allotted time</p></div></div>
-<small>Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/">Kestin et al. (2025), Results: Time on task</a>. Measured tutor median versus assumed classroom learning time (75 minutes minus 15 minutes of tests); not two measured medians.</small>
+<div style="max-width:700px;margin:24px auto;padding:22px;border:1px solid #dce4eb;border-radius:12px;">
+<h3 style="margin:0 0 8px;">Most AI-tutored lessons took less than the classroom benchmark</h3>
+<p style="color:#536579;">Share of AI-tutor time observations relative to 60 minutes</p>
+<div role="img" aria-label="70 percent under 60 minutes; 30 percent over 60 minutes" style="display:flex;height:58px;border-radius:6px;overflow:hidden;margin:20px 0 8px;">
+<div style="width:70%;background:#32856e;color:white;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:bold;">70%</div>
+<div style="width:30%;background:#647f91;color:white;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:bold;">30%</div>
+</div>
+<div style="display:flex;justify-content:space-between;gap:12px;font-size:13px;"><span>Under 60 minutes</span><span>Over 60 minutes</span></div>
+<p style="margin:20px 0 8px;"><strong>49 minutes</strong> — median measured AI-tutor time.</p>
+<p><strong>60 minutes</strong> — assumed classroom learning time, not a measured median.</p>
+<small>Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/">Kestin et al. (2025), Results: Time on task</a>. Rounded shares as reported; the classroom benchmark is 75 minutes minus 15 minutes of tests.</small>
 </div>
 
 The tutor's median measured time was 49 minutes, compared with 60 minutes allotted to the classroom activity. This is context for the learning result, not a precise estimate of individual time savings.
@@ -105,7 +113,7 @@ The tutor's median measured time was 49 minutes, compared with 60 minutes allott
 <div style="max-width:700px;margin:24px auto;padding:20px;border:1px solid #dce4eb;border-radius:12px;">
 <h3 style="margin:0 0 12px;">Two experiments, different outcomes</h3>
 <div style="display:flex;flex-wrap:wrap;gap:12px;">
-<div style="flex:1;min-width:180px;background:#fff1ef;color:#722d29;border-radius:8px;padding:16px;"><strong>Python · AI coding assistant</strong><p style="font-size:27px;margin:10px 0;">−17 pp</p><p>Lower immediate quiz score than coding without AI.</p></div>
+<div style="flex:1;min-width:180px;background:#fff1ef;color:#722d29;border-radius:8px;padding:16px;"><strong>Python · AI coding assistant</strong><p style="font-size:27px;margin:10px 0;">−15.4 pp</p><p>Lower mean immediate quiz score than coding without AI (4.15 points out of 27).</p></div>
 <div style="flex:1;min-width:180px;background:#e3f2eb;color:#205e49;border-radius:8px;padding:16px;"><strong>Physics · AI tutor</strong><p style="font-size:27px;margin:10px 0;">2.33×</p><p>Gain from pooled baseline relative to classroom learning.</p></div>
 </div>
 <p style="margin-top:16px;"><strong>Interpretation:</strong> The role of AI differs between these experiments. The results point in different directions, but do not establish that the AI design alone explains that difference.</p>
@@ -114,15 +122,25 @@ The tutor's median measured time was 49 minutes, compared with 60 minutes allott
 
 Use AI to ask questions, get explanations, and practice. Afterward, try a new problem independently. These are practical suggestions inspired by the studies, not a claim that one approach is optimal for everyone.
 
-**Storyboard progression:** The opening scenario invites the reader to question whether task completion equals learning. The Python chart introduces a possible drawback, the physics diagram explains a different study design, the gains chart shows the measured outcome, and the time comparison adds context. The concluding comparison brings the two results together without mixing their units. The charts above are high-fidelity drafts of these scenes. I also experimented with Shorthand as a possible final presentation medium.
+**Storyboard progression:** The opening scenario invites the reader to question whether task completion equals learning. The Python unit chart and quiz annotation introduce the distinction between task completion and learning, the physics diagram explains a different study design, the gains chart shows the measured outcome, and the time distribution adds context. The concluding comparison brings the two results together without mixing their units. The charts above are high-fidelity drafts of these scenes. I also experimented with Shorthand as a possible final presentation medium.
 
-**Design choices:** Blue-gray denotes the non-AI comparison condition. Muted red highlights a lower measured outcome with coding assistance, while green highlights the favorable physics-tutor outcome. Labels and values carry the meaning independently of color. The experimental-design diagram uses blue-gray for class and green for the AI tutor, not a ranking. The time cards are deliberately separate because the measures differ.
+**Design choices:** Blue-gray denotes the non-AI comparison condition. Muted red highlights a lower measured outcome with coding assistance, while green highlights the favorable physics-tutor outcome. Labels and values carry the meaning independently of color. The experimental-design diagram uses blue-gray for class and green for the AI tutor, not a ranking. The time graphic uses green for observations below the benchmark and blue-gray for those above it; the benchmark is explicitly labeled as an assumption. The coding unit chart distinguishes completed and incomplete tasks with filled and outlined squares.
+
+### Storyboard at a glance
+
+| Scene | Reader's question | Visual response |
+| --- | --- | --- |
+| 1. Opening | Am I learning or just finishing? | Hypothetical Python learning scenario |
+| 2. Coding | Does completion imply mastery? | Participant unit chart and quiz-score annotation |
+| 3. Physics | What changes when AI is a tutor? | Crossover flow diagram and baseline-to-post-test gain chart |
+| 4. Time | Does everyone need the same amount of time? | Proportional time comparison and median benchmark |
+| 5. Conclusion | What do the two results suggest? | Side-by-side evidence synthesis, with separate units |
 
 ## 2. Data and chart development
 
 | Source | Data used in this draft |
 | --- | --- |
-| [Anthropic (2026)](https://www.anthropic.com/research/AI-assistance-coding-skills) | Published group mean quiz scores, 67% and 50% |
+| [Shen and Tamkin (2026), v3](https://arxiv.org/html/2601.20245v3) | Group sizes, second-task completion counts, quiz difference and maximum score |
 | [Kestin et al. (2025)](https://doi.org/10.1038/s41598-025-97652-6) | Published pooled pre-test and group post-test medians, learning-gain comparison and time statistics |
 
 [Part II working CSV](data/part-ii-chart-values.csv) contains the published values and calculated values used in these visualizations, with source URLs and measurement notes. The earlier Part I dataset remains unchanged. [Physics study's public data repository](https://github.com/HarvardAItutor/Study-Data-v4) is a potential source for deeper Part III analysis. The revised learning-gain graphic uses the published pooled pre-test median (2.75) and post-test medians (3.50 and 4.50). The displayed differences and ratio are calculated from these aggregate values; they are not individual student gains. I am using published aggregate results, not claiming to have independently analyzed the raw physics or coding records. The studies use different participants, tasks and measurements, so I present them separately.
@@ -209,7 +227,7 @@ The main takeaway from the interviews is that the final story should not simply 
 
 ### Initial responses to Interviews 2 and 3
 
-I added an initial two-study synthesis graphic and clarified the meaning of the color palette. These are first-pass responses to the feedback; Part III will develop a more substantial visual analysis and investigate additional data.
+I added a two-study synthesis graphic, clarified the meaning of the color palette, introduced a unit chart for coding-task completion and a proportional chart for time on task, and updated the coding result to the revised November 23 paper. These are first-pass responses to the feedback; Part III will develop a more substantial visual analysis and investigate additional data.
 
 ### Remaining improvements for Part III
 
@@ -227,7 +245,7 @@ These are proposed changes for Part III, not completed analyses. I will choose v
 
 ## 6. References and transparency
 
-- Shen, J. H., & Tamkin, A. (2026). *How AI impacts skill formation*. arXiv:2601.20245. [Research paper](https://arxiv.org/abs/2601.20245); [Anthropic research summary, January 29, 2026](https://www.anthropic.com/research/AI-assistance-coding-skills).
+- Shen, J. H., & Tamkin, A. (2026). *How AI impacts skill formation*. arXiv:2601.20245v3 (November 23, 2026). [Revised research paper](https://arxiv.org/html/2601.20245v3); [Earlier Anthropic research summary, January 29, 2026](https://www.anthropic.com/research/AI-assistance-coding-skills).
 - Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. *Scientific Reports, 15*, 17458. [DOI](https://doi.org/10.1038/s41598-025-97652-6); [open full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/); [authors' public data repository](https://github.com/HarvardAItutor/Study-Data-v4).
 - [Part I proposal](final-project-part-one).
 
