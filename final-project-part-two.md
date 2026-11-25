@@ -4,7 +4,7 @@
 
 ## AI: A Shortcut to Answers or a Tool for Learning?
 
-**Project status:** Revised storyboard and draft visualizations. One peer interview recorded; two interviews remain.
+**Project status:** Revised storyboard and draft visualizations. Two interviews recorded; one interview remains.
 
 <div style="background:#142b40;color:#fff;padding:32px 24px;border-radius:12px;margin:24px 0;">
 <p style="color:#b9d8e4;font-size:13px;letter-spacing:2px;margin:0;">AI &amp; EDUCATION</p>
@@ -144,18 +144,31 @@ I will show the same draft sequence to every participant, let them speak before 
 
 The first participant, a student peer, had a generally positive impression of the visualizations but questioned how the reported learning improvement was measured and whether the study included the right comparison group. Their feedback is paraphrased below.
 
-| Feedback topic | Interview 1 — Student peer | Interview 2 | Interview 3 |
-| --- | --- | --- | --- |
-| Overall impression | Generally positive about the visualizations. | Pending | Pending |
-| Confusing result | The participant wanted to know how the reported twofold learning gain was calculated. | Pending | Pending |
-| Missing comparison | They suggested comparing AI tutoring with independent study without AI, rather than only with classroom instruction. | Pending | Pending |
-| Alternative explanation | They questioned whether the result reflected a benefit of AI itself or the relative effectiveness of the classroom instruction. | Pending | Pending |
+| Feedback topic | Interview 1 — Student peer |
+| --- | --- |
+| Overall impression | Generally positive about the visualizations. |
+| Confusing result | The participant wanted to know how the reported twofold learning gain was calculated. |
+| Missing comparison | They suggested comparing AI tutoring with independent study without AI, rather than only with classroom instruction. |
+| Alternative explanation | They questioned whether the result reflected a benefit of AI itself or the relative effectiveness of the classroom instruction. |
+
+### Interview 2 — Master's student
+
+The second participant had a positive overall impression of the project, but questioned whether the evidence was broad enough to support the story's title. Their feedback is paraphrased below.
+
+| Feedback topic | Interview 2 — Master's student |
+| --- | --- |
+| Overall impression | The project and visualizations were generally good. |
+| Visual variety | Several graphs felt too similar in their presentation. |
+| Scope | The data focused on relatively narrow learning contexts, limiting the strength of broader conclusions. |
+| Title and expectations | The title created expectations of a broader investigation into AI and learning than the current evidence delivered. |
+| Originality | The story felt more like a summary and interpretation of existing research than an original data-driven investigation. |
+| Suggested improvement | Explore larger datasets or evidence from additional subject areas and develop a more independent analysis for Part III. |
 
 ### Research synthesis — preliminary
 
-This feedback suggests that the physics visualization needs to define learning gain more clearly. The participant also identified a limitation: the experiment compared AI tutoring with active-learning instruction, but did not include an independent-study group without AI. The comparison therefore does not isolate the contribution of AI from other differences in the learning environment. It also does not establish that the instructor was ineffective.
+Both participants had a generally positive impression, but they identified different weaknesses. The first focused on how learning gains were measured and what the physics comparison could establish. The second focused on the scope, originality, and visual variety of the story. A common concern is that the evidence should not support stronger conclusions than the study designs allow.
 
-I will compare these observations with the remaining two interviews before drawing conclusions about common or conflicting feedback.
+The first interview led to immediate revisions in the draft charts and explanations. The second suggests a larger change in the research direction for Part III. One interview remains; these findings are preliminary.
 
 ## 5. Design revisions and plans for Part III
 
@@ -169,11 +182,15 @@ I will compare these observations with the remaining two interviews before drawi
 
 ### Remaining improvements for Part III
 
-- Incorporate feedback from the remaining two interviews.
-- Refine the visual consistency, typography, and transitions between chapters.
-- Test the final story on desktop and mobile and check whether readers can interpret the charts without additional explanations.
+| Feedback or design goal | Planned action |
+| --- | --- |
+| Interview 2: Similar-looking graphs | Use different visual forms where they serve the data, such as a study-design diagram, distribution plots, or comparisons across contexts. |
+| Interview 2: Narrow evidence and broad title | Search for larger or more diverse educational datasets and additional subject areas. Revise the title and conclusion if the available evidence remains narrow. |
+| Interview 2: Project resembles a research summary | Seek accessible raw or supplementary data and develop an original analysis, for example examining how outcomes differ by task, learning context, or type of AI assistance where the data support it. |
+| Interview 1: Missing independent-study comparison | Look for complementary studies that include a self-study control without AI. Keep the limitation explicit if no suitable evidence is available. |
+| Final design and testing | Incorporate the third interview, improve transitions and visual consistency, and test the final story on desktop and mobile. |
 
-These are planned next steps, not findings from interviews that have not yet taken place.
+I will not combine incomparable outcomes or assume a larger dataset automatically establishes a stronger causal conclusion. Additional data sources and original analysis are proposed work for Part III, not completed findings.
 
 ## 6. References and transparency
 
