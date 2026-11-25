@@ -42,20 +42,29 @@ The AI-assisted group scored 50% on average compared with 67% in the hand-coding
 
 In a Harvard introductory physics course, 194 eligible students took part in a randomized crossover experiment. Existing small classroom peer groups were randomly assigned to one of two learning sequences. For one lesson, students attended an instructor-led active-learning class; for the other, they used a purpose-built AI tutor outside class instead.
 
-<div style="max-width:700px;margin:24px auto;padding:20px;border:1px solid #dce4eb;border-radius:12px;">
-<h3 style="text-align:center;margin:0 0 8px;">How the physics experiment worked</h3>
-<p style="text-align:center;"><strong>194 students</strong><br>Random assignment by small peer group</p>
-<table style="width:100%;text-align:center;border-collapse:separate;border-spacing:6px;">
-<thead><tr><th>Lesson</th><th>Sequence A</th><th>Sequence B</th></tr></thead>
-<tbody>
-<tr><td>Lesson 1</td><td style="background:#e7eef5;color:#243d55;padding:16px;">In-person class</td><td style="background:#e3f2eb;color:#205e49;padding:16px;">AI tutor</td></tr>
-<tr><td>Lesson 2</td><td style="background:#e3f2eb;color:#205e49;padding:16px;">AI tutor</td><td style="background:#e7eef5;color:#243d55;padding:16px;">In-person class</td></tr>
-</tbody></table>
-<p style="text-align:center;margin:16px 0;"><strong>For each lesson:</strong><br>Pre-test → Learning activity → Post-test</p>
-<small>Source: Kestin et al. (2025), experimental methods. Sequence labels are illustrative.</small>
+<div style="max-width:700px;margin:24px auto;padding:22px;border:1px solid #dce4eb;border-radius:12px;">
+<h3 style="text-align:center;margin:0 0 8px;">AI tutor only vs. in-person class only</h3>
+<p style="text-align:center;">194 eligible students · Random assignment by small peer group</p>
+<div style="display:flex;flex-wrap:wrap;gap:14px;text-align:center;">
+<div style="flex:1;min-width:200px;border:1px solid #dce4eb;border-radius:8px;padding:14px;">
+<strong>Class first</strong>
+<div style="background:#e7eef5;color:#243d55;padding:14px;margin-top:12px;border-radius:5px;"><small>Lesson 1</small><br><strong>In-person class only</strong></div>
+<p style="margin:6px 0;">↓ Switch methods</p>
+<div style="background:#e3f2eb;color:#205e49;padding:14px;border-radius:5px;"><small>Lesson 2</small><br><strong>AI tutor only</strong></div>
+</div>
+<div style="flex:1;min-width:200px;border:1px solid #dce4eb;border-radius:8px;padding:14px;">
+<strong>AI first</strong>
+<div style="background:#e3f2eb;color:#205e49;padding:14px;margin-top:12px;border-radius:5px;"><small>Lesson 1</small><br><strong>AI tutor only</strong></div>
+<p style="margin:6px 0;">↓ Switch methods</p>
+<div style="background:#e7eef5;color:#243d55;padding:14px;border-radius:5px;"><small>Lesson 2</small><br><strong>In-person class only</strong></div>
+</div>
+</div>
+<p style="text-align:center;margin:20px 0;"><strong>For each lesson:</strong><br>Test before → Learning activity → Test after</p>
+<p style="background:#f1f4f7;color:#243d55;padding:14px;border-radius:6px;"><strong>Key point:</strong> Both groups experienced both methods, but in opposite orders. The AI tutor replaced the class for that lesson; it was not extra tutoring before or after class.</p>
+<small>Source: Kestin et al. (2025), experimental methods. Group labels are simplified.</small>
 </div>
 
-**What is being compared?** The improvement in quiz scores after each teaching method. Random assignment helps separate the effect of instruction from students' initial ability or preferences. This was a comparison of two specific physics lessons, not students who chose to skip class for an entire semester. The tutor was designed to teach the course material, rather than simply provide answers. [Study source](https://doi.org/10.1038/s41598-025-97652-6).
+**What is being compared?** Learning gains during AI-tutor-only lessons versus in-person-class-only lessons, regardless of which method came first. The study does not compare AI plus class against class alone. Random assignment helps separate the effect of instruction from students' initial ability or preferences. This was a comparison of two specific physics lessons, not students who chose to skip class for an entire semester. The tutor was designed to teach the course material, rather than simply provide answers. [Study source](https://doi.org/10.1038/s41598-025-97652-6).
 
 <div style="max-width:700px;margin:24px auto;padding:24px;border:1px solid #dce4eb;border-radius:12px;">
 <h3 style="margin:0 0 6px;">Where does the twofold learning gain come from?</h3>
