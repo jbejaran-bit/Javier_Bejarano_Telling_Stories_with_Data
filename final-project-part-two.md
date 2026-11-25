@@ -4,7 +4,13 @@
 
 ## AI: A Shortcut to Answers or a Tool for Learning?
 
-**Project status:** Revised storyboard and three draft visuals. Feedback from one peer recorded; two interviews remain.
+**Project status:** Revised storyboard and draft visualizations. One peer interview recorded; two interviews remain.
+
+<div style="background:#142b40;color:#fff;padding:32px 24px;border-radius:12px;margin:24px 0;">
+<p style="color:#b9d8e4;font-size:13px;letter-spacing:2px;margin:0;">AI &amp; EDUCATION</p>
+<h2 style="color:#fff;font-size:30px;line-height:1.2;margin:12px 0;">Are we learning more, or just finishing faster?</h2>
+<p style="color:#e1eaf0;margin:0;">Two experiments reveal why the way we use AI matters.</p>
+</div>
 
 ## 1. Draft story and storyboard
 
@@ -52,14 +58,26 @@ In a Harvard introductory physics course, 194 eligible students took part in a r
 **What is being compared?** The improvement in quiz scores after each teaching method. Random assignment helps separate the effect of instruction from students' initial ability or preferences. This was a comparison of two specific physics lessons, not students who chose to skip class for an entire semester. The tutor was designed to teach the course material, rather than simply provide answers. [Study source](https://doi.org/10.1038/s41598-025-97652-6).
 
 <div style="max-width:700px;margin:24px auto;padding:24px;border:1px solid #dce4eb;border-radius:12px;">
-<h3 style="margin:0 0 6px;">A purpose-built AI tutor improved learning gains</h3>
-<p style="color:#536579;">Median improvement from pre-test to post-test (classroom = 1×)</p>
-<div style="display:flex;align-items:center;gap:12px;margin:24px 0;"><span style="width:150px;">Classroom</span><div style="width:30%;height:42px;background:#647f91;border-radius:4px;"></div><strong>1×</strong></div>
-<div style="display:flex;align-items:center;gap:12px;margin:24px 0;"><span style="width:150px;">AI tutor</span><div style="width:60%;height:42px;background:#32856e;border-radius:4px;"></div><strong>&gt;2×</strong></div>
-<small>Source: Kestin et al. (2025), Scientific Reports. The classroom gain is normalized to 1; the AI result is a reported lower bound, not an exact ratio.</small>
+<h3 style="margin:0 0 6px;">Where does the twofold learning gain come from?</h3>
+<p style="color:#536579;">Difference between each post-test median and the pooled pre-test median of 2.75 (score points)</p>
+<div style="margin:20px 0;">
+<p style="margin:0 0 6px;"><strong>In-person active learning</strong> — +0.75 points</p>
+<div style="background:#e8edf1;border-radius:4px;height:34px;"><div style="width:37.5%;height:34px;background:#647f91;border-radius:4px;"></div></div>
+<p style="margin:6px 0;color:#536579;font-size:14px;">3.50 − 2.75 = 0.75</p>
+</div>
+<div style="margin:20px 0;">
+<p style="margin:0 0 6px;"><strong>AI tutor</strong> — +1.75 points</p>
+<div style="background:#e8edf1;border-radius:4px;height:34px;"><div style="width:87.5%;height:34px;background:#32856e;border-radius:4px;"></div></div>
+<p style="margin:6px 0;color:#536579;font-size:14px;">4.50 − 2.75 = 1.75</p>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:12px;color:#536579;border-top:1px solid #aab6c2;padding-top:5px;"><span>0</span><span>0.5</span><span>1.0</span><span>1.5</span><span>2.0</span></div>
+<p style="background:#edf6f3;color:#205e49;padding:14px;border-radius:6px;margin-top:20px;"><strong>1.75 ÷ 0.75 ≈ 2.33</strong> — the AI tutor's gain relative to the common baseline was more than twice the classroom gain.</p>
+<small>Source: Kestin et al. (2025), Results and Figure 1. Pooled pre-test median (N = 316), classroom post-test median (N = 174), AI tutor post-test median (N = 142). Calculated from published medians; these are not medians of individual paired score changes.</small>
 </div>
 
-The authors report more than twice the median learning gain with the AI tutor. This means improvement on the lesson quizzes, not twice the overall grade or twice the long-term knowledge. This is a different experiment and outcome from the Python quiz; the numbers cannot be compared directly.
+This is an improvement in lesson assessment scores, not twice the overall grade or twice the long-term knowledge. The two studies use different outcomes and should not be compared directly.
+
+**An important missing comparison:** The physics study did not include students studying independently without AI. It compares two complete learning methods, so it cannot tell us how much of the difference comes from AI itself rather than the self-paced learning environment. It also does not establish that the professor was ineffective.
 
 ### Chapter 4 — Learning time
 
@@ -76,16 +94,16 @@ The tutor's median measured time was 49 minutes, compared with 60 minutes allott
 
 Use AI to ask questions, get explanations, and practice. Afterward, try a new problem independently. These are practical suggestions inspired by the studies, not a claim that one approach is optimal for everyone.
 
-**Storyboard plan:** An opening question, the Python quiz chart, the physics randomized-experiment diagram, the learning-gain chart, the time comparison, and a short conclusion. The final medium is planned as a scrolling Shorthand story.
+**Storyboard plan:** An opening question, the Python quiz chart, the physics randomized-experiment diagram, the learning-gain chart, the time comparison, and a short conclusion. The GitHub storyboard contains the complete draft visuals. I also experimented with Shorthand as a possible final presentation medium.
 
 ## 2. Data and chart development
 
 | Source | Data used in this draft |
 | --- | --- |
 | [Anthropic (2026)](https://www.anthropic.com/research/AI-assistance-coding-skills) | Published group mean quiz scores, 67% and 50% |
-| [Kestin et al. (2025)](https://doi.org/10.1038/s41598-025-97652-6) | Published median learning-gain comparison and time statistics |
+| [Kestin et al. (2025)](https://doi.org/10.1038/s41598-025-97652-6) | Published pooled pre-test and group post-test medians, learning-gain comparison and time statistics |
 
-[Working CSV of published results](data/ai-learning-published-results.csv) contains the source values for the quiz and time comparison. The relative learning-gain graphic uses the published statement of more than twice the median gain, not an invented exact value. I am using published aggregate results, not claiming to have independently analyzed the raw physics or coding records. The studies use different participants, tasks and measurements, so I present them separately.
+[Working CSV of published results](data/ai-learning-published-results.csv) contains the source values for the quiz and time comparison. The revised learning-gain graphic uses the published pooled pre-test median (2.75) and post-test medians (3.50 and 4.50). The displayed differences and ratio are calculated from these aggregate values; they are not individual student gains. I am using published aggregate results, not claiming to have independently analyzed the raw physics or coding records. The studies use different participants, tasks and measurements, so I present them separately.
 
 ## 3. User research protocol
 
@@ -139,7 +157,7 @@ I will compare these observations with the remaining two interviews before drawi
 | Interview 1: Classroom effectiveness could explain part of the difference. | Avoid claiming AI is universally better than instructors; distinguish the tested learning methods from AI's isolated contribution. |
 | Initial design review: Tutor time and classroom allotted time are different measures. | Retain clear labels and avoid claiming precise individual time savings. |
 
-The first three changes are based on the actual peer feedback. Further changes will be identified after the other interviews.
+The first three changes are based on actual peer feedback. The revised draft above now explains the gain calculation and the missing comparison group. Further revisions will follow the remaining interviews.
 
 ## 6. References and transparency
 
