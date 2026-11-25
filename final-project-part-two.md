@@ -148,16 +148,23 @@ This feedback suggests that the physics visualization needs to define learning g
 
 I will compare these observations with the remaining two interviews before drawing conclusions about common or conflicting feedback.
 
-## 5. Proposed improvements for Part III
+## 5. Design revisions and plans for Part III
 
-| Research finding or design question | Anticipated improvement |
+### Changes implemented after Interview 1
+
+| Peer feedback | Revision implemented |
 | --- | --- |
-| Interview 1: The meaning of the 2× learning gain was unclear. | Show the actual pre-test baseline and post-test scores, clearly define the gain calculation, and explain the ratio. |
-| Interview 1: There is no independent-study group without AI. | Explicitly identify this missing comparison and explain what the experiment cannot establish. |
-| Interview 1: Classroom effectiveness could explain part of the difference. | Avoid claiming AI is universally better than instructors; distinguish the tested learning methods from AI's isolated contribution. |
-| Initial design review: Tutor time and classroom allotted time are different measures. | Retain clear labels and avoid claiming precise individual time savings. |
+| The twofold learning gain was unclear. | Replaced the relative comparison with a chart showing the published assessment medians, calculated gains, and their ratio. |
+| Independent study without AI was missing from the comparison. | Added an explicit explanation of the missing comparison group. |
+| Classroom effectiveness could explain part of the difference. | Clarified that the experiment compares two learning methods and does not establish that the instructor was ineffective. |
 
-The first three changes are based on actual peer feedback. The revised draft above now explains the gain calculation and the missing comparison group. Further revisions will follow the remaining interviews.
+### Remaining improvements for Part III
+
+- Incorporate feedback from the remaining two interviews.
+- Refine the visual consistency, typography, and transitions between chapters.
+- Test the final story on desktop and mobile and check whether readers can interpret the charts without additional explanations.
+
+These are planned next steps, not findings from interviews that have not yet taken place.
 
 ## 6. References and transparency
 
