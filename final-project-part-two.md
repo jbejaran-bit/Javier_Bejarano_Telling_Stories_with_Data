@@ -4,7 +4,7 @@
 
 ## AI: A Shortcut to Answers or a Tool for Learning?
 
-**Project status:** Revised storyboard and draft visualizations. Two interviews recorded; one interview remains.
+**Project status:** Revised storyboard and draft visualizations. All three interviews completed; revisions and plans for Part III documented.
 
 <div style="background:#142b40;color:#fff;padding:32px 24px;border-radius:12px;margin:24px 0;">
 <p style="color:#b9d8e4;font-size:13px;letter-spacing:2px;margin:0;">AI &amp; EDUCATION</p>
@@ -120,9 +120,9 @@ Use AI to ask questions, get explanations, and practice. Afterward, try a new pr
 
 I want to find out whether students can understand the difference between **getting answers with AI** and **learning to solve problems without AI**. I also want to test whether the charts and the flow of the story are clear without needing a detailed explanation from me.
 
-### Recruitment plan
+### Recruitment
 
-I plan to interview three people: a PhD student, a master's student, and a high school educator. The two students represent my intended audience, while the educator offers a complementary teaching perspective. I will ask them individually for anonymous feedback. Participation is voluntary.
+I collected feedback from three participants to evaluate the story from a reader's perspective. Their responses are reported anonymously as Interview 1, Interview 2, and Interview 3. Participation was voluntary.
 
 ### Interview script
 
@@ -136,26 +136,26 @@ I plan to interview three people: a PhD student, a master's student, and a high 
 
 **Optional follow-up prompts:** “What made you think that?” “Which chart is easiest to understand?” “Would the conclusion make you change anything about how you study?”
 
-I will show the same draft sequence to every participant, let them speak before explaining the intended message, and take short anonymous notes. I will not suggest answers or treat feedback as research evidence about the effectiveness of AI.
+The interview protocol was designed to show the draft, allow participants to respond before explaining the intended message, and record anonymous feedback. The feedback evaluates the communication of the story, not the effectiveness of AI itself.
 
 ## 4. Interview findings
 
-### Interview 1 — Student peer
+### Interview 1
 
-The first participant, a student peer, had a generally positive impression of the visualizations but questioned how the reported learning improvement was measured and whether the study included the right comparison group. Their feedback is paraphrased below.
+The first participant had a generally positive impression of the visualizations but questioned how the reported learning improvement was measured and whether the study included the right comparison group. Their feedback is paraphrased below.
 
-| Feedback topic | Interview 1 — Student peer |
+| Feedback topic | Interview 1 |
 | --- | --- |
 | Overall impression | Generally positive about the visualizations. |
 | Confusing result | The participant wanted to know how the reported twofold learning gain was calculated. |
 | Missing comparison | They suggested comparing AI tutoring with independent study without AI, rather than only with classroom instruction. |
 | Alternative explanation | They questioned whether the result reflected a benefit of AI itself or the relative effectiveness of the classroom instruction. |
 
-### Interview 2 — Master's student
+### Interview 2
 
 The second participant had a positive overall impression of the project, but questioned whether the evidence was broad enough to support the story's title. Their feedback is paraphrased below.
 
-| Feedback topic | Interview 2 — Master's student |
+| Feedback topic | Interview 2 |
 | --- | --- |
 | Overall impression | The project and visualizations were generally good. |
 | Visual variety | Several graphs felt too similar in their presentation. |
@@ -164,11 +164,23 @@ The second participant had a positive overall impression of the project, but que
 | Originality | The story felt more like a summary and interpretation of existing research than an original data-driven investigation. |
 | Suggested improvement | Explore larger datasets or evidence from additional subject areas and develop a more independent analysis for Part III. |
 
-### Research synthesis — preliminary
+### Interview 3
 
-Both participants had a generally positive impression, but they identified different weaknesses. The first focused on how learning gains were measured and what the physics comparison could establish. The second focused on the scope, originality, and visual variety of the story. A common concern is that the evidence should not support stronger conclusions than the study designs allow.
+The third participant had a positive overall impression, but felt that the project needed a stronger visual storytelling approach. Their feedback is paraphrased below.
 
-The first interview led to immediate revisions in the draft charts and explanations. The second suggests a larger change in the research direction for Part III. One interview remains; these findings are preliminary.
+| Feedback topic | Interview 3 |
+| --- | --- |
+| Overall impression | Most of the content looked good, but the data and visual presentation could be more substantial. |
+| Visual storytelling | The project felt like a written story with a few bar charts rather than a story driven by visualizations. |
+| Use of color | Some visualizations lacked color or a clear meaning behind the colors. The participant suggested using color deliberately to communicate meaning, as discussed in class. |
+| Depth of data | The two academic subjects provided a relatively limited evidence base. |
+| Suggested improvement | Add more data or build a stronger concluding visualization that connects the two subjects. Develop a more robust visual analysis rather than relying on a few separate charts. |
+
+### Research synthesis
+
+All three participants were generally positive about the project, but each identified opportunities for improvement. Interview 1 focused on the interpretation of learning gains and the missing independent-study comparison. Interviews 2 and 3 both questioned the breadth of the evidence and the variety of visualizations. Interview 2 also emphasized originality and whether the title overpromises, while Interview 3 emphasized meaningful color choices and a stronger visual narrative.
+
+The main takeaway from the interviews is that the final story should not simply present research results alongside text. The visualizations should lead the reader through the evidence, show how the studies relate, and make the limitations clear. No participant suggested removing the entire topic; the feedback points toward improving its depth, presentation, and scope.
 
 ## 5. Design revisions and plans for Part III
 
@@ -184,13 +196,15 @@ The first interview led to immediate revisions in the draft charts and explanati
 
 | Feedback or design goal | Planned action |
 | --- | --- |
-| Interview 2: Similar-looking graphs | Use different visual forms where they serve the data, such as a study-design diagram, distribution plots, or comparisons across contexts. |
-| Interview 2: Narrow evidence and broad title | Search for larger or more diverse educational datasets and additional subject areas. Revise the title and conclusion if the available evidence remains narrow. |
-| Interview 2: Project resembles a research summary | Seek accessible raw or supplementary data and develop an original analysis, for example examining how outcomes differ by task, learning context, or type of AI assistance where the data support it. |
-| Interview 1: Missing independent-study comparison | Look for complementary studies that include a self-study control without AI. Keep the limitation explicit if no suitable evidence is available. |
-| Final design and testing | Incorporate the third interview, improve transitions and visual consistency, and test the final story on desktop and mobile. |
+| Interviews 2 and 3: Repetitive charts and text-heavy storytelling | Build a visual-first narrative with shorter text, stronger chart annotations, and different chart forms where appropriate. Let each visualization answer a distinct question. |
+| Interview 3: Color lacks consistent meaning | Use a consistent palette for learning conditions and reserve warning colors, such as muted red, for clearly identified negative outcomes or cautions. Use labels as well as color so the story remains accessible. |
+| Interviews 2 and 3: Limited evidence | Explore larger datasets, additional academic subjects, or richer data within the two existing studies. Narrow the title and conclusions if the evidence remains limited. |
+| Interview 2: Project resembles a research summary | Seek accessible raw or supplementary data and conduct an original analysis of differences by task, learning context, or type of AI assistance, where supported by the data. |
+| Interview 3: Weak connection between the studies | Develop a concluding visual synthesis comparing the learning contexts, AI roles, and direction of the observed outcomes. Keep different score scales separate rather than combining incompatible results into a single numerical estimate. |
+| Interview 1: Missing independent-study comparison | Look for complementary evidence with an independent-study control without AI. Retain the limitation if suitable evidence is unavailable. |
+| Final design and testing | Improve transitions, typography, visual hierarchy, and mobile readability. Test whether readers can understand the story from the visualizations and captions alone. |
 
-I will not combine incomparable outcomes or assume a larger dataset automatically establishes a stronger causal conclusion. Additional data sources and original analysis are proposed work for Part III, not completed findings.
+These are proposed changes for Part III, not completed analyses. I will choose visual forms based on the available data and avoid treating larger datasets or stronger visual presentation as proof of broader causal conclusions.
 
 ## 6. References and transparency
 
@@ -198,4 +212,4 @@ I will not combine incomparable outcomes or assume a larger dataset automaticall
 - Kestin et al. (2025). [AI tutoring outperforms in-class active learning](https://doi.org/10.1038/s41598-025-97652-6). Scientific Reports.
 - [Part I proposal](final-project-part-one).
 
-**AI acknowledgment:** I used ChatGPT to help restructure the story, create HTML charts and an experimental-design diagram from published research, and draft the interview protocol. I will conduct the actual interviews and verify the results and final designs. No interviews or feedback were generated by AI.
+**AI acknowledgment:** I used ChatGPT to help restructure the story, create HTML charts and an experimental-design diagram from published research, and draft the interview protocol. The three interviews were conducted independently; ChatGPT helped organize and paraphrase the reported feedback. No interviews or feedback were generated by AI.
