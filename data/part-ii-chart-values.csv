@@ -1,0 +1,14 @@
+study,measure,condition,value,unit,statistic,source,notes
+Shen and Tamkin 2026,Sample,All,52,participants,count,https://arxiv.org/abs/2601.20245,Randomized coding experiment
+Shen and Tamkin 2026,Independent quiz,Without AI,67,percent,mean,https://www.anthropic.com/research/AI-assistance-coding-skills,Published rounded group mean
+Shen and Tamkin 2026,Independent quiz,With AI,50,percent,mean,https://www.anthropic.com/research/AI-assistance-coding-skills,Published rounded group mean
+Shen and Tamkin 2026,Quiz difference,With AI minus without AI,-17,percentage points,calculated,https://www.anthropic.com/research/AI-assistance-coding-skills,50 minus 67
+Kestin et al 2025,Eligible sample,All,194,students,count,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,Methods
+Kestin et al 2025,Pre-test,Combined,2.75,score points,median,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,Results; 316 observations
+Kestin et al 2025,Post-test,Classroom,3.5,score points,median,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,Results; 174 observations
+Kestin et al 2025,Post-test,AI tutor,4.5,score points,median,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,Results; 142 observations
+Kestin et al 2025,Gain from pooled baseline,Classroom,0.75,score points,calculated,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,3.5 minus 2.75; not paired individual gains
+Kestin et al 2025,Gain from pooled baseline,AI tutor,1.75,score points,calculated,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,4.5 minus 2.75; not paired individual gains
+Kestin et al 2025,Gain ratio,AI versus classroom,2.333333333,ratio,calculated,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,1.75 divided by 0.75
+Kestin et al 2025,Time on task,AI tutor,49,minutes,median,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,Measured platform time
+Kestin et al 2025,Instructional time,Classroom,60,minutes,assumed,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,75 minute class minus 15 minutes of tests; not a measured median
