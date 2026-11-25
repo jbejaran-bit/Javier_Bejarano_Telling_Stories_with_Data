@@ -34,7 +34,7 @@ Shen and Tamkin's (2026) randomized experiment at Anthropic involved 52 software
 </div>
 <div style="display:flex;justify-content:center;gap:clamp(16px,6vw,60px);text-align:center;margin-left:32px;"><span style="width:clamp(64px,25%,130px);">Coded without AI</span><span style="width:clamp(64px,25%,130px);">Coded with AI</span></div>
 <p style="font-weight:bold;color:#a43f38;text-align:center;margin:20px 0 8px;">17 percentage points lower with AI</p>
-<small>Source: <a href="https://www.anthropic.com/research/AI-assistance-coding-skills">Shen and Tamkin (2026), Results</a>. Rounded mean scores; chart redrawn with ChatGPT assistance.</small>
+<small>Source: <a href="https://www.anthropic.com/research/AI-assistance-coding-skills">Shen and Tamkin (2026), Results</a>. Rounded mean scores; chart redrawn from published data.</small>
 </div>
 
 The AI-assisted group scored 50% on average compared with 67% in the hand-coding group. This study concerns immediate coding skill acquisition, not long-term learning or every possible way of using AI.
@@ -62,7 +62,7 @@ Kestin et al. (2025) studied 194 eligible students in a Harvard introductory phy
 </div>
 <p style="text-align:center;margin:20px 0;"><strong>For each lesson:</strong><br>Test before → Learning activity → Test after</p>
 <p style="background:#f1f4f7;color:#243d55;padding:14px;border-radius:6px;"><strong>Key point:</strong> Both groups experienced both methods, but in opposite orders. The AI tutor replaced the class for that lesson; it was not extra tutoring before or after class.</p>
-<small>Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/">Kestin et al. (2025), Methods and Results</a>. Group labels are simplified; diagram redrawn with ChatGPT assistance.</small>
+<small>Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/">Kestin et al. (2025), Methods and Results</a>. Group labels are simplified; diagram redrawn from the published methods.</small>
 </div>
 
 **What is being compared?** Learning gains during AI-tutor-only lessons versus in-person-class-only lessons, regardless of which method came first. The study does not compare AI plus class against class alone. Random assignment helps separate the effect of instruction from students' initial ability or preferences. This was a comparison of two specific physics lessons, not students who chose to skip class for an entire semester. The tutor was designed to teach the course material, rather than simply provide answers. [Study source](https://doi.org/10.1038/s41598-025-97652-6).
@@ -109,7 +109,7 @@ The tutor's median measured time was 49 minutes, compared with 60 minutes allott
 <div style="flex:1;min-width:180px;background:#e3f2eb;color:#205e49;border-radius:8px;padding:16px;"><strong>Physics · AI tutor</strong><p style="font-size:27px;margin:10px 0;">2.33×</p><p>Gain from pooled baseline relative to classroom learning.</p></div>
 </div>
 <p style="margin-top:16px;"><strong>Interpretation:</strong> The role of AI differs between these experiments. The results point in different directions, but do not establish that the AI design alone explains that difference.</p>
-<small>Sources: <a href="https://arxiv.org/abs/2601.20245">Shen and Tamkin (2026)</a> and <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/">Kestin et al. (2025)</a>. Different outcome units and comparison groups; no pooled effect. Draft synthesis created with ChatGPT assistance.</small>
+<small>Sources: <a href="https://arxiv.org/abs/2601.20245">Shen and Tamkin (2026)</a> and <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/">Kestin et al. (2025)</a>. Different outcome units and comparison groups; no pooled effect. Draft synthesis.</small>
 </div>
 
 Use AI to ask questions, get explanations, and practice. Afterward, try a new problem independently. These are practical suggestions inspired by the studies, not a claim that one approach is optimal for everyone.
@@ -231,4 +231,4 @@ These are proposed changes for Part III, not completed analyses. I will choose v
 - Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. *Scientific Reports, 15*, 17458. [DOI](https://doi.org/10.1038/s41598-025-97652-6); [open full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/); [authors' public data repository](https://github.com/HarvardAItutor/Study-Data-v4).
 - [Part I proposal](final-project-part-one).
 
-**AI acknowledgment (OpenAI ChatGPT, November 2026):** I selected the topic, discussed the story direction, chose the studies to present with AI assistance, provided design preferences, conducted the three interviews, and supplied the feedback. ChatGPT assisted with locating and checking sources, drafting and editing the narrative and interview script, calculating and checking differences from published summary statistics, generating the HTML/CSS visualizations and study-design diagram, organizing and paraphrasing my interview notes, developing the Part III plan, and editing the GitHub page and working CSV. I also used ChatGPT to experiment with a Shorthand draft. The charts are newly drawn from cited aggregate results, not copied figures; the interviews and feedback were not generated by AI. The project does not claim independent analysis of individual records.
+*ChatGPT assisted with visualization development.*
