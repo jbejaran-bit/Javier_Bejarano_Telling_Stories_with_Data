@@ -22,25 +22,26 @@ Imagine learning a new Python library. You can ask AI to write the code or try t
 
 ### Chapter 2 — Python: finishing a task is not the same as learning
 
-Anthropic's 2026 randomized experiment involved 52 software developers learning Trio, a Python library they had never used. One group could use an AI coding assistant; the other wrote code without AI. Both groups completed coding tasks and then took a quiz **without AI** to test their understanding. [Study source](https://www.anthropic.com/research/AI-assistance-coding-skills).
+Shen and Tamkin's (2026) randomized experiment at Anthropic involved 52 software developers learning Trio, a Python library they had never used. One group could use an AI coding assistant; the other wrote code without AI. Both groups completed coding tasks and then took a quiz **without AI** to test their understanding. [Study source](https://www.anthropic.com/research/AI-assistance-coding-skills).
 
 <div style="max-width:700px;margin:24px auto;padding:24px;border:1px solid #dce4eb;border-radius:12px;">
 <h3 style="margin:0 0 6px;">Developers using AI scored lower on the quiz</h3>
 <p style="color:#536579;">Mean score on the independent Python quiz (% correct)</p>
-<div style="display:flex;align-items:flex-end;justify-content:center;gap:60px;height:260px;border-bottom:1px solid #aab6c2;">
-<div style="width:130px;height:67%;background:#647f91;position:relative;"><strong style="position:absolute;top:-28px;left:0;width:100%;text-align:center;font-size:20px;">67%</strong></div>
-<div style="width:130px;height:50%;background:#cf803a;position:relative;"><strong style="position:absolute;top:-28px;left:0;width:100%;text-align:center;font-size:20px;">50%</strong></div>
+<div style="display:flex;align-items:flex-end;justify-content:center;gap:clamp(16px,6vw,60px);height:260px;border-bottom:1px solid #aab6c2;margin-left:32px;position:relative;">
+<div aria-hidden="true" style="position:absolute;left:-30px;top:0;height:100%;display:flex;flex-direction:column;justify-content:space-between;font-size:11px;color:#536579;"><span>100</span><span>75</span><span>50</span><span>25</span><span>0</span></div>
+<div style="width:clamp(64px,25%,130px);height:67%;background:#647f91;position:relative;"><strong style="position:absolute;top:-28px;left:0;width:100%;text-align:center;font-size:20px;">67%</strong></div>
+<div style="width:clamp(64px,25%,130px);height:50%;background:#b34b42;position:relative;"><strong style="position:absolute;top:-28px;left:0;width:100%;text-align:center;font-size:20px;">50%</strong></div>
 </div>
-<div style="display:flex;justify-content:center;gap:60px;text-align:center;"><span style="width:130px;">Coded without AI</span><span style="width:130px;">Coded with AI</span></div>
-<p style="font-weight:bold;color:#9b551d;text-align:center;margin:20px 0 8px;">17 percentage points lower with AI</p>
-<small>Source: Anthropic (2026), How AI assistance impacts the formation of coding skills.</small>
+<div style="display:flex;justify-content:center;gap:clamp(16px,6vw,60px);text-align:center;margin-left:32px;"><span style="width:clamp(64px,25%,130px);">Coded without AI</span><span style="width:clamp(64px,25%,130px);">Coded with AI</span></div>
+<p style="font-weight:bold;color:#a43f38;text-align:center;margin:20px 0 8px;">17 percentage points lower with AI</p>
+<small>Source: <a href="https://www.anthropic.com/research/AI-assistance-coding-skills">Shen and Tamkin (2026), Results</a>. Rounded mean scores; chart redrawn with ChatGPT assistance.</small>
 </div>
 
 The AI-assisted group scored 50% on average compared with 67% in the hand-coding group. This study concerns immediate coding skill acquisition, not long-term learning or every possible way of using AI.
 
 ### Chapter 3 — Physics: the way AI is designed matters
 
-In a Harvard introductory physics course, 194 eligible students took part in a randomized crossover experiment. Existing small classroom peer groups were randomly assigned to one of two learning sequences. For one lesson, students attended an instructor-led active-learning class; for the other, they used a purpose-built AI tutor outside class instead.
+Kestin et al. (2025) studied 194 eligible students in a Harvard introductory physics course using a randomized crossover experiment. Existing small classroom peer groups were randomly assigned to one of two learning sequences. For one lesson, students attended an instructor-led active-learning class; for the other, they used a purpose-built AI tutor outside class instead.
 
 <div style="max-width:700px;margin:24px auto;padding:22px;border:1px solid #dce4eb;border-radius:12px;">
 <h3 style="text-align:center;margin:0 0 8px;">AI tutor only vs. in-person class only</h3>
@@ -61,7 +62,7 @@ In a Harvard introductory physics course, 194 eligible students took part in a r
 </div>
 <p style="text-align:center;margin:20px 0;"><strong>For each lesson:</strong><br>Test before → Learning activity → Test after</p>
 <p style="background:#f1f4f7;color:#243d55;padding:14px;border-radius:6px;"><strong>Key point:</strong> Both groups experienced both methods, but in opposite orders. The AI tutor replaced the class for that lesson; it was not extra tutoring before or after class.</p>
-<small>Source: Kestin et al. (2025), experimental methods. Group labels are simplified.</small>
+<small>Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/">Kestin et al. (2025), Methods and Results</a>. Group labels are simplified; diagram redrawn with ChatGPT assistance.</small>
 </div>
 
 **What is being compared?** Learning gains during AI-tutor-only lessons versus in-person-class-only lessons, regardless of which method came first. The study does not compare AI plus class against class alone. Random assignment helps separate the effect of instruction from students' initial ability or preferences. This was a comparison of two specific physics lessons, not students who chose to skip class for an entire semester. The tutor was designed to teach the course material, rather than simply provide answers. [Study source](https://doi.org/10.1038/s41598-025-97652-6).
@@ -81,7 +82,7 @@ In a Harvard introductory physics course, 194 eligible students took part in a r
 </div>
 <div style="display:flex;justify-content:space-between;font-size:12px;color:#536579;border-top:1px solid #aab6c2;padding-top:5px;"><span>0</span><span>0.5</span><span>1.0</span><span>1.5</span><span>2.0</span></div>
 <p style="background:#edf6f3;color:#205e49;padding:14px;border-radius:6px;margin-top:20px;"><strong>1.75 ÷ 0.75 ≈ 2.33</strong> — the AI tutor's gain relative to the common baseline was more than twice the classroom gain.</p>
-<small>Source: Kestin et al. (2025), Results and Figure 1. Pooled pre-test median (N = 316), classroom post-test median (N = 174), AI tutor post-test median (N = 142). Calculated from published medians; these are not medians of individual paired score changes.</small>
+<small>Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/">Kestin et al. (2025), Results: Learning gains — post-test scores</a>. Pooled pre-test (316 observations), classroom post-test (174), AI tutor post-test (142). Calculated from published medians; these are not individual paired gains. Figure 1 of the paper displays means, not these medians.</small>
 </div>
 
 This is an improvement in lesson assessment scores, not twice the overall grade or twice the long-term knowledge. The two studies use different outcomes and should not be compared directly.
@@ -94,16 +95,28 @@ This is an improvement in lesson assessment scores, not twice the overall grade 
 <h3 style="margin:0 0 8px;">How much time was spent or allocated to the physics lesson?</h3>
 <p style="color:#536579;">Minutes</p>
 <div style="display:flex;justify-content:space-around;text-align:center;margin:24px 0;gap:12px;"><div style="flex:1;background:#edf6f3;padding:22px;border-radius:8px;"><strong style="font-size:38px;color:#28705c;">49</strong><p>AI tutor<br>Median time</p></div><div style="flex:1;background:#f1f4f7;padding:22px;border-radius:8px;"><strong style="font-size:38px;color:#526779;">60</strong><p>Classroom<br>Allotted time</p></div></div>
-<small>Source: Kestin et al. (2025). Median measured tutor time versus scheduled classroom activity time; not two measured medians.</small>
+<small>Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/">Kestin et al. (2025), Results: Time on task</a>. Measured tutor median versus assumed classroom learning time (75 minutes minus 15 minutes of tests); not two measured medians.</small>
 </div>
 
 The tutor's median measured time was 49 minutes, compared with 60 minutes allotted to the classroom activity. This is context for the learning result, not a precise estimate of individual time savings.
 
 ### Chapter 5 — What should students do?
 
+<div style="max-width:700px;margin:24px auto;padding:20px;border:1px solid #dce4eb;border-radius:12px;">
+<h3 style="margin:0 0 12px;">Two experiments, different outcomes</h3>
+<div style="display:flex;flex-wrap:wrap;gap:12px;">
+<div style="flex:1;min-width:180px;background:#fff1ef;color:#722d29;border-radius:8px;padding:16px;"><strong>Python · AI coding assistant</strong><p style="font-size:27px;margin:10px 0;">−17 pp</p><p>Lower immediate quiz score than coding without AI.</p></div>
+<div style="flex:1;min-width:180px;background:#e3f2eb;color:#205e49;border-radius:8px;padding:16px;"><strong>Physics · AI tutor</strong><p style="font-size:27px;margin:10px 0;">2.33×</p><p>Gain from pooled baseline relative to classroom learning.</p></div>
+</div>
+<p style="margin-top:16px;"><strong>Interpretation:</strong> The role of AI differs between these experiments. The results point in different directions, but do not establish that the AI design alone explains that difference.</p>
+<small>Sources: <a href="https://arxiv.org/abs/2601.20245">Shen and Tamkin (2026)</a> and <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/">Kestin et al. (2025)</a>. Different outcome units and comparison groups; no pooled effect. Draft synthesis created with ChatGPT assistance.</small>
+</div>
+
 Use AI to ask questions, get explanations, and practice. Afterward, try a new problem independently. These are practical suggestions inspired by the studies, not a claim that one approach is optimal for everyone.
 
-**Storyboard plan:** An opening question, the Python quiz chart, the physics randomized-experiment diagram, the learning-gain chart, the time comparison, and a short conclusion. The GitHub storyboard contains the complete draft visuals. I also experimented with Shorthand as a possible final presentation medium.
+**Storyboard progression:** The opening scenario invites the reader to question whether task completion equals learning. The Python chart introduces a possible drawback, the physics diagram explains a different study design, the gains chart shows the measured outcome, and the time comparison adds context. The concluding comparison brings the two results together without mixing their units. The charts above are high-fidelity drafts of these scenes. I also experimented with Shorthand as a possible final presentation medium.
+
+**Design choices:** Blue-gray denotes the non-AI comparison condition. Muted red highlights a lower measured outcome with coding assistance, while green highlights the favorable physics-tutor outcome. Labels and values carry the meaning independently of color. The experimental-design diagram uses blue-gray for class and green for the AI tutor, not a ranking. The time cards are deliberately separate because the measures differ.
 
 ## 2. Data and chart development
 
@@ -112,7 +125,7 @@ Use AI to ask questions, get explanations, and practice. Afterward, try a new pr
 | [Anthropic (2026)](https://www.anthropic.com/research/AI-assistance-coding-skills) | Published group mean quiz scores, 67% and 50% |
 | [Kestin et al. (2025)](https://doi.org/10.1038/s41598-025-97652-6) | Published pooled pre-test and group post-test medians, learning-gain comparison and time statistics |
 
-[Working CSV of published results](data/ai-learning-published-results.csv) contains the source values for the quiz and time comparison. The revised learning-gain graphic uses the published pooled pre-test median (2.75) and post-test medians (3.50 and 4.50). The displayed differences and ratio are calculated from these aggregate values; they are not individual student gains. I am using published aggregate results, not claiming to have independently analyzed the raw physics or coding records. The studies use different participants, tasks and measurements, so I present them separately.
+[Part II working CSV](data/part-ii-chart-values.csv) contains the published values and calculated values used in these visualizations, with source URLs and measurement notes. The earlier Part I dataset remains unchanged. [Physics study's public data repository](https://github.com/HarvardAItutor/Study-Data-v4) is a potential source for deeper Part III analysis. The revised learning-gain graphic uses the published pooled pre-test median (2.75) and post-test medians (3.50 and 4.50). The displayed differences and ratio are calculated from these aggregate values; they are not individual student gains. I am using published aggregate results, not claiming to have independently analyzed the raw physics or coding records. The studies use different participants, tasks and measurements, so I present them separately.
 
 ## 3. User research protocol
 
@@ -122,7 +135,7 @@ I want to find out whether students can understand the difference between **gett
 
 ### Recruitment
 
-I collected feedback from three participants to evaluate the story from a reader's perspective. Their responses are reported anonymously as Interview 1, Interview 2, and Interview 3. Participation was voluntary.
+I collected feedback from three participants, including university students who represent the intended audience. I sought readers who could evaluate the relevance of the story to studying and give feedback on its clarity without needing expertise in the research methods. Their responses are reported anonymously as Interview 1, Interview 2, and Interview 3. The labels intentionally omit identifying academic details. Participation was voluntary.
 
 ### Interview script
 
@@ -139,6 +152,8 @@ I collected feedback from three participants to evaluate the story from a reader
 The interview protocol was designed to show the draft, allow participants to respond before explaining the intended message, and record anonymous feedback. The feedback evaluates the communication of the story, not the effectiveness of AI itself.
 
 ## 4. Interview findings
+
+All feedback below is paraphrased from my interview notes; verbatim quotations were not recorded for this write-up. I do not attribute statements to participants that they did not report.
 
 ### Interview 1
 
@@ -180,7 +195,7 @@ The third participant had a positive overall impression, but felt that the proje
 
 All three participants were generally positive about the project, but each identified opportunities for improvement. Interview 1 focused on the interpretation of learning gains and the missing independent-study comparison. Interviews 2 and 3 both questioned the breadth of the evidence and the variety of visualizations. Interview 2 also emphasized originality and whether the title overpromises, while Interview 3 emphasized meaningful color choices and a stronger visual narrative.
 
-The main takeaway from the interviews is that the final story should not simply present research results alongside text. The visualizations should lead the reader through the evidence, show how the studies relate, and make the limitations clear. No participant suggested removing the entire topic; the feedback points toward improving its depth, presentation, and scope.
+The main takeaway from the interviews is that the final story should not simply present research results alongside text. The visualizations should lead the reader through the evidence, show how the studies relate, and make the limitations clear. The feedback points toward improving the topic's depth, presentation, and scope. Their priorities differed: Interview 1 emphasized methodological clarity; Interviews 2 and 3 emphasized the story's breadth and visual quality.
 
 ## 5. Design revisions and plans for Part III
 
@@ -192,6 +207,10 @@ The main takeaway from the interviews is that the final story should not simply 
 | Independent study without AI was missing from the comparison. | Added an explicit explanation of the missing comparison group. |
 | Classroom effectiveness could explain part of the difference. | Clarified that the experiment compares two learning methods and does not establish that the instructor was ineffective. |
 
+### Initial responses to Interviews 2 and 3
+
+I added an initial two-study synthesis graphic and clarified the meaning of the color palette. These are first-pass responses to the feedback; Part III will develop a more substantial visual analysis and investigate additional data.
+
 ### Remaining improvements for Part III
 
 | Feedback or design goal | Planned action |
@@ -200,7 +219,7 @@ The main takeaway from the interviews is that the final story should not simply 
 | Interview 3: Color lacks consistent meaning | Use a consistent palette for learning conditions and reserve warning colors, such as muted red, for clearly identified negative outcomes or cautions. Use labels as well as color so the story remains accessible. |
 | Interviews 2 and 3: Limited evidence | Explore larger datasets, additional academic subjects, or richer data within the two existing studies. Narrow the title and conclusions if the evidence remains limited. |
 | Interview 2: Project resembles a research summary | Seek accessible raw or supplementary data and conduct an original analysis of differences by task, learning context, or type of AI assistance, where supported by the data. |
-| Interview 3: Weak connection between the studies | Develop a concluding visual synthesis comparing the learning contexts, AI roles, and direction of the observed outcomes. Keep different score scales separate rather than combining incompatible results into a single numerical estimate. |
+| Interview 3: Weak connection between the studies | Expand the initial concluding visual synthesis to compare learning contexts, AI roles, and direction of outcomes using additional evidence where appropriate. Keep different score scales separate rather than combining incompatible results into a single numerical estimate. |
 | Interview 1: Missing independent-study comparison | Look for complementary evidence with an independent-study control without AI. Retain the limitation if suitable evidence is unavailable. |
 | Final design and testing | Improve transitions, typography, visual hierarchy, and mobile readability. Test whether readers can understand the story from the visualizations and captions alone. |
 
@@ -208,8 +227,8 @@ These are proposed changes for Part III, not completed analyses. I will choose v
 
 ## 6. References and transparency
 
-- Anthropic (2026). [How AI assistance impacts the formation of coding skills](https://www.anthropic.com/research/AI-assistance-coding-skills).
-- Kestin et al. (2025). [AI tutoring outperforms in-class active learning](https://doi.org/10.1038/s41598-025-97652-6). Scientific Reports.
+- Shen, J. H., & Tamkin, A. (2026). *How AI impacts skill formation*. arXiv:2601.20245. [Research paper](https://arxiv.org/abs/2601.20245); [Anthropic research summary, January 29, 2026](https://www.anthropic.com/research/AI-assistance-coding-skills).
+- Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. *Scientific Reports, 15*, 17458. [DOI](https://doi.org/10.1038/s41598-025-97652-6); [open full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/); [authors' public data repository](https://github.com/HarvardAItutor/Study-Data-v4).
 - [Part I proposal](final-project-part-one).
 
-**AI acknowledgment:** I used ChatGPT to help restructure the story, create HTML charts and an experimental-design diagram from published research, and draft the interview protocol. The three interviews were conducted independently; ChatGPT helped organize and paraphrase the reported feedback. No interviews or feedback were generated by AI.
+**AI acknowledgment (OpenAI ChatGPT, November 2026):** I selected the topic, discussed the story direction, chose the studies to present with AI assistance, provided design preferences, conducted the three interviews, and supplied the feedback. ChatGPT assisted with locating and checking sources, drafting and editing the narrative and interview script, calculating and checking differences from published summary statistics, generating the HTML/CSS visualizations and study-design diagram, organizing and paraphrasing my interview notes, developing the Part III plan, and editing the GitHub page and working CSV. I also used ChatGPT to experiment with a Shorthand draft. The charts are newly drawn from cited aggregate results, not copied figures; the interviews and feedback were not generated by AI. The project does not claim independent analysis of individual records.
