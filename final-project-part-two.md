@@ -22,7 +22,7 @@ Imagine learning a new Python library. You can ask AI to write the code or try t
 
 ### Chapter 2 — Python: finishing a task is not the same as learning
 
-Shen and Tamkin's (2026) randomized experiment at Anthropic involved 52 software developers learning Trio, a Python library they had never used. One group could use an AI coding assistant; the other wrote code without AI. Both groups completed coding tasks and then took a quiz **without AI** to test their understanding. [Study source](https://arxiv.org/html/2601.20245v3).
+Shen and Tamkin's (2026) randomized experiment at Anthropic involved 52 software developers learning Trio, a Python library they had never used. One group could use an AI coding assistant; the other wrote code without AI. Both groups attempted coding tasks and then took a quiz **without AI** to test their understanding. [Study source](https://arxiv.org/html/2601.20245v3).
 
 <div style="max-width:700px;margin:24px auto;padding:22px;border:1px solid #dce4eb;border-radius:12px;">
 <h3 style="margin:0 0 6px;">Completing the task and learning are different outcomes</h3>
@@ -67,7 +67,7 @@ Kestin et al. (2025) studied 194 eligible students in a Harvard introductory phy
 <small>Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/">Kestin et al. (2025), Methods and Results</a>. Group labels are simplified; diagram redrawn from the published methods.</small>
 </div>
 
-**What is being compared?** Learning gains during AI-tutor-only lessons versus in-person-class-only lessons, regardless of which method came first. The study does not compare AI plus class against class alone. Random assignment helps separate the effect of instruction from students' initial ability or preferences. This was a comparison of two specific physics lessons, not students who chose to skip class for an entire semester. The tutor was designed to teach the course material, rather than simply provide answers. [Study source](https://doi.org/10.1038/s41598-025-97652-6).
+**What is being compared?** Learning gains during AI-tutor-only lessons versus in-person-class-only lessons, regardless of which method came first. The study does not compare AI plus class against class alone. Random assignment helps separate the effect of instruction from students' initial ability or preferences. This was a comparison of two specific physics lessons, not students who chose to skip class for an entire semester. The tutor was designed to teach the course material, rather than simply provide answers. [Study source](https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/).
 
 <div style="max-width:700px;margin:24px auto;padding:24px;border:1px solid #dce4eb;border-radius:12px;">
 <h3 style="margin:0 0 6px;">Where does the twofold learning gain come from?</h3>
@@ -117,7 +117,7 @@ The tutor's median measured time was 49 minutes, compared with 60 minutes allott
 <div style="flex:1;min-width:180px;background:#e3f2eb;color:#205e49;border-radius:8px;padding:16px;"><strong>Physics · AI tutor</strong><p style="font-size:27px;margin:10px 0;">2.33×</p><p>Gain from pooled baseline relative to classroom learning.</p></div>
 </div>
 <p style="margin-top:16px;"><strong>Interpretation:</strong> The role of AI differs between these experiments. The results point in different directions, but do not establish that the AI design alone explains that difference.</p>
-<small>Sources: <a href="https://arxiv.org/abs/2601.20245">Shen and Tamkin (2026)</a> and <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/">Kestin et al. (2025)</a>. Different outcome units and comparison groups; no pooled effect. Draft synthesis.</small>
+<small>Sources: <a href="https://arxiv.org/html/2601.20245v3">Shen and Tamkin (2026)</a> and <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/">Kestin et al. (2025)</a>. Different outcome units and comparison groups; no pooled effect. Draft synthesis.</small>
 </div>
 
 Use AI to ask questions, get explanations, and practice. Afterward, try a new problem independently. These are practical suggestions inspired by the studies, not a claim that one approach is optimal for everyone.
