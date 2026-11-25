@@ -1,8 +1,14 @@
 study,measure,condition,value,unit,statistic,source,notes
-Shen and Tamkin 2026,Sample,All,52,participants,count,https://arxiv.org/abs/2601.20245,Randomized coding experiment
-Shen and Tamkin 2026,Independent quiz,Without AI,67,percent,mean,https://www.anthropic.com/research/AI-assistance-coding-skills,Published rounded group mean
-Shen and Tamkin 2026,Independent quiz,With AI,50,percent,mean,https://www.anthropic.com/research/AI-assistance-coding-skills,Published rounded group mean
-Shen and Tamkin 2026,Quiz difference,With AI minus without AI,-17,percentage points,calculated,https://www.anthropic.com/research/AI-assistance-coding-skills,50 minus 67
+Shen and Tamkin 2026,Sample,All,52,participants,count,https://arxiv.org/html/2601.20245v3,Main study
+Shen and Tamkin 2026,Group size,Without AI,26,participants,count,https://arxiv.org/html/2601.20245v3,Section 4.3
+Shen and Tamkin 2026,Group size,With AI,26,participants,count,https://arxiv.org/html/2601.20245v3,Section 4.3
+Shen and Tamkin 2026,Second task completion,Without AI,22,participants,count,https://arxiv.org/html/2601.20245v3,26 minus 4 incomplete; section 5.2.2
+Shen and Tamkin 2026,Second task completion,With AI,26,participants,count,https://arxiv.org/html/2601.20245v3,All completed; section 5.2.2
+Shen and Tamkin 2026,Quiz score difference,With AI minus without AI,-4.15,points,difference of means,https://arxiv.org/html/2601.20245v3,Revised November 23; section 5.2.2
+Shen and Tamkin 2026,Quiz maximum,All,27,points,maximum,https://arxiv.org/html/2601.20245v3,Section 4.2
+Shen and Tamkin 2026,Quiz score difference,With AI minus without AI,-15.4,percentage points,calculated,https://arxiv.org/html/2601.20245v3,-4.15 divided by 27 times 100 rounded
+Shen and Tamkin 2026,Quiz score difference p-value,With AI versus without AI,0.01,p-value,reported,https://arxiv.org/html/2601.20245v3,Section 5.2.2
+Shen and Tamkin 2026,Second task time limit,All,35,minutes,maximum,https://arxiv.org/html/2601.20245v3,Section 5.2.2
 Kestin et al 2025,Eligible sample,All,194,students,count,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,Methods
 Kestin et al 2025,Pre-test,Combined,2.75,score points,median,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,Results; 316 observations
 Kestin et al 2025,Post-test,Classroom,3.5,score points,median,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,Results; 174 observations
@@ -12,3 +18,5 @@ Kestin et al 2025,Gain from pooled baseline,AI tutor,1.75,score points,calculate
 Kestin et al 2025,Gain ratio,AI versus classroom,2.333333333,ratio,calculated,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,1.75 divided by 0.75
 Kestin et al 2025,Time on task,AI tutor,49,minutes,median,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,Measured platform time
 Kestin et al 2025,Instructional time,Classroom,60,minutes,assumed,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,75 minute class minus 15 minutes of tests; not a measured median
+Kestin et al 2025,Time on task below 60 minutes,AI tutor,70,percent,reported share,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,Results: Time on task
+Kestin et al 2025,Time on task above 60 minutes,AI tutor,30,percent,reported share,https://pmc.ncbi.nlm.nih.gov/articles/PMC12179260/,Results: Time on task
